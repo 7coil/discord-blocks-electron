@@ -788,7 +788,7 @@ Blockly.JavaScript.Client_channelUpdate = (block) => {
 	const oldChannel = block.getFieldValue('oldChannel');
 	const newChannel = block.getFieldValue('newChannel');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('channelUpdate', (${oldChannel},${newChannel}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('channelUpdate', (${oldChannel},${newChannel}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -815,7 +815,7 @@ Blockly.JavaScript.Client_guildUnavailable = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const guild = block.getFieldValue('guild');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildUnavailable', (${guild}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildUnavailable', (${guild}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -842,7 +842,7 @@ Blockly.JavaScript.Client_emojiCreate = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const emoji = block.getFieldValue('emoji');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('emojiCreate', (${emoji}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('emojiCreate', (${emoji}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -869,7 +869,7 @@ Blockly.JavaScript.Client_emojiDelete = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const emoji = block.getFieldValue('emoji');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('emojiDelete', (${emoji}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('emojiDelete', (${emoji}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -898,7 +898,7 @@ Blockly.JavaScript.Client_emojiUpdate = (block) => {
 	const oldEmoji = block.getFieldValue('oldEmoji');
 	const newEmoji = block.getFieldValue('newEmoji');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('emojiUpdate', (${oldEmoji},${newEmoji}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('emojiUpdate', (${oldEmoji},${newEmoji}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -925,7 +925,7 @@ Blockly.JavaScript.Client_guildMemberRemove = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const member = block.getFieldValue('member');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildMemberRemove', (${member}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildMemberRemove', (${member}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -952,7 +952,7 @@ Blockly.JavaScript.Client_roleCreate = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const role = block.getFieldValue('role');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('roleCreate', (${role}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('roleCreate', (${role}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -979,7 +979,7 @@ Blockly.JavaScript.Client_roleDelete = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const role = block.getFieldValue('role');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('roleDelete', (${role}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('roleDelete', (${role}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1008,7 +1008,7 @@ Blockly.JavaScript.Client_roleUpdate = (block) => {
 	const oldRole = block.getFieldValue('oldRole');
 	const newRole = block.getFieldValue('newRole');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('roleUpdate', (${oldRole},${newRole}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('roleUpdate', (${oldRole},${newRole}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1037,7 +1037,7 @@ Blockly.JavaScript.Client_guildUpdate = (block) => {
 	const oldGuild = block.getFieldValue('oldGuild');
 	const newGuild = block.getFieldValue('newGuild');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildUpdate', (${oldGuild},${newGuild}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildUpdate', (${oldGuild},${newGuild}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1066,7 +1066,7 @@ Blockly.JavaScript.Client_messageReactionAdd = (block) => {
 	const messageReaction = block.getFieldValue('messageReaction');
 	const user = block.getFieldValue('user');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('messageReactionAdd', (${messageReaction},${user}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('messageReactionAdd', (${messageReaction},${user}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1095,7 +1095,7 @@ Blockly.JavaScript.Client_messageReactionRemove = (block) => {
 	const messageReaction = block.getFieldValue('messageReaction');
 	const user = block.getFieldValue('user');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('messageReactionRemove', (${messageReaction},${user}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('messageReactionRemove', (${messageReaction},${user}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1122,7 +1122,7 @@ Blockly.JavaScript.Client_messageReactionRemoveAll = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('messageReactionRemoveAll', (${message}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('messageReactionRemoveAll', (${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1151,7 +1151,7 @@ Blockly.JavaScript.Client_messageUpdate = (block) => {
 	const oldMessage = block.getFieldValue('oldMessage');
 	const newMessage = block.getFieldValue('newMessage');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('messageUpdate', (${oldMessage},${newMessage}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('messageUpdate', (${oldMessage},${newMessage}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1182,7 +1182,7 @@ Blockly.JavaScript.Client_userNoteUpdate = (block) => {
 	const oldNote = block.getFieldValue('oldNote');
 	const newNote = block.getFieldValue('newNote');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('userNoteUpdate', (${user},${oldNote},${newNote}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('userNoteUpdate', (${user},${oldNote},${newNote}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1209,7 +1209,7 @@ Blockly.JavaScript.Client_warn = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const info = block.getFieldValue('info');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('warn', (${info}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('warn', (${info}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1236,7 +1236,7 @@ Blockly.JavaScript.Client_debug = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const info = block.getFieldValue('info');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('debug', (${info}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('debug', (${info}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1263,7 +1263,7 @@ Blockly.JavaScript.Client_guildCreate = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const guild = block.getFieldValue('guild');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildCreate', (${guild}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildCreate', (${guild}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1290,7 +1290,7 @@ Blockly.JavaScript.Client_channelCreate = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const channel = block.getFieldValue('channel');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('channelCreate', (${channel}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('channelCreate', (${channel}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1317,7 +1317,7 @@ Blockly.JavaScript.Client_channelDelete = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const channel = block.getFieldValue('channel');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('channelDelete', (${channel}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('channelDelete', (${channel}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1346,7 +1346,7 @@ Blockly.JavaScript.Client_channelPinsUpdate = (block) => {
 	const channel = block.getFieldValue('channel');
 	const time = block.getFieldValue('time');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('channelPinsUpdate', (${channel},${time}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('channelPinsUpdate', (${channel},${time}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1375,7 +1375,7 @@ Blockly.JavaScript.Client_guildBanAdd = (block) => {
 	const guild = block.getFieldValue('guild');
 	const user = block.getFieldValue('user');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildBanAdd', (${guild},${user}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildBanAdd', (${guild},${user}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1404,7 +1404,7 @@ Blockly.JavaScript.Client_guildBanRemove = (block) => {
 	const guild = block.getFieldValue('guild');
 	const user = block.getFieldValue('user');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildBanRemove', (${guild},${user}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildBanRemove', (${guild},${user}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1431,7 +1431,7 @@ Blockly.JavaScript.Client_guildDelete = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const guild = block.getFieldValue('guild');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildDelete', (${guild}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildDelete', (${guild}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1460,7 +1460,7 @@ Blockly.JavaScript.Client_guildMembersChunk = (block) => {
 	const members = block.getFieldValue('members');
 	const guild = block.getFieldValue('guild');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildMembersChunk', (${members},${guild}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildMembersChunk', (${members},${guild}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1487,7 +1487,7 @@ Blockly.JavaScript.Client_message = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('message', (${message}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('message', (${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1514,7 +1514,7 @@ Blockly.JavaScript.Client_messageDelete = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('messageDelete', (${message}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('messageDelete', (${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1541,7 +1541,7 @@ Blockly.JavaScript.Client_messageDeleteBulk = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const messages = block.getFieldValue('messages');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('messageDeleteBulk', (${messages}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('messageDeleteBulk', (${messages}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1570,7 +1570,7 @@ Blockly.JavaScript.Client_presenceUpdate = (block) => {
 	const oldMember = block.getFieldValue('oldMember');
 	const newMember = block.getFieldValue('newMember');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('presenceUpdate', (${oldMember},${newMember}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('presenceUpdate', (${oldMember},${newMember}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1599,7 +1599,7 @@ Blockly.JavaScript.Client_userUpdate = (block) => {
 	const oldUser = block.getFieldValue('oldUser');
 	const newUser = block.getFieldValue('newUser');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('userUpdate', (${oldUser},${newUser}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('userUpdate', (${oldUser},${newUser}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1626,7 +1626,7 @@ Blockly.JavaScript.Client_guildMemberAvailable = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const member = block.getFieldValue('member');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildMemberAvailable', (${member}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildMemberAvailable', (${member}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1653,7 +1653,7 @@ Blockly.JavaScript.Client_resume = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const replayed = block.getFieldValue('replayed');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('resume', (${replayed}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('resume', (${replayed}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1682,7 +1682,7 @@ Blockly.JavaScript.Client_typingStart = (block) => {
 	const channel = block.getFieldValue('channel');
 	const user = block.getFieldValue('user');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('typingStart', (${channel},${user}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('typingStart', (${channel},${user}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1711,7 +1711,7 @@ Blockly.JavaScript.Client_typingStop = (block) => {
 	const channel = block.getFieldValue('channel');
 	const user = block.getFieldValue('user');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('typingStop', (${channel},${user}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('typingStop', (${channel},${user}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1738,7 +1738,7 @@ Blockly.JavaScript.Client_clientUserGuildSettingsUpdate = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const clientUserGuildSettings = block.getFieldValue('clientUserGuildSettings');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('clientUserGuildSettingsUpdate', (${clientUserGuildSettings}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('clientUserGuildSettingsUpdate', (${clientUserGuildSettings}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1765,7 +1765,7 @@ Blockly.JavaScript.Client_clientUserSettingsUpdate = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const clientUserSettings = block.getFieldValue('clientUserSettings');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('clientUserSettingsUpdate', (${clientUserSettings}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('clientUserSettingsUpdate', (${clientUserSettings}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1794,7 +1794,7 @@ Blockly.JavaScript.Client_voiceStateUpdate = (block) => {
 	const oldMember = block.getFieldValue('oldMember');
 	const newMember = block.getFieldValue('newMember');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('voiceStateUpdate', (${oldMember},${newMember}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('voiceStateUpdate', (${oldMember},${newMember}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1819,7 +1819,7 @@ Blockly.Blocks.Client_ready = {
 Blockly.JavaScript.Client_ready = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('ready', () => {${statementsFunction}});\n`;
+	const code = `${Client}.on('ready', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1844,7 +1844,7 @@ Blockly.Blocks.Client_reconnecting = {
 Blockly.JavaScript.Client_reconnecting = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('reconnecting', () => {${statementsFunction}});\n`;
+	const code = `${Client}.on('reconnecting', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1871,7 +1871,7 @@ Blockly.JavaScript.Client_error = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const error = block.getFieldValue('error');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('error', (${error}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('error', (${error}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1898,7 +1898,7 @@ Blockly.JavaScript.Client_disconnect = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const event = block.getFieldValue('event');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('disconnect', (${event}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('disconnect', (${event}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1925,7 +1925,7 @@ Blockly.JavaScript.Client_guildMemberAdd = (block) => {
 	const Client = Blockly.JavaScript.valueToCode(block, 'Client', Blockly.JavaScript.ORDER_ATOMIC);
 	const member = block.getFieldValue('member');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildMemberAdd', (${member}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildMemberAdd', (${member}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1954,7 +1954,7 @@ Blockly.JavaScript.Client_guildMemberUpdate = (block) => {
 	const oldMember = block.getFieldValue('oldMember');
 	const newMember = block.getFieldValue('newMember');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildMemberUpdate', (${oldMember},${newMember}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildMemberUpdate', (${oldMember},${newMember}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -1983,7 +1983,7 @@ Blockly.JavaScript.Client_guildMemberSpeaking = (block) => {
 	const member = block.getFieldValue('member');
 	const speaking = block.getFieldValue('speaking');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Client}.on('guildMemberSpeaking', (${member},${speaking}) => {${statementsFunction}});\n`;
+	const code = `${Client}.on('guildMemberSpeaking', (${member},${speaking}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2275,7 +2275,7 @@ Blockly.JavaScript.StreamDispatcher_speaking = (block) => {
 	const StreamDispatcher = Blockly.JavaScript.valueToCode(block, 'StreamDispatcher', Blockly.JavaScript.ORDER_ATOMIC);
 	const value = block.getFieldValue('value');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${StreamDispatcher}.on('speaking', (${value}) => {${statementsFunction}});\n`;
+	const code = `${StreamDispatcher}.on('speaking', (${value}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2302,7 +2302,7 @@ Blockly.JavaScript.StreamDispatcher_debug = (block) => {
 	const StreamDispatcher = Blockly.JavaScript.valueToCode(block, 'StreamDispatcher', Blockly.JavaScript.ORDER_ATOMIC);
 	const info = block.getFieldValue('info');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${StreamDispatcher}.on('debug', (${info}) => {${statementsFunction}});\n`;
+	const code = `${StreamDispatcher}.on('debug', (${info}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2327,7 +2327,7 @@ Blockly.Blocks.StreamDispatcher_start = {
 Blockly.JavaScript.StreamDispatcher_start = (block) => {
 	const StreamDispatcher = Blockly.JavaScript.valueToCode(block, 'StreamDispatcher', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${StreamDispatcher}.on('start', () => {${statementsFunction}});\n`;
+	const code = `${StreamDispatcher}.on('start', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2354,7 +2354,7 @@ Blockly.JavaScript.StreamDispatcher_end = (block) => {
 	const StreamDispatcher = Blockly.JavaScript.valueToCode(block, 'StreamDispatcher', Blockly.JavaScript.ORDER_ATOMIC);
 	const reason = block.getFieldValue('reason');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${StreamDispatcher}.on('end', (${reason}) => {${statementsFunction}});\n`;
+	const code = `${StreamDispatcher}.on('end', (${reason}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2381,7 +2381,7 @@ Blockly.JavaScript.StreamDispatcher_error = (block) => {
 	const StreamDispatcher = Blockly.JavaScript.valueToCode(block, 'StreamDispatcher', Blockly.JavaScript.ORDER_ATOMIC);
 	const error = block.getFieldValue('error');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${StreamDispatcher}.on('error', (${error}) => {${statementsFunction}});\n`;
+	const code = `${StreamDispatcher}.on('error', (${error}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2540,7 +2540,7 @@ Blockly.JavaScript.VoiceReceiver_warn = (block) => {
 	const reason = block.getFieldValue('reason');
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceReceiver}.on('warn', (${reason},${message}) => {${statementsFunction}});\n`;
+	const code = `${VoiceReceiver}.on('warn', (${reason},${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2569,7 +2569,7 @@ Blockly.JavaScript.VoiceReceiver_opus = (block) => {
 	const user = block.getFieldValue('user');
 	const buffer = block.getFieldValue('buffer');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceReceiver}.on('opus', (${user},${buffer}) => {${statementsFunction}});\n`;
+	const code = `${VoiceReceiver}.on('opus', (${user},${buffer}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2598,7 +2598,7 @@ Blockly.JavaScript.VoiceReceiver_pcm = (block) => {
 	const user = block.getFieldValue('user');
 	const buffer = block.getFieldValue('buffer');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceReceiver}.on('pcm', (${user},${buffer}) => {${statementsFunction}});\n`;
+	const code = `${VoiceReceiver}.on('pcm', (${user},${buffer}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -2759,7 +2759,7 @@ Blockly.JavaScript.VolumeInterface_volumeChange = (block) => {
 	const oldVolume = block.getFieldValue('oldVolume');
 	const newVolume = block.getFieldValue('newVolume');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VolumeInterface}.on('volumeChange', (${oldVolume},${newVolume}) => {${statementsFunction}});\n`;
+	const code = `${VolumeInterface}.on('volumeChange', (${oldVolume},${newVolume}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3085,7 +3085,7 @@ Blockly.JavaScript.VoiceBroadcast_unsubscribe = (block) => {
 	const VoiceBroadcast = Blockly.JavaScript.valueToCode(block, 'VoiceBroadcast', Blockly.JavaScript.ORDER_ATOMIC);
 	const dispatcher = block.getFieldValue('dispatcher');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceBroadcast}.on('unsubscribe', (${dispatcher}) => {${statementsFunction}});\n`;
+	const code = `${VoiceBroadcast}.on('unsubscribe', (${dispatcher}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3112,7 +3112,7 @@ Blockly.JavaScript.VoiceBroadcast_subscribe = (block) => {
 	const VoiceBroadcast = Blockly.JavaScript.valueToCode(block, 'VoiceBroadcast', Blockly.JavaScript.ORDER_ATOMIC);
 	const dispatcher = block.getFieldValue('dispatcher');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceBroadcast}.on('subscribe', (${dispatcher}) => {${statementsFunction}});\n`;
+	const code = `${VoiceBroadcast}.on('subscribe', (${dispatcher}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3139,7 +3139,7 @@ Blockly.JavaScript.VoiceBroadcast_error = (block) => {
 	const VoiceBroadcast = Blockly.JavaScript.valueToCode(block, 'VoiceBroadcast', Blockly.JavaScript.ORDER_ATOMIC);
 	const error = block.getFieldValue('error');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceBroadcast}.on('error', (${error}) => {${statementsFunction}});\n`;
+	const code = `${VoiceBroadcast}.on('error', (${error}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3166,7 +3166,7 @@ Blockly.JavaScript.VoiceBroadcast_warn = (block) => {
 	const VoiceBroadcast = Blockly.JavaScript.valueToCode(block, 'VoiceBroadcast', Blockly.JavaScript.ORDER_ATOMIC);
 	const warning = block.getFieldValue('warning');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceBroadcast}.on('warn', (${warning}) => {${statementsFunction}});\n`;
+	const code = `${VoiceBroadcast}.on('warn', (${warning}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3191,7 +3191,7 @@ Blockly.Blocks.VoiceBroadcast_end = {
 Blockly.JavaScript.VoiceBroadcast_end = (block) => {
 	const VoiceBroadcast = Blockly.JavaScript.valueToCode(block, 'VoiceBroadcast', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceBroadcast}.on('end', () => {${statementsFunction}});\n`;
+	const code = `${VoiceBroadcast}.on('end', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3671,7 +3671,7 @@ Blockly.JavaScript.VoiceConnection_debug = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('debug', (${message}) => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('debug', (${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3698,7 +3698,7 @@ Blockly.JavaScript.VoiceConnection_warn = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const warning = block.getFieldValue('warning');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('warn', (${warning}) => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('warn', (${warning}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3723,7 +3723,7 @@ Blockly.Blocks.VoiceConnection_newSession = {
 Blockly.JavaScript.VoiceConnection_newSession = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('newSession', () => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('newSession', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3748,7 +3748,7 @@ Blockly.Blocks.VoiceConnection_authenticated = {
 Blockly.JavaScript.VoiceConnection_authenticated = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('authenticated', () => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('authenticated', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3775,7 +3775,7 @@ Blockly.JavaScript.VoiceConnection_failed = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const error = block.getFieldValue('error');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('failed', (${error}) => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('failed', (${error}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3800,7 +3800,7 @@ Blockly.Blocks.VoiceConnection_reconnecting = {
 Blockly.JavaScript.VoiceConnection_reconnecting = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('reconnecting', () => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('reconnecting', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3825,7 +3825,7 @@ Blockly.Blocks.VoiceConnection_disconnect = {
 Blockly.JavaScript.VoiceConnection_disconnect = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('disconnect', () => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('disconnect', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3852,7 +3852,7 @@ Blockly.JavaScript.VoiceConnection_error = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const error = block.getFieldValue('error');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('error', (${error}) => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('error', (${error}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3877,7 +3877,7 @@ Blockly.Blocks.VoiceConnection_ready = {
 Blockly.JavaScript.VoiceConnection_ready = (block) => {
 	const VoiceConnection = Blockly.JavaScript.valueToCode(block, 'VoiceConnection', Blockly.JavaScript.ORDER_ATOMIC);
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('ready', () => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('ready', () => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -3906,7 +3906,7 @@ Blockly.JavaScript.VoiceConnection_speaking = (block) => {
 	const user = block.getFieldValue('user');
 	const speaking = block.getFieldValue('speaking');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${VoiceConnection}.on('speaking', (${user},${speaking}) => {${statementsFunction}});\n`;
+	const code = `${VoiceConnection}.on('speaking', (${user},${speaking}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -5062,7 +5062,7 @@ Blockly.JavaScript.ShardingManager_message = (block) => {
 	const shard = block.getFieldValue('shard');
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${ShardingManager}.on('message', (${shard},${message}) => {${statementsFunction}});\n`;
+	const code = `${ShardingManager}.on('message', (${shard},${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -5089,7 +5089,7 @@ Blockly.JavaScript.ShardingManager_launch = (block) => {
 	const ShardingManager = Blockly.JavaScript.valueToCode(block, 'ShardingManager', Blockly.JavaScript.ORDER_ATOMIC);
 	const shard = block.getFieldValue('shard');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${ShardingManager}.on('launch', (${shard}) => {${statementsFunction}});\n`;
+	const code = `${ShardingManager}.on('launch', (${shard}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -13422,7 +13422,7 @@ Blockly.JavaScript.Collector_collect = (block) => {
 	const element = block.getFieldValue('element');
 	const collector = block.getFieldValue('collector');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Collector}.on('collect', (${element},${collector}) => {${statementsFunction}});\n`;
+	const code = `${Collector}.on('collect', (${element},${collector}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -13451,7 +13451,7 @@ Blockly.JavaScript.Collector_end = (block) => {
 	const collected = block.getFieldValue('collected');
 	const reason = block.getFieldValue('reason');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${Collector}.on('end', (${collected},${reason}) => {${statementsFunction}});\n`;
+	const code = `${Collector}.on('end', (${collected},${reason}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -15148,7 +15148,7 @@ Blockly.JavaScript.MessageCollector_message = (block) => {
 	const MessageCollector = Blockly.JavaScript.valueToCode(block, 'MessageCollector', Blockly.JavaScript.ORDER_ATOMIC);
 	const message = block.getFieldValue('message');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${MessageCollector}.on('message', (${message}) => {${statementsFunction}});\n`;
+	const code = `${MessageCollector}.on('message', (${message}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -15177,7 +15177,7 @@ Blockly.JavaScript.MessageCollector_collect = (block) => {
 	const element = block.getFieldValue('element');
 	const collector = block.getFieldValue('collector');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${MessageCollector}.on('collect', (${element},${collector}) => {${statementsFunction}});\n`;
+	const code = `${MessageCollector}.on('collect', (${element},${collector}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -15206,7 +15206,7 @@ Blockly.JavaScript.MessageCollector_end = (block) => {
 	const collected = block.getFieldValue('collected');
 	const reason = block.getFieldValue('reason');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${MessageCollector}.on('end', (${collected},${reason}) => {${statementsFunction}});\n`;
+	const code = `${MessageCollector}.on('end', (${collected},${reason}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -17427,7 +17427,7 @@ Blockly.JavaScript.ReactionCollector_collect = (block) => {
 	const element = block.getFieldValue('element');
 	const collector = block.getFieldValue('collector');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${ReactionCollector}.on('collect', (${element},${collector}) => {${statementsFunction}});\n`;
+	const code = `${ReactionCollector}.on('collect', (${element},${collector}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 
@@ -17456,7 +17456,7 @@ Blockly.JavaScript.ReactionCollector_end = (block) => {
 	const collected = block.getFieldValue('collected');
 	const reason = block.getFieldValue('reason');
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = `${ReactionCollector}.on('end', (${collected},${reason}) => {${statementsFunction}});\n`;
+	const code = `${ReactionCollector}.on('end', (${collected},${reason}) => {\n${statementsFunction}});\n`;
 	return code;
 };
 

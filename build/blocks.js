@@ -257,7 +257,7 @@ Blockly.Blocks.${c.name}_${event.name} = {
 Blockly.JavaScript.${c.name}_${event.name} = (block) => {
 	const ${c.name} = Blockly.JavaScript.valueToCode(block, '${c.name}', Blockly.JavaScript.ORDER_ATOMIC);${temp.codeInputs}
 	const statementsFunction = Blockly.JavaScript.statementToCode(block, 'function');
-	const code = \`\${${c.name}}.on('${event.name}', (${temp.codeAttributes}) => {\${statementsFunction}});\\n\`;
+	const code = \`\${${c.name}}.on('${event.name}', (${temp.codeAttributes}) => {\\n\${statementsFunction}});\\n\`;
 	return code;
 };
 `;
