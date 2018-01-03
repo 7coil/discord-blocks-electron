@@ -1,4 +1,4 @@
-# DiscordBlocks v3.0
+# DiscordBlocks Electron v3.0
 A Google Blockly (like MIT Scratch) to Discord.js compiler, built on Electron
 
 ## Why?
@@ -6,11 +6,14 @@ Electron is fun
 
 ## Open
 
-https://moustacheminer.com/discord-blocks
+0. `git clone`
+0. `cd discord-blocks-electron`
+0. `npm i`
+0. `npm start`
 
 ## Thanks
 
-Based off the `Electron` quickstart
+[Based off the `Electron` quickstart](https://github.com/electron/electron-quick-start)
 
 ```
 https://github.com/google/blockly
