@@ -87,13 +87,16 @@ const createWindow = () => {
 								fs.readFile(files[0], {
 									encoding: 'UTF8'
 								}, (error, contents) => {
-									mainWindow.webContents.send('file-data', {
-										contents,
-										filename
-									});
+									mainWindow.webContents.send('file-data', contents);
 								});
 							}
 						});
+					}
+				},
+				{
+					label: 'Save Project',
+					click() {
+						mainWindow.webContents.send('save-project');
 					}
 				}
 			]
@@ -154,6 +157,65 @@ app.on('ready', createWindow);
 // On project execute...
 ipcMain.on('execute-project-reply', (event, js) => {
 	createRuntime(js);
+});
+
+// On project save...
+ipcMain.on('save-project-reply', (event, xml) => {
+	dialog.showOpenDialog(mainWindow, {
+		title: 'Import DiscordBlocks Project',
+		defaultPath: app.getPath('documents'),
+		filters: [
+			{
+				name: 'Compatible Files',
+				extensions: [
+					'🅱3',
+					'🅱',
+					'xml'
+				],
+				openFile: true,
+				openDirectory: false,
+				multiSelections: false
+			},
+			{
+				name: 'DiscordBlocks Project (.🅱3, .🅱)',
+				extensions: [
+					'🅱3',
+					'🅱'
+				],
+				openFile: true,
+				openDirectory: false,
+				multiSelections: false
+			},
+			{
+				name: 'XML (.xml)',
+				extensions: [
+					'xml'
+				],
+				openFile: true,
+				openDirectory: false,
+				multiSelections: false
+			},
+			{
+				name: 'All Files',
+				extensions: [
+					'*'
+				],
+				openFile: true,
+				openDirectory: false,
+				multiSelections: false
+			}
+		]
+	}, (files) => {
+		if (!files) {
+			console.log('Cancelled file saving');
+		} else {
+			const { name: filename } = path.parse(files[0]);
+			console.log(xml);
+			console.log(filename);
+			file = filename;
+			fs.writeFile(files[0], xml);
+		}
+	});
 });
 
 // Quit when all windows are closed.
