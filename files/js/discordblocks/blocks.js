@@ -32,7 +32,7 @@ Blockly.Blocks.Client_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('The main hub for interacting with the Discord API, and the starting point for any bot.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client');
 	}
 };
 
@@ -51,7 +51,7 @@ Blockly.Blocks.Client_options = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The options the client was instantiated with');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=options');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=options');
 	}
 };
 
@@ -70,7 +70,7 @@ Blockly.Blocks.Client_shard = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The shard helpers for the client\n(only if the process was spawned as a child, such as from a {@link ShardingManager})');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=shard');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=shard');
 	}
 };
 
@@ -89,7 +89,7 @@ Blockly.Blocks.Client_users = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All of the {@link User} objects that have been cached at any point, mapped by their IDs');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=users');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=users');
 	}
 };
 
@@ -108,7 +108,7 @@ Blockly.Blocks.Client_guilds = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All of the guilds the client is currently handling, mapped by their IDs -\nas long as sharding isn\'t being used, this will be *every* guild the bot is a member of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guilds');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guilds');
 	}
 };
 
@@ -127,7 +127,7 @@ Blockly.Blocks.Client_channels = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All of the {@link Channel}s that the client is currently handling, mapped by their IDs -\nas long as sharding isn\'t being used, this will be *every* channel in *every* guild, and all DM channels');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=channels');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=channels');
 	}
 };
 
@@ -146,7 +146,7 @@ Blockly.Blocks.Client_presences = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Presences that have been received for the client user\'s friends, mapped by user IDs\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=presences');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=presences');
 	}
 };
 
@@ -165,7 +165,7 @@ Blockly.Blocks.Client_token = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Authorization token for the logged in user/bot\n<warn>This should be kept private at all times.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=token');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=token');
 	}
 };
 
@@ -184,7 +184,7 @@ Blockly.Blocks.Client_user = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('User that the client is logged in as');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=user');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=user');
 	}
 };
 
@@ -203,7 +203,7 @@ Blockly.Blocks.Client_readyAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Time at which the client was last regarded as being in the `READY` state\n(each time the client disconnects and successfully reconnects, this will be overwritten)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=readyAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=readyAt');
 	}
 };
 
@@ -222,7 +222,7 @@ Blockly.Blocks.Client_broadcasts = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Active voice broadcasts that have been created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=broadcasts');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=broadcasts');
 	}
 };
 
@@ -241,7 +241,7 @@ Blockly.Blocks.Client_pings = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Previous heartbeat pings of the websocket (most recent first, limited to three elements)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=pings');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=pings');
 	}
 };
 
@@ -260,7 +260,7 @@ Blockly.Blocks.Client_status = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Current status of the client\'s connection to Discord');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=status');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=status');
 	}
 };
 
@@ -279,7 +279,7 @@ Blockly.Blocks.Client_uptime = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('How long it has been since the client last entered the `READY` state');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=uptime');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=uptime');
 	}
 };
 
@@ -298,7 +298,7 @@ Blockly.Blocks.Client_ping = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Average heartbeat ping of the websocket, obtained by averaging the {@link Client#pings} property');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=ping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=ping');
 	}
 };
 
@@ -317,7 +317,7 @@ Blockly.Blocks.Client_voiceConnections = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All active voice connections that have been established, mapped by channel ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=voiceConnections');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=voiceConnections');
 	}
 };
 
@@ -336,7 +336,7 @@ Blockly.Blocks.Client_emojis = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All custom emojis that the client has access to, mapped by their IDs');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=emojis');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=emojis');
 	}
 };
 
@@ -355,7 +355,7 @@ Blockly.Blocks.Client_readyTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Timestamp of the time the client was last `READY` at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=readyTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=readyTimestamp');
 	}
 };
 
@@ -374,7 +374,7 @@ Blockly.Blocks.Client_browser = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the client is in a browser environment');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=browser');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=browser');
 	}
 };
 
@@ -395,7 +395,7 @@ Blockly.Blocks.Client_createVoiceBroadcast = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a voice broadcast.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=createVoiceBroadcast');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=createVoiceBroadcast');
 	}
 };
 
@@ -419,7 +419,7 @@ Blockly.Blocks.Client_login = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Logs the client in, establishing a websocket connection to Discord.\n<info>Both bot and regular user accounts are supported, but it is highly recommended to use a bot account whenever\npossible. User accounts are subject to harsher ratelimits and other restrictions that don\'t apply to bot accounts.\nBot accounts also have access to many features that user accounts cannot utilise. User accounts that are found to\nbe abusing/overusing the API will be banned, locking you out of Discord entirely.</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=login');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=login');
 	}
 };
 
@@ -442,7 +442,7 @@ Blockly.Blocks.Client_destroy = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Logs out, terminates the connection to Discord, and destroys the client.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=destroy');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=destroy');
 	}
 };
 
@@ -466,7 +466,7 @@ Blockly.Blocks.Client_syncGuilds = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Requests a sync of guild data with Discord.\n<info>This can be done automatically every 30 seconds by enabling {@link ClientOptions#sync}.</info>\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=syncGuilds');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=syncGuilds');
 	}
 };
 
@@ -493,7 +493,7 @@ Blockly.Blocks.Client_fetchUser = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains a user from Discord, or the user cache if it\'s already available.\n<warn>This is only available when using a bot account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=fetchUser');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=fetchUser');
 	}
 };
 
@@ -519,7 +519,7 @@ Blockly.Blocks.Client_fetchInvite = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains an invite from Discord.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=fetchInvite');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=fetchInvite');
 	}
 };
 
@@ -546,7 +546,7 @@ Blockly.Blocks.Client_fetchWebhook = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains a webhook from Discord.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=fetchWebhook');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=fetchWebhook');
 	}
 };
 
@@ -569,7 +569,7 @@ Blockly.Blocks.Client_fetchVoiceRegions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains the available voice regions from Discord.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=fetchVoiceRegions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=fetchVoiceRegions');
 	}
 };
 
@@ -592,7 +592,7 @@ Blockly.Blocks.Client_sweepMessages = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sweeps all text-based channels\' messages and removes the ones older than the max message lifetime.\nIf the message has been edited, the time of the edit is used rather than the time of the original message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=sweepMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=sweepMessages');
 	}
 };
 
@@ -617,7 +617,7 @@ Blockly.Blocks.Client_fetchApplication = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains the OAuth Application of the bot from Discord.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=fetchApplication');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=fetchApplication');
 	}
 };
 
@@ -642,7 +642,7 @@ Blockly.Blocks.Client_generateInvite = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Generates a link that can be used to invite the bot to a guild.\n<warn>This is only available when using a bot account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=generateInvite');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=generateInvite');
 	}
 };
 
@@ -670,7 +670,7 @@ Blockly.Blocks.Client_setTimeout = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets a timeout that will be automatically cancelled if the client is destroyed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=setTimeout');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=setTimeout');
 	}
 };
 
@@ -697,7 +697,7 @@ Blockly.Blocks.Client_clearTimeout = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clears a timeout.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=clearTimeout');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=clearTimeout');
 	}
 };
 
@@ -725,7 +725,7 @@ Blockly.Blocks.Client_setInterval = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets an interval that will be automatically cancelled if the client is destroyed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=setInterval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=setInterval');
 	}
 };
 
@@ -752,7 +752,7 @@ Blockly.Blocks.Client_clearInterval = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clears an interval.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=clearInterval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=clearInterval');
 	}
 };
 
@@ -779,7 +779,7 @@ Blockly.Blocks.Client_channelUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a channel is updated - e.g. name change, topic change.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=channelUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=channelUpdate');
 	}
 };
 
@@ -807,7 +807,7 @@ Blockly.Blocks.Client_guildUnavailable = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild becomes unavailable, likely due to a server outage.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildUnavailable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildUnavailable');
 	}
 };
 
@@ -834,7 +834,7 @@ Blockly.Blocks.Client_emojiCreate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a custom emoji is created in a guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=emojiCreate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=emojiCreate');
 	}
 };
 
@@ -861,7 +861,7 @@ Blockly.Blocks.Client_emojiDelete = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a custom guild emoji is deleted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=emojiDelete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=emojiDelete');
 	}
 };
 
@@ -889,7 +889,7 @@ Blockly.Blocks.Client_emojiUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a custom guild emoji is updated.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=emojiUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=emojiUpdate');
 	}
 };
 
@@ -917,7 +917,7 @@ Blockly.Blocks.Client_guildMemberRemove = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a member leaves a guild, or is kicked.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildMemberRemove');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildMemberRemove');
 	}
 };
 
@@ -944,7 +944,7 @@ Blockly.Blocks.Client_roleCreate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a role is created.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=roleCreate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=roleCreate');
 	}
 };
 
@@ -971,7 +971,7 @@ Blockly.Blocks.Client_roleDelete = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild role is deleted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=roleDelete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=roleDelete');
 	}
 };
 
@@ -999,7 +999,7 @@ Blockly.Blocks.Client_roleUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild role is updated.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=roleUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=roleUpdate');
 	}
 };
 
@@ -1028,7 +1028,7 @@ Blockly.Blocks.Client_guildUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild is updated - e.g. name change.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildUpdate');
 	}
 };
 
@@ -1057,7 +1057,7 @@ Blockly.Blocks.Client_messageReactionAdd = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a reaction is added to a message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=messageReactionAdd');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=messageReactionAdd');
 	}
 };
 
@@ -1086,7 +1086,7 @@ Blockly.Blocks.Client_messageReactionRemove = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a reaction is removed from a message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=messageReactionRemove');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=messageReactionRemove');
 	}
 };
 
@@ -1114,7 +1114,7 @@ Blockly.Blocks.Client_messageReactionRemoveAll = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever all reactions are removed from a message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=messageReactionRemoveAll');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=messageReactionRemoveAll');
 	}
 };
 
@@ -1142,7 +1142,7 @@ Blockly.Blocks.Client_messageUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a message is updated - e.g. embed or content change.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=messageUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=messageUpdate');
 	}
 };
 
@@ -1172,7 +1172,7 @@ Blockly.Blocks.Client_userNoteUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a note is updated.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=userNoteUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=userNoteUpdate');
 	}
 };
 
@@ -1201,7 +1201,7 @@ Blockly.Blocks.Client_warn = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted for general warnings.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=warn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=warn');
 	}
 };
 
@@ -1228,7 +1228,7 @@ Blockly.Blocks.Client_debug = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted for general debugging information.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=debug');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=debug');
 	}
 };
 
@@ -1255,7 +1255,7 @@ Blockly.Blocks.Client_guildCreate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the client joins a guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildCreate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildCreate');
 	}
 };
 
@@ -1282,7 +1282,7 @@ Blockly.Blocks.Client_channelCreate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a channel is created.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=channelCreate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=channelCreate');
 	}
 };
 
@@ -1309,7 +1309,7 @@ Blockly.Blocks.Client_channelDelete = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a channel is deleted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=channelDelete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=channelDelete');
 	}
 };
 
@@ -1337,7 +1337,7 @@ Blockly.Blocks.Client_channelPinsUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the pins of a channel are updated. Due to the nature of the WebSocket event, not much information\ncan be provided easily here - you need to manually check the pins yourself.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=channelPinsUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=channelPinsUpdate');
 	}
 };
 
@@ -1366,7 +1366,7 @@ Blockly.Blocks.Client_guildBanAdd = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a member is banned from a guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildBanAdd');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildBanAdd');
 	}
 };
 
@@ -1395,7 +1395,7 @@ Blockly.Blocks.Client_guildBanRemove = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a member is unbanned from a guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildBanRemove');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildBanRemove');
 	}
 };
 
@@ -1423,7 +1423,7 @@ Blockly.Blocks.Client_guildDelete = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild is deleted/left.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildDelete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildDelete');
 	}
 };
 
@@ -1451,7 +1451,7 @@ Blockly.Blocks.Client_guildMembersChunk = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a chunk of guild members is received (all members come from the same guild).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildMembersChunk');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildMembersChunk');
 	}
 };
 
@@ -1479,7 +1479,7 @@ Blockly.Blocks.Client_message = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a message is created.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=message');
 	}
 };
 
@@ -1506,7 +1506,7 @@ Blockly.Blocks.Client_messageDelete = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a message is deleted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=messageDelete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=messageDelete');
 	}
 };
 
@@ -1533,7 +1533,7 @@ Blockly.Blocks.Client_messageDeleteBulk = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever messages are deleted in bulk.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=messageDeleteBulk');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=messageDeleteBulk');
 	}
 };
 
@@ -1561,7 +1561,7 @@ Blockly.Blocks.Client_presenceUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild member\'s presence changes, or they change one of their details.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=presenceUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=presenceUpdate');
 	}
 };
 
@@ -1590,7 +1590,7 @@ Blockly.Blocks.Client_userUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a user\'s details (e.g. username) are changed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=userUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=userUpdate');
 	}
 };
 
@@ -1618,7 +1618,7 @@ Blockly.Blocks.Client_guildMemberAvailable = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a member becomes available in a large guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildMemberAvailable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildMemberAvailable');
 	}
 };
 
@@ -1645,7 +1645,7 @@ Blockly.Blocks.Client_resume = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a WebSocket resumes.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=resume');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=resume');
 	}
 };
 
@@ -1673,7 +1673,7 @@ Blockly.Blocks.Client_typingStart = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a user starts typing in a channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=typingStart');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=typingStart');
 	}
 };
 
@@ -1702,7 +1702,7 @@ Blockly.Blocks.Client_typingStop = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a user stops typing in a channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=typingStop');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=typingStop');
 	}
 };
 
@@ -1730,7 +1730,7 @@ Blockly.Blocks.Client_clientUserGuildSettingsUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the client user\'s settings update.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=clientUserGuildSettingsUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=clientUserGuildSettingsUpdate');
 	}
 };
 
@@ -1757,7 +1757,7 @@ Blockly.Blocks.Client_clientUserSettingsUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the client user\'s settings update.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=clientUserSettingsUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=clientUserSettingsUpdate');
 	}
 };
 
@@ -1785,7 +1785,7 @@ Blockly.Blocks.Client_voiceStateUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a user changes voice state - e.g. joins/leaves a channel, mutes/unmutes.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=voiceStateUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=voiceStateUpdate');
 	}
 };
 
@@ -1812,7 +1812,7 @@ Blockly.Blocks.Client_ready = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the client becomes ready to start working.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=ready');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=ready');
 	}
 };
 
@@ -1837,7 +1837,7 @@ Blockly.Blocks.Client_reconnecting = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the client tries to reconnect to the WebSocket.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=reconnecting');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=reconnecting');
 	}
 };
 
@@ -1863,7 +1863,7 @@ Blockly.Blocks.Client_error = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the client\'s WebSocket encounters a connection error.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=error');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=error');
 	}
 };
 
@@ -1890,7 +1890,7 @@ Blockly.Blocks.Client_disconnect = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the client\'s WebSocket disconnects and will no longer attempt to reconnect.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=disconnect');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=disconnect');
 	}
 };
 
@@ -1917,7 +1917,7 @@ Blockly.Blocks.Client_guildMemberAdd = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a user joins a guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildMemberAdd');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildMemberAdd');
 	}
 };
 
@@ -1945,7 +1945,7 @@ Blockly.Blocks.Client_guildMemberUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a guild member changes - i.e. new role, removed role, nickname.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildMemberUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildMemberUpdate');
 	}
 };
 
@@ -1974,7 +1974,7 @@ Blockly.Blocks.Client_guildMemberSpeaking = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted once a guild member starts/stops speaking.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=guildMemberSpeaking');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Client?scrollTo=guildMemberSpeaking');
 	}
 };
 
@@ -1996,7 +1996,7 @@ Blockly.Blocks.DiscordAPIError_path = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The path of the request relative to the HTTP endpoint');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DiscordAPIError?scrollTo=path');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DiscordAPIError?scrollTo=path');
 	}
 };
 
@@ -2015,7 +2015,7 @@ Blockly.Blocks.DiscordAPIError_code = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('HTTP error code returned by Discord');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DiscordAPIError?scrollTo=code');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DiscordAPIError?scrollTo=code');
 	}
 };
 
@@ -2034,7 +2034,7 @@ Blockly.Blocks.StreamDispatcher_player = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Audio Player that controls this dispatcher');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=player');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=player');
 	}
 };
 
@@ -2053,7 +2053,7 @@ Blockly.Blocks.StreamDispatcher_stream = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The stream that the dispatcher plays');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=stream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=stream');
 	}
 };
 
@@ -2072,7 +2072,7 @@ Blockly.Blocks.StreamDispatcher_paused = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether playing is paused');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=paused');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=paused');
 	}
 };
 
@@ -2091,7 +2091,7 @@ Blockly.Blocks.StreamDispatcher_destroyed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this dispatcher has been destroyed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=destroyed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=destroyed');
 	}
 };
 
@@ -2110,7 +2110,7 @@ Blockly.Blocks.StreamDispatcher_passes = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('How many passes the dispatcher should take when sending packets to reduce packet loss. Values over 5\naren\'t recommended, as it means you are using 5x more bandwidth. You _can_ edit this at runtime');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=passes');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=passes');
 	}
 };
 
@@ -2129,7 +2129,7 @@ Blockly.Blocks.StreamDispatcher_time = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('How long the stream dispatcher has been "speaking" for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=time');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=time');
 	}
 };
 
@@ -2148,7 +2148,7 @@ Blockly.Blocks.StreamDispatcher_totalStreamTime = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The total time, taking into account pauses and skips, that the dispatcher has been streaming for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=totalStreamTime');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=totalStreamTime');
 	}
 };
 
@@ -2170,7 +2170,7 @@ Blockly.Blocks.StreamDispatcher_pause = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stops sending voice packets to the voice connection (stream may still progress however).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=pause');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=pause');
 	}
 };
 
@@ -2192,7 +2192,7 @@ Blockly.Blocks.StreamDispatcher_resume = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Resumes sending voice packets to the voice connection (may be further on in the stream than when paused).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=resume');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=resume');
 	}
 };
 
@@ -2216,7 +2216,7 @@ Blockly.Blocks.StreamDispatcher_end = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stops the current stream permanently and emits an `end` event.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=end');
 	}
 };
 
@@ -2241,7 +2241,7 @@ Blockly.Blocks.StreamDispatcher_setBitrate = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the bitrate of the current Opus encoder.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=setBitrate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=setBitrate');
 	}
 };
 
@@ -2267,7 +2267,7 @@ Blockly.Blocks.StreamDispatcher_speaking = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the dispatcher starts/stops speaking.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=speaking');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=speaking');
 	}
 };
 
@@ -2294,7 +2294,7 @@ Blockly.Blocks.StreamDispatcher_debug = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the dispatcher has debug information.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=debug');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=debug');
 	}
 };
 
@@ -2320,7 +2320,7 @@ Blockly.Blocks.StreamDispatcher_start = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted once the dispatcher starts streaming.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=start');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=start');
 	}
 };
 
@@ -2346,7 +2346,7 @@ Blockly.Blocks.StreamDispatcher_end = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted once the dispatcher ends.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=end');
 	}
 };
 
@@ -2373,7 +2373,7 @@ Blockly.Blocks.StreamDispatcher_error = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted if the dispatcher encounters an error.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/StreamDispatcher?scrollTo=error');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/StreamDispatcher?scrollTo=error');
 	}
 };
 
@@ -2394,7 +2394,7 @@ Blockly.Blocks.VoiceReceiver_destroyed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not this receiver has been destroyed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=destroyed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=destroyed');
 	}
 };
 
@@ -2413,7 +2413,7 @@ Blockly.Blocks.VoiceReceiver_voiceConnection = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The VoiceConnection that instantiated this');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=voiceConnection');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=voiceConnection');
 	}
 };
 
@@ -2435,7 +2435,7 @@ Blockly.Blocks.VoiceReceiver_recreate = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('If this VoiceReceiver has been destroyed, running `recreate()` will recreate the listener.\nThis avoids you having to create a new receiver.\n<info>Any streams that you had prior to destroying the receiver will not be recreated.</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=recreate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=recreate');
 	}
 };
 
@@ -2457,7 +2457,7 @@ Blockly.Blocks.VoiceReceiver_destroy = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Destroy this VoiceReceiver, also ending any streams that it may be controlling.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=destroy');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=destroy');
 	}
 };
 
@@ -2480,7 +2480,7 @@ Blockly.Blocks.VoiceReceiver_createOpusStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a readable stream for a user that provides opus data while the user is speaking. When the user\nstops speaking, the stream is destroyed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=createOpusStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=createOpusStream');
 	}
 };
 
@@ -2504,7 +2504,7 @@ Blockly.Blocks.VoiceReceiver_createPCMStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a readable stream for a user that provides PCM data while the user is speaking. When the user\nstops speaking, the stream is destroyed. The stream is 32-bit signed stereo PCM at 48KHz.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=createPCMStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=createPCMStream');
 	}
 };
 
@@ -2531,7 +2531,7 @@ Blockly.Blocks.VoiceReceiver_warn = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a voice packet experiences a problem.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=warn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=warn');
 	}
 };
 
@@ -2560,7 +2560,7 @@ Blockly.Blocks.VoiceReceiver_opus = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever voice data is received from the voice connection. This is _always_ emitted (unlike PCM).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=opus');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=opus');
 	}
 };
 
@@ -2589,7 +2589,7 @@ Blockly.Blocks.VoiceReceiver_pcm = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emits decoded voice data when it\'s received. For performance reasons, the decoding will only\nhappen if there is at least one `pcm` listener on this receiver.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceReceiver?scrollTo=pcm');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceReceiver?scrollTo=pcm');
 	}
 };
 
@@ -2611,7 +2611,7 @@ Blockly.Blocks.VolumeInterface_volume = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The current volume of the broadcast');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=volume');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=volume');
 	}
 };
 
@@ -2630,7 +2630,7 @@ Blockly.Blocks.VolumeInterface_volumeDecibels = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The current volume of the broadcast in decibels');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=volumeDecibels');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=volumeDecibels');
 	}
 };
 
@@ -2649,7 +2649,7 @@ Blockly.Blocks.VolumeInterface_volumeLogarithmic = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The current volume of the broadcast from a logarithmic scale');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=volumeLogarithmic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=volumeLogarithmic');
 	}
 };
 
@@ -2673,7 +2673,7 @@ Blockly.Blocks.VolumeInterface_setVolume = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the volume relative to the input stream - i.e. 1 is normal, 0.5 is half, 2 is double.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=setVolume');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=setVolume');
 	}
 };
 
@@ -2698,7 +2698,7 @@ Blockly.Blocks.VolumeInterface_setVolumeDecibels = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the volume in decibels.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=setVolumeDecibels');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=setVolumeDecibels');
 	}
 };
 
@@ -2723,7 +2723,7 @@ Blockly.Blocks.VolumeInterface_setVolumeLogarithmic = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the volume so that a perceived value of 0.5 is half the perceived volume etc.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=setVolumeLogarithmic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=setVolumeLogarithmic');
 	}
 };
 
@@ -2750,7 +2750,7 @@ Blockly.Blocks.VolumeInterface_volumeChange = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the volume of this interface changes.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VolumeInterface?scrollTo=volumeChange');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VolumeInterface?scrollTo=volumeChange');
 	}
 };
 
@@ -2772,7 +2772,7 @@ Blockly.Blocks.VoiceBroadcast_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that created the broadcast');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=client');
 	}
 };
 
@@ -2791,7 +2791,7 @@ Blockly.Blocks.VoiceBroadcast_prism = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The audio transcoder that this broadcast uses');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=prism');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=prism');
 	}
 };
 
@@ -2810,7 +2810,7 @@ Blockly.Blocks.VoiceBroadcast_currentTranscoder = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The current audio transcoder that is being used');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=currentTranscoder');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=currentTranscoder');
 	}
 };
 
@@ -2829,7 +2829,7 @@ Blockly.Blocks.VoiceBroadcast_dispatchers = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('An array of subscribed dispatchers');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=dispatchers');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=dispatchers');
 	}
 };
 
@@ -2854,7 +2854,7 @@ Blockly.Blocks.VoiceBroadcast_playStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays any audio stream across the broadcast.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=playStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=playStream');
 	}
 };
 
@@ -2881,7 +2881,7 @@ Blockly.Blocks.VoiceBroadcast_playFile = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Play the given file in the voice connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=playFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=playFile');
 	}
 };
 
@@ -2908,7 +2908,7 @@ Blockly.Blocks.VoiceBroadcast_playConvertedStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays a stream of 16-bit signed stereo PCM.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=playConvertedStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=playConvertedStream');
 	}
 };
 
@@ -2935,7 +2935,7 @@ Blockly.Blocks.VoiceBroadcast_playOpusStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays an Opus encoded stream.\n<warn>Note that inline volume is not compatible with this method.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=playOpusStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=playOpusStream');
 	}
 };
 
@@ -2962,7 +2962,7 @@ Blockly.Blocks.VoiceBroadcast_playArbitraryInput = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Play an arbitrary input that can be [handled by ffmpeg](https://ffmpeg.org/ffmpeg-protocols.html#Description)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=playArbitraryInput');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=playArbitraryInput');
 	}
 };
 
@@ -2986,7 +2986,7 @@ Blockly.Blocks.VoiceBroadcast_pause = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Pauses the entire broadcast - all dispatchers also pause.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=pause');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=pause');
 	}
 };
 
@@ -3008,7 +3008,7 @@ Blockly.Blocks.VoiceBroadcast_resume = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Resumes the entire broadcast - all dispatchers also resume.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=resume');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=resume');
 	}
 };
 
@@ -3030,7 +3030,7 @@ Blockly.Blocks.VoiceBroadcast_end = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stop the current stream from playing without unsubscribing dispatchers.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=end');
 	}
 };
 
@@ -3052,7 +3052,7 @@ Blockly.Blocks.VoiceBroadcast_destroy = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('End the current broadcast, all subscribed dispatchers will also end.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=destroy');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=destroy');
 	}
 };
 
@@ -3077,7 +3077,7 @@ Blockly.Blocks.VoiceBroadcast_unsubscribe = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a stream dispatcher unsubscribes from the broadcast.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=unsubscribe');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=unsubscribe');
 	}
 };
 
@@ -3104,7 +3104,7 @@ Blockly.Blocks.VoiceBroadcast_subscribe = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a stream dispatcher subscribes to the broadcast.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=subscribe');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=subscribe');
 	}
 };
 
@@ -3131,7 +3131,7 @@ Blockly.Blocks.VoiceBroadcast_error = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever an error occurs.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=error');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=error');
 	}
 };
 
@@ -3158,7 +3158,7 @@ Blockly.Blocks.VoiceBroadcast_warn = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the VoiceBroadcast has any warnings.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=warn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=warn');
 	}
 };
 
@@ -3184,7 +3184,7 @@ Blockly.Blocks.VoiceBroadcast_end = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted once the broadcast (the audio stream) ends.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceBroadcast?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceBroadcast?scrollTo=end');
 	}
 };
 
@@ -3204,7 +3204,7 @@ Blockly.Blocks.VoiceConnection_voiceManager = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The voice manager that instantiated this connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=voiceManager');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=voiceManager');
 	}
 };
 
@@ -3223,7 +3223,7 @@ Blockly.Blocks.VoiceConnection_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=client');
 	}
 };
 
@@ -3242,7 +3242,7 @@ Blockly.Blocks.VoiceConnection_prism = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The audio transcoder for this connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=prism');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=prism');
 	}
 };
 
@@ -3261,7 +3261,7 @@ Blockly.Blocks.VoiceConnection_channel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The voice channel this connection is currently serving');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=channel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=channel');
 	}
 };
 
@@ -3280,7 +3280,7 @@ Blockly.Blocks.VoiceConnection_status = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The current status of the voice connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=status');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=status');
 	}
 };
 
@@ -3299,7 +3299,7 @@ Blockly.Blocks.VoiceConnection_speaking = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether we\'re currently transmitting audio');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=speaking');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=speaking');
 	}
 };
 
@@ -3318,7 +3318,7 @@ Blockly.Blocks.VoiceConnection_receivers = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('An array of Voice Receivers that have been created for this connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=receivers');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=receivers');
 	}
 };
 
@@ -3337,7 +3337,7 @@ Blockly.Blocks.VoiceConnection_player = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The audio player for this voice connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=player');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=player');
 	}
 };
 
@@ -3356,7 +3356,7 @@ Blockly.Blocks.VoiceConnection_dispatcher = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The current stream dispatcher (if any)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=dispatcher');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=dispatcher');
 	}
 };
 
@@ -3380,7 +3380,7 @@ Blockly.Blocks.VoiceConnection_sendVoiceStateUpdate = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sends a request to the main gateway to join a voice channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=sendVoiceStateUpdate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=sendVoiceStateUpdate');
 	}
 };
 
@@ -3406,7 +3406,7 @@ Blockly.Blocks.VoiceConnection_setTokenAndEndpoint = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the token and endpoint required to connect to the voice servers.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=setTokenAndEndpoint');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=setTokenAndEndpoint');
 	}
 };
 
@@ -3432,7 +3432,7 @@ Blockly.Blocks.VoiceConnection_setSessionID = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the Session ID for the connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=setSessionID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=setSessionID');
 	}
 };
 
@@ -3455,7 +3455,7 @@ Blockly.Blocks.VoiceConnection_disconnect = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Disconnect the voice connection, causing a disconnect and closing event to be emitted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=disconnect');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=disconnect');
 	}
 };
 
@@ -3480,7 +3480,7 @@ Blockly.Blocks.VoiceConnection_playFile = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Play the given file in the voice connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=playFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=playFile');
 	}
 };
 
@@ -3507,7 +3507,7 @@ Blockly.Blocks.VoiceConnection_playArbitraryInput = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Play an arbitrary input that can be [handled by ffmpeg](https://ffmpeg.org/ffmpeg-protocols.html#Description)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=playArbitraryInput');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=playArbitraryInput');
 	}
 };
 
@@ -3534,7 +3534,7 @@ Blockly.Blocks.VoiceConnection_playStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays and converts an audio stream in the voice connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=playStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=playStream');
 	}
 };
 
@@ -3561,7 +3561,7 @@ Blockly.Blocks.VoiceConnection_playConvertedStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays a stream of 16-bit signed stereo PCM.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=playConvertedStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=playConvertedStream');
 	}
 };
 
@@ -3588,7 +3588,7 @@ Blockly.Blocks.VoiceConnection_playOpusStream = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays an Opus encoded stream.\n<warn>Note that inline volume is not compatible with this method.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=playOpusStream');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=playOpusStream');
 	}
 };
 
@@ -3615,7 +3615,7 @@ Blockly.Blocks.VoiceConnection_playBroadcast = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Plays a voice broadcast.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=playBroadcast');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=playBroadcast');
 	}
 };
 
@@ -3638,7 +3638,7 @@ Blockly.Blocks.VoiceConnection_createReceiver = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a VoiceReceiver so you can start listening to voice data.\nIt\'s recommended to only create one of these.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=createReceiver');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=createReceiver');
 	}
 };
 
@@ -3663,7 +3663,7 @@ Blockly.Blocks.VoiceConnection_debug = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Debug info from the connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=debug');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=debug');
 	}
 };
 
@@ -3690,7 +3690,7 @@ Blockly.Blocks.VoiceConnection_warn = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Warning info from the connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=warn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=warn');
 	}
 };
 
@@ -3716,7 +3716,7 @@ Blockly.Blocks.VoiceConnection_newSession = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when a new session ID is received.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=newSession');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=newSession');
 	}
 };
 
@@ -3741,7 +3741,7 @@ Blockly.Blocks.VoiceConnection_authenticated = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when we successfully initiate a voice connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=authenticated');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=authenticated');
 	}
 };
 
@@ -3767,7 +3767,7 @@ Blockly.Blocks.VoiceConnection_failed = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when we fail to initiate a voice connection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=failed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=failed');
 	}
 };
 
@@ -3793,7 +3793,7 @@ Blockly.Blocks.VoiceConnection_reconnecting = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the voice connection is reconnecting (typically after a region change).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=reconnecting');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=reconnecting');
 	}
 };
 
@@ -3818,7 +3818,7 @@ Blockly.Blocks.VoiceConnection_disconnect = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the voice connection disconnects.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=disconnect');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=disconnect');
 	}
 };
 
@@ -3844,7 +3844,7 @@ Blockly.Blocks.VoiceConnection_error = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever the connection encounters an error.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=error');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=error');
 	}
 };
 
@@ -3870,7 +3870,7 @@ Blockly.Blocks.VoiceConnection_ready = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted once the connection is ready, when a promise to join a voice channel resolves,\nthe connection will already be ready.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=ready');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=ready');
 	}
 };
 
@@ -3897,7 +3897,7 @@ Blockly.Blocks.VoiceConnection_speaking = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever a user starts/stops speaking.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceConnection?scrollTo=speaking');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceConnection?scrollTo=speaking');
 	}
 };
 
@@ -3924,7 +3924,7 @@ Blockly.Blocks.WebhookClient_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('The webhook client.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient');
 	}
 };
 
@@ -3945,7 +3945,7 @@ Blockly.Blocks.WebhookClient_options = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The options the client was instantiated with');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=options');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=options');
 	}
 };
 
@@ -3964,7 +3964,7 @@ Blockly.Blocks.WebhookClient_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=client');
 	}
 };
 
@@ -3983,7 +3983,7 @@ Blockly.Blocks.WebhookClient_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=name');
 	}
 };
 
@@ -4002,7 +4002,7 @@ Blockly.Blocks.WebhookClient_token = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The token for the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=token');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=token');
 	}
 };
 
@@ -4021,7 +4021,7 @@ Blockly.Blocks.WebhookClient_avatar = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The avatar for the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=avatar');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=avatar');
 	}
 };
 
@@ -4040,7 +4040,7 @@ Blockly.Blocks.WebhookClient_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=id');
 	}
 };
 
@@ -4059,7 +4059,7 @@ Blockly.Blocks.WebhookClient_guildID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the webhook belongs to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=guildID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=guildID');
 	}
 };
 
@@ -4078,7 +4078,7 @@ Blockly.Blocks.WebhookClient_channelID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The channel the webhook belongs to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=channelID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=channelID');
 	}
 };
 
@@ -4097,7 +4097,7 @@ Blockly.Blocks.WebhookClient_owner = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The owner of the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=owner');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=owner');
 	}
 };
 
@@ -4124,7 +4124,7 @@ Blockly.Blocks.WebhookClient_setTimeout = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets a timeout that will be automatically cancelled if the client is destroyed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=setTimeout');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=setTimeout');
 	}
 };
 
@@ -4151,7 +4151,7 @@ Blockly.Blocks.WebhookClient_clearTimeout = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clears a timeout.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=clearTimeout');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=clearTimeout');
 	}
 };
 
@@ -4179,7 +4179,7 @@ Blockly.Blocks.WebhookClient_setInterval = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets an interval that will be automatically cancelled if the client is destroyed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=setInterval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=setInterval');
 	}
 };
 
@@ -4206,7 +4206,7 @@ Blockly.Blocks.WebhookClient_clearInterval = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clears an interval.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=clearInterval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=clearInterval');
 	}
 };
 
@@ -4229,7 +4229,7 @@ Blockly.Blocks.WebhookClient_destroy = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Destroys the client.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=destroy');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=destroy');
 	}
 };
 
@@ -4255,7 +4255,7 @@ Blockly.Blocks.WebhookClient_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=send');
 	}
 };
 
@@ -4283,7 +4283,7 @@ Blockly.Blocks.WebhookClient_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message with this webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=sendMessage');
 	}
 };
 
@@ -4315,7 +4315,7 @@ Blockly.Blocks.WebhookClient_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=sendFile');
 	}
 };
 
@@ -4347,7 +4347,7 @@ Blockly.Blocks.WebhookClient_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=sendCode');
 	}
 };
 
@@ -4374,7 +4374,7 @@ Blockly.Blocks.WebhookClient_sendSlackMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a raw slack message with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=sendSlackMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=sendSlackMessage');
 	}
 };
 
@@ -4401,7 +4401,7 @@ Blockly.Blocks.WebhookClient_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=edit');
 	}
 };
 
@@ -4427,7 +4427,7 @@ Blockly.Blocks.WebhookClient_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Delete the webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/WebhookClient?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/WebhookClient?scrollTo=delete');
 	}
 };
 
@@ -4452,7 +4452,7 @@ Blockly.Blocks.Shard_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('Represents a Shard spawned by the ShardingManager.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard');
 	}
 };
 
@@ -4473,7 +4473,7 @@ Blockly.Blocks.Shard_manager = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Manager that created the shard');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=manager');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=manager');
 	}
 };
 
@@ -4492,7 +4492,7 @@ Blockly.Blocks.Shard_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('ID of the shard');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=id');
 	}
 };
 
@@ -4511,7 +4511,7 @@ Blockly.Blocks.Shard_env = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The environment variables for the shard');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=env');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=env');
 	}
 };
 
@@ -4530,7 +4530,7 @@ Blockly.Blocks.Shard_process = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Process of the shard');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=process');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=process');
 	}
 };
 
@@ -4554,7 +4554,7 @@ Blockly.Blocks.Shard_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sends a message to the shard\'s process.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=send');
 	}
 };
 
@@ -4579,7 +4579,7 @@ Blockly.Blocks.Shard_fetchClientValue = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches a client property value of the shard.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=fetchClientValue');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=fetchClientValue');
 	}
 };
 
@@ -4604,7 +4604,7 @@ Blockly.Blocks.Shard_eval = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Evaluates a script on the shard, in the context of the client.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Shard?scrollTo=eval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Shard?scrollTo=eval');
 	}
 };
 
@@ -4625,7 +4625,7 @@ Blockly.Blocks.ShardClientUtil_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('Helper class for sharded clients spawned as a child process, such as from a ShardingManager.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil');
 	}
 };
 
@@ -4644,7 +4644,7 @@ Blockly.Blocks.ShardClientUtil_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('ID of this shard');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil?scrollTo=id');
 	}
 };
 
@@ -4663,7 +4663,7 @@ Blockly.Blocks.ShardClientUtil_count = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Total number of shards');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil?scrollTo=count');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil?scrollTo=count');
 	}
 };
 
@@ -4687,7 +4687,7 @@ Blockly.Blocks.ShardClientUtil_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sends a message to the master process.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil?scrollTo=send');
 	}
 };
 
@@ -4712,7 +4712,7 @@ Blockly.Blocks.ShardClientUtil_fetchClientValues = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches a client property value of each shard.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil?scrollTo=fetchClientValues');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil?scrollTo=fetchClientValues');
 	}
 };
 
@@ -4737,7 +4737,7 @@ Blockly.Blocks.ShardClientUtil_broadcastEval = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Evaluates a script on all shards, in the context of the Clients.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil?scrollTo=broadcastEval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil?scrollTo=broadcastEval');
 	}
 };
 
@@ -4761,7 +4761,7 @@ Blockly.Blocks.ShardClientUtil_singleton = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates/gets the singleton of this class.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardClientUtil?scrollTo=singleton');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardClientUtil?scrollTo=singleton');
 	}
 };
 
@@ -4784,7 +4784,7 @@ Blockly.Blocks.ShardingManager_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('This is a utility class that can be used to help you spawn shards of your client. Each shard is completely separate\nfrom the other. The Shard Manager takes a path to a file and spawns it under the specified amount of shards safely.\nIf you do not select an amount of shards, the manager will automatically decide the best amount.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager');
 	}
 };
 
@@ -4804,7 +4804,7 @@ Blockly.Blocks.ShardingManager_file = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Path to the shard script file');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=file');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=file');
 	}
 };
 
@@ -4823,7 +4823,7 @@ Blockly.Blocks.ShardingManager_totalShards = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Amount of shards that this manager is going to spawn');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=totalShards');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=totalShards');
 	}
 };
 
@@ -4842,7 +4842,7 @@ Blockly.Blocks.ShardingManager_respawn = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether shards should automatically respawn upon exiting');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=respawn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=respawn');
 	}
 };
 
@@ -4861,7 +4861,7 @@ Blockly.Blocks.ShardingManager_shardArgs = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('An array of arguments to pass to shards');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=shardArgs');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=shardArgs');
 	}
 };
 
@@ -4880,7 +4880,7 @@ Blockly.Blocks.ShardingManager_token = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Token to use for obtaining the automatic shard count, and passing to shards');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=token');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=token');
 	}
 };
 
@@ -4899,7 +4899,7 @@ Blockly.Blocks.ShardingManager_shards = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of shards that this manager has spawned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=shards');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=shards');
 	}
 };
 
@@ -4923,7 +4923,7 @@ Blockly.Blocks.ShardingManager_createShard = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Spawns a single shard.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=createShard');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=createShard');
 	}
 };
 
@@ -4950,7 +4950,7 @@ Blockly.Blocks.ShardingManager_spawn = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Spawns multiple shards.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=spawn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=spawn');
 	}
 };
 
@@ -4976,7 +4976,7 @@ Blockly.Blocks.ShardingManager_broadcast = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to all shards.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=broadcast');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=broadcast');
 	}
 };
 
@@ -5001,7 +5001,7 @@ Blockly.Blocks.ShardingManager_broadcastEval = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Evaluates a script on all shards, in the context of the Clients.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=broadcastEval');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=broadcastEval');
 	}
 };
 
@@ -5026,7 +5026,7 @@ Blockly.Blocks.ShardingManager_fetchClientValues = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches a client property value of each shard.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=fetchClientValues');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=fetchClientValues');
 	}
 };
 
@@ -5053,7 +5053,7 @@ Blockly.Blocks.ShardingManager_message = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted upon recieving a message from a shard.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=message');
 	}
 };
 
@@ -5081,7 +5081,7 @@ Blockly.Blocks.ShardingManager_launch = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted upon launching a shard.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ShardingManager?scrollTo=launch');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ShardingManager?scrollTo=launch');
 	}
 };
 
@@ -5105,7 +5105,7 @@ Blockly.Blocks.Attachment_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('Represents an attachment in a message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Attachment');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Attachment');
 	}
 };
 
@@ -5125,7 +5125,7 @@ Blockly.Blocks.Attachment_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the file');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Attachment?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Attachment?scrollTo=name');
 	}
 };
 
@@ -5144,7 +5144,7 @@ Blockly.Blocks.Attachment_attachment = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The file');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Attachment?scrollTo=attachment');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Attachment?scrollTo=attachment');
 	}
 };
 
@@ -5169,7 +5169,7 @@ Blockly.Blocks.Attachment_setAttachment = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the file of this attachment.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Attachment?scrollTo=setAttachment');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Attachment?scrollTo=setAttachment');
 	}
 };
 
@@ -5194,7 +5194,7 @@ Blockly.Blocks.Attachment_setFile = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the file of this attachment.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Attachment?scrollTo=setFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Attachment?scrollTo=setFile');
 	}
 };
 
@@ -5218,7 +5218,7 @@ Blockly.Blocks.Attachment_setName = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the name of this attachment.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Attachment?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Attachment?scrollTo=setName');
 	}
 };
 
@@ -5238,7 +5238,7 @@ Blockly.Blocks.Channel_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the Channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Channel?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Channel?scrollTo=client');
 	}
 };
 
@@ -5257,7 +5257,7 @@ Blockly.Blocks.Channel_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the channel, either:\n* `dm` - a DM channel\n* `group` - a Group DM channel\n* `text` - a guild text channel\n* `voice` - a guild voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Channel?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Channel?scrollTo=type');
 	}
 };
 
@@ -5276,7 +5276,7 @@ Blockly.Blocks.Channel_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The unique ID of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Channel?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Channel?scrollTo=id');
 	}
 };
 
@@ -5295,7 +5295,7 @@ Blockly.Blocks.Channel_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the channel was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Channel?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Channel?scrollTo=createdTimestamp');
 	}
 };
 
@@ -5314,7 +5314,7 @@ Blockly.Blocks.Channel_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the channel was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Channel?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Channel?scrollTo=createdAt');
 	}
 };
 
@@ -5336,7 +5336,7 @@ Blockly.Blocks.Channel_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Channel?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Channel?scrollTo=delete');
 	}
 };
 
@@ -5355,7 +5355,7 @@ Blockly.Blocks.ClientUser_verified = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not this account has been verified');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=verified');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=verified');
 	}
 };
 
@@ -5374,7 +5374,7 @@ Blockly.Blocks.ClientUser_email = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The email of this account');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=email');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=email');
 	}
 };
 
@@ -5393,7 +5393,7 @@ Blockly.Blocks.ClientUser_friends = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A Collection of friends for the logged in user\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=friends');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=friends');
 	}
 };
 
@@ -5412,7 +5412,7 @@ Blockly.Blocks.ClientUser_blocked = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A Collection of blocked users for the logged in user\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=blocked');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=blocked');
 	}
 };
 
@@ -5431,7 +5431,7 @@ Blockly.Blocks.ClientUser_notes = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A Collection of notes for the logged in user\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=notes');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=notes');
 	}
 };
 
@@ -5450,7 +5450,7 @@ Blockly.Blocks.ClientUser_premium = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the user has Discord premium (nitro)\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=premium');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=premium');
 	}
 };
 
@@ -5469,7 +5469,7 @@ Blockly.Blocks.ClientUser_mfaEnabled = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the user has MFA enabled on their account\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=mfaEnabled');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=mfaEnabled');
 	}
 };
 
@@ -5488,7 +5488,7 @@ Blockly.Blocks.ClientUser_mobile = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the user has ever used a mobile device on Discord\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=mobile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=mobile');
 	}
 };
 
@@ -5507,7 +5507,7 @@ Blockly.Blocks.ClientUser_settings = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Various settings for this user\n<warn>This is only filled when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=settings');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=settings');
 	}
 };
 
@@ -5526,7 +5526,7 @@ Blockly.Blocks.ClientUser_guildSettings = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All of the user\'s guild settings\n<warn>This is only filled when using a user account</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=guildSettings');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=guildSettings');
 	}
 };
 
@@ -5545,7 +5545,7 @@ Blockly.Blocks.ClientUser_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that created the instance of the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=client');
 	}
 };
 
@@ -5564,7 +5564,7 @@ Blockly.Blocks.ClientUser_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=id');
 	}
 };
 
@@ -5583,7 +5583,7 @@ Blockly.Blocks.ClientUser_username = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The username of the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=username');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=username');
 	}
 };
 
@@ -5602,7 +5602,7 @@ Blockly.Blocks.ClientUser_discriminator = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A discriminator based on username for the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=discriminator');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=discriminator');
 	}
 };
 
@@ -5621,7 +5621,7 @@ Blockly.Blocks.ClientUser_avatar = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the user\'s avatar');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=avatar');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=avatar');
 	}
 };
 
@@ -5640,7 +5640,7 @@ Blockly.Blocks.ClientUser_bot = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the user is a bot');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=bot');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=bot');
 	}
 };
 
@@ -5659,7 +5659,7 @@ Blockly.Blocks.ClientUser_lastMessageID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the last message sent by the user, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=lastMessageID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=lastMessageID');
 	}
 };
 
@@ -5678,7 +5678,7 @@ Blockly.Blocks.ClientUser_lastMessage = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Message object of the last message sent by the user, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=lastMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=lastMessage');
 	}
 };
 
@@ -5697,7 +5697,7 @@ Blockly.Blocks.ClientUser_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the user was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=createdTimestamp');
 	}
 };
 
@@ -5716,7 +5716,7 @@ Blockly.Blocks.ClientUser_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the user was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=createdAt');
 	}
 };
 
@@ -5735,7 +5735,7 @@ Blockly.Blocks.ClientUser_presence = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The presence of this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=presence');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=presence');
 	}
 };
 
@@ -5754,7 +5754,7 @@ Blockly.Blocks.ClientUser_avatarURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A link to the user\'s avatar');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=avatarURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=avatarURL');
 	}
 };
 
@@ -5773,7 +5773,7 @@ Blockly.Blocks.ClientUser_defaultAvatarURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A link to the user\'s default avatar');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=defaultAvatarURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=defaultAvatarURL');
 	}
 };
 
@@ -5792,7 +5792,7 @@ Blockly.Blocks.ClientUser_displayAvatarURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A link to the user\'s avatar if they have one. Otherwise a link to their default avatar will be returned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=displayAvatarURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=displayAvatarURL');
 	}
 };
 
@@ -5811,7 +5811,7 @@ Blockly.Blocks.ClientUser_tag = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Discord "tag" for this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=tag');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=tag');
 	}
 };
 
@@ -5830,7 +5830,7 @@ Blockly.Blocks.ClientUser_note = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The note that is set for the user\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=note');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=note');
 	}
 };
 
@@ -5849,7 +5849,7 @@ Blockly.Blocks.ClientUser_dmChannel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The DM between the client\'s user and this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=dmChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=dmChannel');
 	}
 };
 
@@ -5875,7 +5875,7 @@ Blockly.Blocks.ClientUser_setUsername = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the username of the logged in client.\n<info>Changing usernames in Discord is heavily rate limited, with only 2 requests\nevery hour. Use this sparingly!</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setUsername');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setUsername');
 	}
 };
 
@@ -5903,7 +5903,7 @@ Blockly.Blocks.ClientUser_setEmail = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Changes the email for the client user\'s account.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setEmail');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setEmail');
 	}
 };
 
@@ -5931,7 +5931,7 @@ Blockly.Blocks.ClientUser_setPassword = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Changes the password for the client user\'s account.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setPassword');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setPassword');
 	}
 };
 
@@ -5957,7 +5957,7 @@ Blockly.Blocks.ClientUser_setAvatar = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the avatar of the logged in client.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setAvatar');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setAvatar');
 	}
 };
 
@@ -5982,7 +5982,7 @@ Blockly.Blocks.ClientUser_setPresence = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the full presence of the client user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setPresence');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setPresence');
 	}
 };
 
@@ -6007,7 +6007,7 @@ Blockly.Blocks.ClientUser_setStatus = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the status of the client user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setStatus');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setStatus');
 	}
 };
 
@@ -6034,7 +6034,7 @@ Blockly.Blocks.ClientUser_setGame = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the game the client user is playing.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setGame');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setGame');
 	}
 };
 
@@ -6060,7 +6060,7 @@ Blockly.Blocks.ClientUser_setAFK = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets/removes the AFK flag for the client user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setAFK');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setAFK');
 	}
 };
 
@@ -6085,7 +6085,7 @@ Blockly.Blocks.ClientUser_fetchMentions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches messages that mentioned the client\'s user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=fetchMentions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=fetchMentions');
 	}
 };
 
@@ -6110,7 +6110,7 @@ Blockly.Blocks.ClientUser_addFriend = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a friend request.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=addFriend');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=addFriend');
 	}
 };
 
@@ -6135,7 +6135,7 @@ Blockly.Blocks.ClientUser_removeFriend = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Remove a friend.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=removeFriend');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=removeFriend');
 	}
 };
 
@@ -6164,7 +6164,7 @@ Blockly.Blocks.ClientUser_createGuild = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a guild.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=createGuild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=createGuild');
 	}
 };
 
@@ -6191,7 +6191,7 @@ Blockly.Blocks.ClientUser_createGroupDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Group DM.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=createGroupDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=createGroupDM');
 	}
 };
 
@@ -6216,7 +6216,7 @@ Blockly.Blocks.ClientUser_acceptInvite = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Accepts an invite to join a guild.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=acceptInvite');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=acceptInvite');
 	}
 };
 
@@ -6240,7 +6240,7 @@ Blockly.Blocks.ClientUser_typingIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Check whether the user is typing in a channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=typingIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=typingIn');
 	}
 };
 
@@ -6264,7 +6264,7 @@ Blockly.Blocks.ClientUser_typingSinceIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Get the time that the user started typing.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=typingSinceIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=typingSinceIn');
 	}
 };
 
@@ -6288,7 +6288,7 @@ Blockly.Blocks.ClientUser_typingDurationIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Get the amount of time the user has been typing in a channel for (in milliseconds), or -1 if they\'re not typing.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=typingDurationIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=typingDurationIn');
 	}
 };
 
@@ -6311,7 +6311,7 @@ Blockly.Blocks.ClientUser_createDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a DM channel between the client and the user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=createDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=createDM');
 	}
 };
 
@@ -6333,7 +6333,7 @@ Blockly.Blocks.ClientUser_deleteDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes a DM channel (if one exists) between the client and the user. Resolves with the channel if successful.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=deleteDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=deleteDM');
 	}
 };
 
@@ -6355,7 +6355,7 @@ Blockly.Blocks.ClientUser_block = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Blocks the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=block');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=block');
 	}
 };
 
@@ -6377,7 +6377,7 @@ Blockly.Blocks.ClientUser_unblock = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Unblocks the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=unblock');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=unblock');
 	}
 };
 
@@ -6399,7 +6399,7 @@ Blockly.Blocks.ClientUser_fetchProfile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Get the profile of the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=fetchProfile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=fetchProfile');
 	}
 };
 
@@ -6423,7 +6423,7 @@ Blockly.Blocks.ClientUser_setNote = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets a note for the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setNote');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=setNote');
 	}
 };
 
@@ -6447,7 +6447,7 @@ Blockly.Blocks.ClientUser_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if the user is equal to another. It compares ID, username, discriminator, avatar, and bot flags.\nIt is recommended to compare equality by using `user.id === user2.id` unless you want to compare all properties.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=equals');
 	}
 };
 
@@ -6469,7 +6469,7 @@ Blockly.Blocks.ClientUser_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the user\'s mention instead of the User object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=toString');
 	}
 };
 
@@ -6495,7 +6495,7 @@ Blockly.Blocks.ClientUser_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=send');
 	}
 };
 
@@ -6523,7 +6523,7 @@ Blockly.Blocks.ClientUser_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=sendMessage');
 	}
 };
 
@@ -6553,7 +6553,7 @@ Blockly.Blocks.ClientUser_sendEmbed = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send an embed to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=sendEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=sendEmbed');
 	}
 };
 
@@ -6586,7 +6586,7 @@ Blockly.Blocks.ClientUser_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=sendFile');
 	}
 };
 
@@ -6618,7 +6618,7 @@ Blockly.Blocks.ClientUser_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUser?scrollTo=sendCode');
 	}
 };
 
@@ -6640,7 +6640,7 @@ Blockly.Blocks.ClientUserChannelOverride_muted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is muted');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserChannelOverride?scrollTo=muted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserChannelOverride?scrollTo=muted');
 	}
 };
 
@@ -6659,7 +6659,7 @@ Blockly.Blocks.ClientUserChannelOverride_messageNotifications = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of message that should notify you');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserChannelOverride?scrollTo=messageNotifications');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserChannelOverride?scrollTo=messageNotifications');
 	}
 };
 
@@ -6678,7 +6678,7 @@ Blockly.Blocks.ClientUserGuildSettings_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that created the instance of the ClientUserGuildSettings');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=client');
 	}
 };
 
@@ -6697,7 +6697,7 @@ Blockly.Blocks.ClientUserGuildSettings_guildID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the guild this settings are for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=guildID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=guildID');
 	}
 };
 
@@ -6716,7 +6716,7 @@ Blockly.Blocks.ClientUserGuildSettings_mobilePush = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether to receive mobile push notifications');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=mobilePush');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=mobilePush');
 	}
 };
 
@@ -6735,7 +6735,7 @@ Blockly.Blocks.ClientUserGuildSettings_messageNotifications = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of message that should notify you');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=messageNotifications');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=messageNotifications');
 	}
 };
 
@@ -6754,7 +6754,7 @@ Blockly.Blocks.ClientUserGuildSettings_muted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the guild is muted');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=muted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=muted');
 	}
 };
 
@@ -6773,7 +6773,7 @@ Blockly.Blocks.ClientUserGuildSettings_suppressEveryone = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether to suppress everyone mention');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=suppressEveryone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=suppressEveryone');
 	}
 };
 
@@ -6792,7 +6792,7 @@ Blockly.Blocks.ClientUserGuildSettings_channelOverrides = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection containing all the channel overrides');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=channelOverrides');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=channelOverrides');
 	}
 };
 
@@ -6818,7 +6818,7 @@ Blockly.Blocks.ClientUserGuildSettings_update = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Update a specific property of the guild settings.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserGuildSettings?scrollTo=update');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserGuildSettings?scrollTo=update');
 	}
 };
 
@@ -6839,7 +6839,7 @@ Blockly.Blocks.ClientUserSettings_convertEmoticons = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Automatically convert emoticons in your messages to emoji\nFor example, when you type `:-)` Discord will convert it to 😃');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=convertEmoticons');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=convertEmoticons');
 	}
 };
 
@@ -6858,7 +6858,7 @@ Blockly.Blocks.ClientUserSettings_defaultGuildsRestricted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If new guilds should automatically disable DMs between you and its members');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=defaultGuildsRestricted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=defaultGuildsRestricted');
 	}
 };
 
@@ -6877,7 +6877,7 @@ Blockly.Blocks.ClientUserSettings_detectPlatformAccounts = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Automatically detect accounts from services like Steam and Blizzard when you open the Discord client');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=detectPlatformAccounts');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=detectPlatformAccounts');
 	}
 };
 
@@ -6896,7 +6896,7 @@ Blockly.Blocks.ClientUserSettings_developerMode = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Developer Mode exposes context menu items helpful for people writing bots using the Discord API');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=developerMode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=developerMode');
 	}
 };
 
@@ -6915,7 +6915,7 @@ Blockly.Blocks.ClientUserSettings_enableTTSCommand = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Allow playback and usage of the `/tts` command');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=enableTTSCommand');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=enableTTSCommand');
 	}
 };
 
@@ -6934,7 +6934,7 @@ Blockly.Blocks.ClientUserSettings_theme = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The theme of the client. Either `light` or `dark`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=theme');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=theme');
 	}
 };
 
@@ -6953,7 +6953,7 @@ Blockly.Blocks.ClientUserSettings_status = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Last status set in the client');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=status');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=status');
 	}
 };
 
@@ -6972,7 +6972,7 @@ Blockly.Blocks.ClientUserSettings_showCurrentGame = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Display currently running game as status message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=showCurrentGame');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=showCurrentGame');
 	}
 };
 
@@ -6991,7 +6991,7 @@ Blockly.Blocks.ClientUserSettings_inlineAttachmentMedia = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Display images, videos, and lolcats when uploaded directly to Discord');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=inlineAttachmentMedia');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=inlineAttachmentMedia');
 	}
 };
 
@@ -7010,7 +7010,7 @@ Blockly.Blocks.ClientUserSettings_inlineEmbedMedia = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Display images, videos, and lolcats when uploaded posted as links in chat');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=inlineEmbedMedia');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=inlineEmbedMedia');
 	}
 };
 
@@ -7029,7 +7029,7 @@ Blockly.Blocks.ClientUserSettings_locale = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Language the Discord client will use, as an RFC 3066 language identifier');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=locale');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=locale');
 	}
 };
 
@@ -7048,7 +7048,7 @@ Blockly.Blocks.ClientUserSettings_messageDisplayCompact = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Display messages in compact mode');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=messageDisplayCompact');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=messageDisplayCompact');
 	}
 };
 
@@ -7067,7 +7067,7 @@ Blockly.Blocks.ClientUserSettings_renderReactions = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Show emoji reactions on messages');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=renderReactions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=renderReactions');
 	}
 };
 
@@ -7086,7 +7086,7 @@ Blockly.Blocks.ClientUserSettings_guildPositions = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Array of snowflake IDs for guilds, in the order they appear in the Discord client');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=guildPositions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=guildPositions');
 	}
 };
 
@@ -7105,7 +7105,7 @@ Blockly.Blocks.ClientUserSettings_restrictedGuilds = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Array of snowflake IDs for guilds which you will not recieve DMs from');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=restrictedGuilds');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=restrictedGuilds');
 	}
 };
 
@@ -7124,7 +7124,7 @@ Blockly.Blocks.ClientUserSettings_explicitContentFilter = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Safe direct messaging; force people\'s messages with images to be scanned before they are sent to you.\nOne of `DISABLED`, `NON_FRIENDS`, `FRIENDS_AND_NON_FRIENDS`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=explicitContentFilter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=explicitContentFilter');
 	}
 };
 
@@ -7143,7 +7143,7 @@ Blockly.Blocks.ClientUserSettings_friendSources = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Who can add you as a friend');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=friendSources');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=friendSources');
 	}
 };
 
@@ -7169,7 +7169,7 @@ Blockly.Blocks.ClientUserSettings_update = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Update a specific property of of user settings.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=update');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=update');
 	}
 };
 
@@ -7199,7 +7199,7 @@ Blockly.Blocks.ClientUserSettings_setGuildPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the position at which this guild will appear in the Discord client.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=setGuildPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=setGuildPosition');
 	}
 };
 
@@ -7226,7 +7226,7 @@ Blockly.Blocks.ClientUserSettings_addRestrictedGuild = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Add a guild to the list of restricted guilds.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=addRestrictedGuild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=addRestrictedGuild');
 	}
 };
 
@@ -7251,7 +7251,7 @@ Blockly.Blocks.ClientUserSettings_removeRestrictedGuild = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Remove a guild from the list of restricted guilds.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ClientUserSettings?scrollTo=removeRestrictedGuild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ClientUserSettings?scrollTo=removeRestrictedGuild');
 	}
 };
 
@@ -7271,7 +7271,7 @@ Blockly.Blocks.DMChannel_recipient = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The recipient on the other end of the DM');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=recipient');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=recipient');
 	}
 };
 
@@ -7290,7 +7290,7 @@ Blockly.Blocks.DMChannel_messages = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection containing the messages sent to this channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=messages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=messages');
 	}
 };
 
@@ -7309,7 +7309,7 @@ Blockly.Blocks.DMChannel_lastMessageID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the last message in the channel, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=lastMessageID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=lastMessageID');
 	}
 };
 
@@ -7328,7 +7328,7 @@ Blockly.Blocks.DMChannel_typing = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the typing indicator is being shown in the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=typing');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=typing');
 	}
 };
 
@@ -7347,7 +7347,7 @@ Blockly.Blocks.DMChannel_typingCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Number of times `startTyping` has been called');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=typingCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=typingCount');
 	}
 };
 
@@ -7366,7 +7366,7 @@ Blockly.Blocks.DMChannel_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the Channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=client');
 	}
 };
 
@@ -7385,7 +7385,7 @@ Blockly.Blocks.DMChannel_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the channel, either:\n* `dm` - a DM channel\n* `group` - a Group DM channel\n* `text` - a guild text channel\n* `voice` - a guild voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=type');
 	}
 };
 
@@ -7404,7 +7404,7 @@ Blockly.Blocks.DMChannel_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The unique ID of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=id');
 	}
 };
 
@@ -7423,7 +7423,7 @@ Blockly.Blocks.DMChannel_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the channel was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=createdTimestamp');
 	}
 };
 
@@ -7442,7 +7442,7 @@ Blockly.Blocks.DMChannel_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the channel was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=createdAt');
 	}
 };
 
@@ -7463,7 +7463,7 @@ Blockly.Blocks.DMChannel_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the recipient\'s mention instead of the\nDM channel object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=toString');
 	}
 };
 
@@ -7489,7 +7489,7 @@ Blockly.Blocks.DMChannel_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=send');
 	}
 };
 
@@ -7515,7 +7515,7 @@ Blockly.Blocks.DMChannel_fetchMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets a single message from this channel, regardless of it being cached or not. Since the single message fetching\nendpoint is reserved for bot accounts, this abstracts the `fetchMessages` method to obtain the single message when\nusing a user account.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=fetchMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=fetchMessage');
 	}
 };
 
@@ -7540,7 +7540,7 @@ Blockly.Blocks.DMChannel_fetchMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the past messages sent in this channel. Resolves with a collection mapping message ID\'s to Message objects.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=fetchMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=fetchMessages');
 	}
 };
 
@@ -7563,7 +7563,7 @@ Blockly.Blocks.DMChannel_fetchPinnedMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches the pinned messages of this channel and returns a collection of them.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=fetchPinnedMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=fetchPinnedMessages');
 	}
 };
 
@@ -7587,7 +7587,7 @@ Blockly.Blocks.DMChannel_search = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Performs a search within the channel.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=search');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=search');
 	}
 };
 
@@ -7612,7 +7612,7 @@ Blockly.Blocks.DMChannel_startTyping = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Starts a typing indicator in the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=startTyping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=startTyping');
 	}
 };
 
@@ -7637,7 +7637,7 @@ Blockly.Blocks.DMChannel_stopTyping = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stops the typing indicator in the channel.\nThe indicator will only stop if this is called as many times as startTyping().\n<info>It can take a few seconds for the client user to stop typing.</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=stopTyping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=stopTyping');
 	}
 };
 
@@ -7663,7 +7663,7 @@ Blockly.Blocks.DMChannel_createCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Message Collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=createCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=createCollector');
 	}
 };
 
@@ -7690,7 +7690,7 @@ Blockly.Blocks.DMChannel_createMessageCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Message Collector.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=createMessageCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=createMessageCollector');
 	}
 };
 
@@ -7718,7 +7718,7 @@ Blockly.Blocks.DMChannel_awaitMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Similar to createCollector but in promise form. Resolves with a collection of messages that pass the specified\nfilter.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=awaitMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=awaitMessages');
 	}
 };
 
@@ -7742,7 +7742,7 @@ Blockly.Blocks.DMChannel_acknowledge = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Marks all messages in this channel as read.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=acknowledge');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=acknowledge');
 	}
 };
 
@@ -7768,7 +7768,7 @@ Blockly.Blocks.DMChannel_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=sendMessage');
 	}
 };
 
@@ -7798,7 +7798,7 @@ Blockly.Blocks.DMChannel_sendEmbed = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send an embed to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=sendEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=sendEmbed');
 	}
 };
 
@@ -7829,7 +7829,7 @@ Blockly.Blocks.DMChannel_sendFiles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send files to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=sendFiles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=sendFiles');
 	}
 };
 
@@ -7862,7 +7862,7 @@ Blockly.Blocks.DMChannel_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=sendFile');
 	}
 };
 
@@ -7894,7 +7894,7 @@ Blockly.Blocks.DMChannel_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=sendCode');
 	}
 };
 
@@ -7919,7 +7919,7 @@ Blockly.Blocks.DMChannel_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/DMChannel?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/DMChannel?scrollTo=delete');
 	}
 };
 
@@ -7938,7 +7938,7 @@ Blockly.Blocks.Emoji_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this object');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=client');
 	}
 };
 
@@ -7957,7 +7957,7 @@ Blockly.Blocks.Emoji_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild this emoji is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=guild');
 	}
 };
 
@@ -7976,7 +7976,7 @@ Blockly.Blocks.Emoji_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the emoji');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=id');
 	}
 };
 
@@ -7995,7 +7995,7 @@ Blockly.Blocks.Emoji_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the emoji');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=name');
 	}
 };
 
@@ -8014,7 +8014,7 @@ Blockly.Blocks.Emoji_requiresColons = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not this emoji requires colons surrounding it');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=requiresColons');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=requiresColons');
 	}
 };
 
@@ -8033,7 +8033,7 @@ Blockly.Blocks.Emoji_managed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this emoji is managed by an external service');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=managed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=managed');
 	}
 };
 
@@ -8052,7 +8052,7 @@ Blockly.Blocks.Emoji_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the emoji was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=createdTimestamp');
 	}
 };
 
@@ -8071,7 +8071,7 @@ Blockly.Blocks.Emoji_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the emoji was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=createdAt');
 	}
 };
 
@@ -8090,7 +8090,7 @@ Blockly.Blocks.Emoji_roles = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of roles this emoji is active for (empty if all), mapped by role ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=roles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=roles');
 	}
 };
 
@@ -8109,7 +8109,7 @@ Blockly.Blocks.Emoji_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL to the emoji file');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=url');
 	}
 };
 
@@ -8128,7 +8128,7 @@ Blockly.Blocks.Emoji_identifier = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The identifier of this emoji, used for message reactions');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=identifier');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=identifier');
 	}
 };
 
@@ -8154,7 +8154,7 @@ Blockly.Blocks.Emoji_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edits the emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=edit');
 	}
 };
 
@@ -8182,7 +8182,7 @@ Blockly.Blocks.Emoji_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the name of the emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=setName');
 	}
 };
 
@@ -8208,7 +8208,7 @@ Blockly.Blocks.Emoji_addRestrictedRole = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Add a role to the list of roles that can use this emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=addRestrictedRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=addRestrictedRole');
 	}
 };
 
@@ -8233,7 +8233,7 @@ Blockly.Blocks.Emoji_addRestrictedRoles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Add multiple roles to the list of roles that can use this emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=addRestrictedRoles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=addRestrictedRoles');
 	}
 };
 
@@ -8258,7 +8258,7 @@ Blockly.Blocks.Emoji_removeRestrictedRole = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Remove a role from the list of roles that can use this emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=removeRestrictedRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=removeRestrictedRole');
 	}
 };
 
@@ -8283,7 +8283,7 @@ Blockly.Blocks.Emoji_removeRestrictedRoles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Remove multiple roles from the list of roles that can use this emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=removeRestrictedRoles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=removeRestrictedRoles');
 	}
 };
 
@@ -8305,7 +8305,7 @@ Blockly.Blocks.Emoji_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically returns the emoji mention rather than the object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=toString');
 	}
 };
 
@@ -8328,7 +8328,7 @@ Blockly.Blocks.Emoji_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether this emoji is the same as another one.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Emoji?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Emoji?scrollTo=equals');
 	}
 };
 
@@ -8348,7 +8348,7 @@ Blockly.Blocks.GroupDMChannel_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this Group DM, can be null if one isn\'t set');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=name');
 	}
 };
 
@@ -8367,7 +8367,7 @@ Blockly.Blocks.GroupDMChannel_icon = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A hash of this Group DM icon');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=icon');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=icon');
 	}
 };
 
@@ -8386,7 +8386,7 @@ Blockly.Blocks.GroupDMChannel_ownerID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user ID of this Group DM\'s owner');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=ownerID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=ownerID');
 	}
 };
 
@@ -8405,7 +8405,7 @@ Blockly.Blocks.GroupDMChannel_managed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the DM is managed by an application');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=managed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=managed');
 	}
 };
 
@@ -8424,7 +8424,7 @@ Blockly.Blocks.GroupDMChannel_applicationID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Application ID of the application that made this Group DM, if applicable');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=applicationID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=applicationID');
 	}
 };
 
@@ -8443,7 +8443,7 @@ Blockly.Blocks.GroupDMChannel_nicks = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Nicknames for group members');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=nicks');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=nicks');
 	}
 };
 
@@ -8462,7 +8462,7 @@ Blockly.Blocks.GroupDMChannel_recipients = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of the recipients of this DM, mapped by their ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=recipients');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=recipients');
 	}
 };
 
@@ -8481,7 +8481,7 @@ Blockly.Blocks.GroupDMChannel_owner = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The owner of this Group DM');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=owner');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=owner');
 	}
 };
 
@@ -8500,7 +8500,7 @@ Blockly.Blocks.GroupDMChannel_iconURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL to this guild\'s icon');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=iconURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=iconURL');
 	}
 };
 
@@ -8519,7 +8519,7 @@ Blockly.Blocks.GroupDMChannel_messages = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection containing the messages sent to this channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=messages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=messages');
 	}
 };
 
@@ -8538,7 +8538,7 @@ Blockly.Blocks.GroupDMChannel_lastMessageID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the last message in the channel, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=lastMessageID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=lastMessageID');
 	}
 };
 
@@ -8557,7 +8557,7 @@ Blockly.Blocks.GroupDMChannel_typing = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the typing indicator is being shown in the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=typing');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=typing');
 	}
 };
 
@@ -8576,7 +8576,7 @@ Blockly.Blocks.GroupDMChannel_typingCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Number of times `startTyping` has been called');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=typingCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=typingCount');
 	}
 };
 
@@ -8595,7 +8595,7 @@ Blockly.Blocks.GroupDMChannel_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the Channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=client');
 	}
 };
 
@@ -8614,7 +8614,7 @@ Blockly.Blocks.GroupDMChannel_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the channel, either:\n* `dm` - a DM channel\n* `group` - a Group DM channel\n* `text` - a guild text channel\n* `voice` - a guild voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=type');
 	}
 };
 
@@ -8633,7 +8633,7 @@ Blockly.Blocks.GroupDMChannel_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The unique ID of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=id');
 	}
 };
 
@@ -8652,7 +8652,7 @@ Blockly.Blocks.GroupDMChannel_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the channel was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=createdTimestamp');
 	}
 };
 
@@ -8671,7 +8671,7 @@ Blockly.Blocks.GroupDMChannel_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the channel was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=createdAt');
 	}
 };
 
@@ -8694,7 +8694,7 @@ Blockly.Blocks.GroupDMChannel_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether this channel equals another channel. It compares all properties, so for most operations\nit is advisable to just compare `channel.id === channel2.id` as it is much faster and is often\nwhat most users need.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=equals');
 	}
 };
 
@@ -8721,7 +8721,7 @@ Blockly.Blocks.GroupDMChannel_addUser = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Add a user to the DM');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=addUser');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=addUser');
 	}
 };
 
@@ -8747,7 +8747,7 @@ Blockly.Blocks.GroupDMChannel_setIcon = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new GroupDMChannel icon.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=setIcon');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=setIcon');
 	}
 };
 
@@ -8772,7 +8772,7 @@ Blockly.Blocks.GroupDMChannel_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets a new name for this Group DM.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=setName');
 	}
 };
 
@@ -8797,7 +8797,7 @@ Blockly.Blocks.GroupDMChannel_removeUser = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Removes an user from this Group DM.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=removeUser');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=removeUser');
 	}
 };
 
@@ -8819,7 +8819,7 @@ Blockly.Blocks.GroupDMChannel_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the channel\'s name instead of the Channel object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=toString');
 	}
 };
 
@@ -8845,7 +8845,7 @@ Blockly.Blocks.GroupDMChannel_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=send');
 	}
 };
 
@@ -8871,7 +8871,7 @@ Blockly.Blocks.GroupDMChannel_fetchMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets a single message from this channel, regardless of it being cached or not. Since the single message fetching\nendpoint is reserved for bot accounts, this abstracts the `fetchMessages` method to obtain the single message when\nusing a user account.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=fetchMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=fetchMessage');
 	}
 };
 
@@ -8896,7 +8896,7 @@ Blockly.Blocks.GroupDMChannel_fetchMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the past messages sent in this channel. Resolves with a collection mapping message ID\'s to Message objects.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=fetchMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=fetchMessages');
 	}
 };
 
@@ -8919,7 +8919,7 @@ Blockly.Blocks.GroupDMChannel_fetchPinnedMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches the pinned messages of this channel and returns a collection of them.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=fetchPinnedMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=fetchPinnedMessages');
 	}
 };
 
@@ -8943,7 +8943,7 @@ Blockly.Blocks.GroupDMChannel_search = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Performs a search within the channel.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=search');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=search');
 	}
 };
 
@@ -8968,7 +8968,7 @@ Blockly.Blocks.GroupDMChannel_startTyping = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Starts a typing indicator in the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=startTyping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=startTyping');
 	}
 };
 
@@ -8993,7 +8993,7 @@ Blockly.Blocks.GroupDMChannel_stopTyping = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stops the typing indicator in the channel.\nThe indicator will only stop if this is called as many times as startTyping().\n<info>It can take a few seconds for the client user to stop typing.</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=stopTyping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=stopTyping');
 	}
 };
 
@@ -9019,7 +9019,7 @@ Blockly.Blocks.GroupDMChannel_createCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Message Collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=createCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=createCollector');
 	}
 };
 
@@ -9046,7 +9046,7 @@ Blockly.Blocks.GroupDMChannel_createMessageCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Message Collector.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=createMessageCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=createMessageCollector');
 	}
 };
 
@@ -9074,7 +9074,7 @@ Blockly.Blocks.GroupDMChannel_awaitMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Similar to createCollector but in promise form. Resolves with a collection of messages that pass the specified\nfilter.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=awaitMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=awaitMessages');
 	}
 };
 
@@ -9098,7 +9098,7 @@ Blockly.Blocks.GroupDMChannel_acknowledge = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Marks all messages in this channel as read.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=acknowledge');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=acknowledge');
 	}
 };
 
@@ -9124,7 +9124,7 @@ Blockly.Blocks.GroupDMChannel_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=sendMessage');
 	}
 };
 
@@ -9154,7 +9154,7 @@ Blockly.Blocks.GroupDMChannel_sendEmbed = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send an embed to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=sendEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=sendEmbed');
 	}
 };
 
@@ -9185,7 +9185,7 @@ Blockly.Blocks.GroupDMChannel_sendFiles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send files to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=sendFiles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=sendFiles');
 	}
 };
 
@@ -9218,7 +9218,7 @@ Blockly.Blocks.GroupDMChannel_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=sendFile');
 	}
 };
 
@@ -9250,7 +9250,7 @@ Blockly.Blocks.GroupDMChannel_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=sendCode');
 	}
 };
 
@@ -9275,7 +9275,7 @@ Blockly.Blocks.GroupDMChannel_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GroupDMChannel?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GroupDMChannel?scrollTo=delete');
 	}
 };
 
@@ -9294,7 +9294,7 @@ Blockly.Blocks.Guild_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that created the instance of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=client');
 	}
 };
 
@@ -9313,7 +9313,7 @@ Blockly.Blocks.Guild_members = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of members that are in this guild. The key is the member\'s ID, the value is the member');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=members');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=members');
 	}
 };
 
@@ -9332,7 +9332,7 @@ Blockly.Blocks.Guild_channels = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of channels that are in this guild. The key is the channel\'s ID, the value is the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=channels');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=channels');
 	}
 };
 
@@ -9351,7 +9351,7 @@ Blockly.Blocks.Guild_roles = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of roles that are in this guild. The key is the role\'s ID, the value is the role');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=roles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=roles');
 	}
 };
 
@@ -9370,7 +9370,7 @@ Blockly.Blocks.Guild_presences = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of presences in this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=presences');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=presences');
 	}
 };
 
@@ -9389,7 +9389,7 @@ Blockly.Blocks.Guild_available = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the guild is available to access. If it is not available, it indicates a server outage');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=available');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=available');
 	}
 };
 
@@ -9408,7 +9408,7 @@ Blockly.Blocks.Guild_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Unique ID of the guild, useful for comparisons');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=id');
 	}
 };
 
@@ -9427,7 +9427,7 @@ Blockly.Blocks.Guild_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=name');
 	}
 };
 
@@ -9446,7 +9446,7 @@ Blockly.Blocks.Guild_icon = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The hash of the guild icon');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=icon');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=icon');
 	}
 };
 
@@ -9465,7 +9465,7 @@ Blockly.Blocks.Guild_splash = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The hash of the guild splash image (VIP only)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=splash');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=splash');
 	}
 };
 
@@ -9484,7 +9484,7 @@ Blockly.Blocks.Guild_region = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The region the guild is located in');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=region');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=region');
 	}
 };
 
@@ -9503,7 +9503,7 @@ Blockly.Blocks.Guild_memberCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The full amount of members in this guild as of `READY`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=memberCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=memberCount');
 	}
 };
 
@@ -9522,7 +9522,7 @@ Blockly.Blocks.Guild_large = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the guild is "large" (has more than 250 members)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=large');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=large');
 	}
 };
 
@@ -9541,7 +9541,7 @@ Blockly.Blocks.Guild_features = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('An array of guild features');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=features');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=features');
 	}
 };
 
@@ -9560,7 +9560,7 @@ Blockly.Blocks.Guild_applicationID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the application that created this guild (if applicable)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=applicationID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=applicationID');
 	}
 };
 
@@ -9579,7 +9579,7 @@ Blockly.Blocks.Guild_afkTimeout = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time in seconds before a user is counted as "away from keyboard"');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=afkTimeout');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=afkTimeout');
 	}
 };
 
@@ -9598,7 +9598,7 @@ Blockly.Blocks.Guild_afkChannelID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the voice channel where AFK members are moved');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=afkChannelID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=afkChannelID');
 	}
 };
 
@@ -9617,7 +9617,7 @@ Blockly.Blocks.Guild_systemChannelID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the system channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=systemChannelID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=systemChannelID');
 	}
 };
 
@@ -9636,7 +9636,7 @@ Blockly.Blocks.Guild_embedEnabled = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether embedded images are enabled on this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=embedEnabled');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=embedEnabled');
 	}
 };
 
@@ -9655,7 +9655,7 @@ Blockly.Blocks.Guild_verificationLevel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The verification level of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=verificationLevel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=verificationLevel');
 	}
 };
 
@@ -9674,7 +9674,7 @@ Blockly.Blocks.Guild_explicitContentFilter = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The explicit content filter level of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=explicitContentFilter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=explicitContentFilter');
 	}
 };
 
@@ -9693,7 +9693,7 @@ Blockly.Blocks.Guild_joinedTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the client user joined the guild at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=joinedTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=joinedTimestamp');
 	}
 };
 
@@ -9712,7 +9712,7 @@ Blockly.Blocks.Guild_ownerID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user ID of this guild\'s owner');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=ownerID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=ownerID');
 	}
 };
 
@@ -9731,7 +9731,7 @@ Blockly.Blocks.Guild_emojis = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of emojis that are in this guild\nThe key is the emoji\'s ID, the value is the emoji');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=emojis');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=emojis');
 	}
 };
 
@@ -9750,7 +9750,7 @@ Blockly.Blocks.Guild_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the guild was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=createdTimestamp');
 	}
 };
 
@@ -9769,7 +9769,7 @@ Blockly.Blocks.Guild_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the guild was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=createdAt');
 	}
 };
 
@@ -9788,7 +9788,7 @@ Blockly.Blocks.Guild_joinedAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the client user joined the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=joinedAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=joinedAt');
 	}
 };
 
@@ -9807,7 +9807,7 @@ Blockly.Blocks.Guild_iconURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL to this guild\'s icon');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=iconURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=iconURL');
 	}
 };
 
@@ -9826,7 +9826,7 @@ Blockly.Blocks.Guild_nameAcronym = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The acronym that shows up in place of a guild icon.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=nameAcronym');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=nameAcronym');
 	}
 };
 
@@ -9845,7 +9845,7 @@ Blockly.Blocks.Guild_splashURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL to this guild\'s splash');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=splashURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=splashURL');
 	}
 };
 
@@ -9864,7 +9864,7 @@ Blockly.Blocks.Guild_owner = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The owner of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=owner');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=owner');
 	}
 };
 
@@ -9883,7 +9883,7 @@ Blockly.Blocks.Guild_afkChannel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('AFK voice channel for this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=afkChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=afkChannel');
 	}
 };
 
@@ -9902,7 +9902,7 @@ Blockly.Blocks.Guild_systemChannel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('System channel for this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=systemChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=systemChannel');
 	}
 };
 
@@ -9921,7 +9921,7 @@ Blockly.Blocks.Guild_voiceConnection = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the client is connected to any voice channel in this guild, this will be the relevant VoiceConnection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=voiceConnection');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=voiceConnection');
 	}
 };
 
@@ -9940,7 +9940,7 @@ Blockly.Blocks.Guild_position = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of this guild\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=position');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=position');
 	}
 };
 
@@ -9959,7 +9959,7 @@ Blockly.Blocks.Guild_muted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the guild is muted\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=muted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=muted');
 	}
 };
 
@@ -9978,7 +9978,7 @@ Blockly.Blocks.Guild_messageNotifications = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of message that should notify you\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=messageNotifications');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=messageNotifications');
 	}
 };
 
@@ -9997,7 +9997,7 @@ Blockly.Blocks.Guild_mobilePush = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether to receive mobile push notifications\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=mobilePush');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=mobilePush');
 	}
 };
 
@@ -10016,7 +10016,7 @@ Blockly.Blocks.Guild_suppressEveryone = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether to suppress everyone messages\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=suppressEveryone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=suppressEveryone');
 	}
 };
 
@@ -10035,7 +10035,7 @@ Blockly.Blocks.Guild_defaultRole = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The `@everyone` role of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=defaultRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=defaultRole');
 	}
 };
 
@@ -10054,7 +10054,7 @@ Blockly.Blocks.Guild_me = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client user as a GuildMember of this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=me');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=me');
 	}
 };
 
@@ -10073,7 +10073,7 @@ Blockly.Blocks.Guild_defaultChannel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The `#general` TextChannel of the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=defaultChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=defaultChannel');
 	}
 };
 
@@ -10096,7 +10096,7 @@ Blockly.Blocks.Guild_member = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Returns the GuildMember form of a User object, if the user is present in the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=member');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=member');
 	}
 };
 
@@ -10119,7 +10119,7 @@ Blockly.Blocks.Guild_fetchBans = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch a collection of banned users in this guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchBans');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchBans');
 	}
 };
 
@@ -10141,7 +10141,7 @@ Blockly.Blocks.Guild_fetchInvites = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch a collection of invites to this guild.\nResolves with a collection mapping invites by their codes.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchInvites');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchInvites');
 	}
 };
 
@@ -10162,7 +10162,7 @@ Blockly.Blocks.Guild_fetchWebhooks = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch all webhooks for the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchWebhooks');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchWebhooks');
 	}
 };
 
@@ -10183,7 +10183,7 @@ Blockly.Blocks.Guild_fetchVoiceRegions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch available voice regions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchVoiceRegions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchVoiceRegions');
 	}
 };
 
@@ -10207,7 +10207,7 @@ Blockly.Blocks.Guild_fetchAuditLogs = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch audit logs for this guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchAuditLogs');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchAuditLogs');
 	}
 };
 
@@ -10234,7 +10234,7 @@ Blockly.Blocks.Guild_addMember = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Adds a user to the guild using OAuth2. Requires the `CREATE_INSTANT_INVITE` permission.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=addMember');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=addMember');
 	}
 };
 
@@ -10262,7 +10262,7 @@ Blockly.Blocks.Guild_fetchMember = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch a single guild member from a user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchMember');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchMember');
 	}
 };
 
@@ -10290,7 +10290,7 @@ Blockly.Blocks.Guild_fetchMembers = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches all the members in the guild, even if they are offline. If the guild has less than 250 members,\nthis should not be necessary.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=fetchMembers');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=fetchMembers');
 	}
 };
 
@@ -10316,7 +10316,7 @@ Blockly.Blocks.Guild_search = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Performs a search within the entire guild.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=search');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=search');
 	}
 };
 
@@ -10343,7 +10343,7 @@ Blockly.Blocks.Guild_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Updates the guild with new information - e.g. a new name.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=edit');
 	}
 };
 
@@ -10371,7 +10371,7 @@ Blockly.Blocks.Guild_setExplicitContentFilter = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the level of the explicit content filter.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setExplicitContentFilter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setExplicitContentFilter');
 	}
 };
 
@@ -10399,7 +10399,7 @@ Blockly.Blocks.Guild_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the name of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setName');
 	}
 };
 
@@ -10427,7 +10427,7 @@ Blockly.Blocks.Guild_setRegion = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the region of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setRegion');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setRegion');
 	}
 };
 
@@ -10455,7 +10455,7 @@ Blockly.Blocks.Guild_setVerificationLevel = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the verification level of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setVerificationLevel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setVerificationLevel');
 	}
 };
 
@@ -10483,7 +10483,7 @@ Blockly.Blocks.Guild_setAFKChannel = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the AFK channel of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setAFKChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setAFKChannel');
 	}
 };
 
@@ -10511,7 +10511,7 @@ Blockly.Blocks.Guild_setSystemChannel = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the system channel of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setSystemChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setSystemChannel');
 	}
 };
 
@@ -10539,7 +10539,7 @@ Blockly.Blocks.Guild_setAFKTimeout = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the AFK timeout of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setAFKTimeout');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setAFKTimeout');
 	}
 };
 
@@ -10567,7 +10567,7 @@ Blockly.Blocks.Guild_setIcon = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new guild icon.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setIcon');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setIcon');
 	}
 };
 
@@ -10595,7 +10595,7 @@ Blockly.Blocks.Guild_setOwner = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets a new owner of the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setOwner');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setOwner');
 	}
 };
 
@@ -10623,7 +10623,7 @@ Blockly.Blocks.Guild_setSplash = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new guild splash screen.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setSplash');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setSplash');
 	}
 };
 
@@ -10651,7 +10651,7 @@ Blockly.Blocks.Guild_setPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the position of the guild in the guild listing.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setPosition');
 	}
 };
 
@@ -10675,7 +10675,7 @@ Blockly.Blocks.Guild_acknowledge = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Marks all messages in this guild as read.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=acknowledge');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=acknowledge');
 	}
 };
 
@@ -10699,7 +10699,7 @@ Blockly.Blocks.Guild_allowDMs = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Allow direct messages from guild members.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=allowDMs');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=allowDMs');
 	}
 };
 
@@ -10726,7 +10726,7 @@ Blockly.Blocks.Guild_ban = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Bans a user from the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=ban');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=ban');
 	}
 };
 
@@ -10754,7 +10754,7 @@ Blockly.Blocks.Guild_unban = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Unbans a user from the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=unban');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=unban');
 	}
 };
 
@@ -10784,7 +10784,7 @@ Blockly.Blocks.Guild_pruneMembers = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Prunes members from the guild based on how long they have been inactive.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=pruneMembers');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=pruneMembers');
 	}
 };
 
@@ -10809,7 +10809,7 @@ Blockly.Blocks.Guild_sync = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Syncs this guild (already done automatically every 30 seconds).\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=sync');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=sync');
 	}
 };
 
@@ -10839,7 +10839,7 @@ Blockly.Blocks.Guild_createChannel = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a new channel in the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=createChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=createChannel');
 	}
 };
 
@@ -10867,7 +10867,7 @@ Blockly.Blocks.Guild_setChannelPositions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Batch-updates the guild\'s channels\' positions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setChannelPositions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setChannelPositions');
 	}
 };
 
@@ -10894,7 +10894,7 @@ Blockly.Blocks.Guild_createRole = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a new role in the guild with given information');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=createRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=createRole');
 	}
 };
 
@@ -10926,7 +10926,7 @@ Blockly.Blocks.Guild_createEmoji = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a new custom emoji in the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=createEmoji');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=createEmoji');
 	}
 };
 
@@ -10956,7 +10956,7 @@ Blockly.Blocks.Guild_deleteEmoji = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Delete an emoji.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=deleteEmoji');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=deleteEmoji');
 	}
 };
 
@@ -10980,7 +10980,7 @@ Blockly.Blocks.Guild_leave = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Causes the client to leave the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=leave');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=leave');
 	}
 };
 
@@ -11002,7 +11002,7 @@ Blockly.Blocks.Guild_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Causes the client to delete the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=delete');
 	}
 };
 
@@ -11025,7 +11025,7 @@ Blockly.Blocks.Guild_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether this guild equals another guild. It compares all properties, so for most operations\nit is advisable to just compare `guild.id === guild2.id` as it is much faster and is often\nwhat most users need.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=equals');
 	}
 };
 
@@ -11047,7 +11047,7 @@ Blockly.Blocks.Guild_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the guild\'s name instead of the guild object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=toString');
 	}
 };
 
@@ -11075,7 +11075,7 @@ Blockly.Blocks.Guild_setRolePosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the position of a role in this guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setRolePosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setRolePosition');
 	}
 };
 
@@ -11106,7 +11106,7 @@ Blockly.Blocks.Guild_setChannelPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the position of a channel in this guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Guild?scrollTo=setChannelPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Guild?scrollTo=setChannelPosition');
 	}
 };
 
@@ -11128,7 +11128,7 @@ Blockly.Blocks.GuildAuditLogs_entries = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The entries for this guild\'s audit logs');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogs?scrollTo=entries');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogs?scrollTo=entries');
 	}
 };
 
@@ -11150,7 +11150,7 @@ Blockly.Blocks.GuildAuditLogs_build = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Handles possible promises for entry targets.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogs?scrollTo=build');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogs?scrollTo=build');
 	}
 };
 
@@ -11173,7 +11173,7 @@ Blockly.Blocks.GuildAuditLogs_targetType = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Find target type from entry action.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogs?scrollTo=targetType');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogs?scrollTo=targetType');
 	}
 };
 
@@ -11197,7 +11197,7 @@ Blockly.Blocks.GuildAuditLogs_actionType = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Find action type from entry action.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogs?scrollTo=actionType');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogs?scrollTo=actionType');
 	}
 };
 
@@ -11217,7 +11217,7 @@ Blockly.Blocks.GuildAuditLogsEntry_targetType = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The target type of this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=targetType');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=targetType');
 	}
 };
 
@@ -11236,7 +11236,7 @@ Blockly.Blocks.GuildAuditLogsEntry_actionType = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The action type of this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=actionType');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=actionType');
 	}
 };
 
@@ -11255,7 +11255,7 @@ Blockly.Blocks.GuildAuditLogsEntry_action = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Specific action type of this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=action');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=action');
 	}
 };
 
@@ -11274,7 +11274,7 @@ Blockly.Blocks.GuildAuditLogsEntry_reason = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The reason of this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=reason');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=reason');
 	}
 };
 
@@ -11293,7 +11293,7 @@ Blockly.Blocks.GuildAuditLogsEntry_executor = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user that executed this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=executor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=executor');
 	}
 };
 
@@ -11312,7 +11312,7 @@ Blockly.Blocks.GuildAuditLogsEntry_changes = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Specific property changes');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=changes');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=changes');
 	}
 };
 
@@ -11331,7 +11331,7 @@ Blockly.Blocks.GuildAuditLogsEntry_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=id');
 	}
 };
 
@@ -11350,7 +11350,7 @@ Blockly.Blocks.GuildAuditLogsEntry_extra = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Any extra data from the entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=extra');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=extra');
 	}
 };
 
@@ -11369,7 +11369,7 @@ Blockly.Blocks.GuildAuditLogsEntry_target = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The target of this entry');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=target');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=target');
 	}
 };
 
@@ -11388,7 +11388,7 @@ Blockly.Blocks.GuildAuditLogsEntry_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp this entry was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=createdTimestamp');
 	}
 };
 
@@ -11407,7 +11407,7 @@ Blockly.Blocks.GuildAuditLogsEntry_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time this entry was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildAuditLogsEntry?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildAuditLogsEntry?scrollTo=createdAt');
 	}
 };
 
@@ -11426,7 +11426,7 @@ Blockly.Blocks.GuildChannel_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the channel is in');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=guild');
 	}
 };
 
@@ -11445,7 +11445,7 @@ Blockly.Blocks.GuildChannel_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the guild channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=name');
 	}
 };
 
@@ -11464,7 +11464,7 @@ Blockly.Blocks.GuildChannel_position = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the channel in the list');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=position');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=position');
 	}
 };
 
@@ -11483,7 +11483,7 @@ Blockly.Blocks.GuildChannel_permissionOverwrites = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A map of permission overwrites in this channel for roles and users');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=permissionOverwrites');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=permissionOverwrites');
 	}
 };
 
@@ -11502,7 +11502,7 @@ Blockly.Blocks.GuildChannel_calculatedPosition = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=calculatedPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=calculatedPosition');
 	}
 };
 
@@ -11521,7 +11521,7 @@ Blockly.Blocks.GuildChannel_deletable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is deletable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=deletable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=deletable');
 	}
 };
 
@@ -11540,7 +11540,7 @@ Blockly.Blocks.GuildChannel_muted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is muted\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=muted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=muted');
 	}
 };
 
@@ -11559,7 +11559,7 @@ Blockly.Blocks.GuildChannel_messageNotifications = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of message that should notify you\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=messageNotifications');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=messageNotifications');
 	}
 };
 
@@ -11578,7 +11578,7 @@ Blockly.Blocks.GuildChannel_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the Channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=client');
 	}
 };
 
@@ -11597,7 +11597,7 @@ Blockly.Blocks.GuildChannel_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the channel, either:\n* `dm` - a DM channel\n* `group` - a Group DM channel\n* `text` - a guild text channel\n* `voice` - a guild voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=type');
 	}
 };
 
@@ -11616,7 +11616,7 @@ Blockly.Blocks.GuildChannel_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The unique ID of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=id');
 	}
 };
 
@@ -11635,7 +11635,7 @@ Blockly.Blocks.GuildChannel_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the channel was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=createdTimestamp');
 	}
 };
 
@@ -11654,7 +11654,7 @@ Blockly.Blocks.GuildChannel_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the channel was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=createdAt');
 	}
 };
 
@@ -11677,7 +11677,7 @@ Blockly.Blocks.GuildChannel_permissionsFor = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the overall set of permissions for a user in this channel, taking into account roles and permission\noverwrites.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=permissionsFor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=permissionsFor');
 	}
 };
 
@@ -11706,7 +11706,7 @@ Blockly.Blocks.GuildChannel_overwritePermissions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Overwrites the permissions for a user or role in this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=overwritePermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=overwritePermissions');
 	}
 };
 
@@ -11735,7 +11735,7 @@ Blockly.Blocks.GuildChannel_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edits the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=edit');
 	}
 };
 
@@ -11763,7 +11763,7 @@ Blockly.Blocks.GuildChannel_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new name for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=setName');
 	}
 };
 
@@ -11791,7 +11791,7 @@ Blockly.Blocks.GuildChannel_setPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new position for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=setPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=setPosition');
 	}
 };
 
@@ -11819,7 +11819,7 @@ Blockly.Blocks.GuildChannel_setTopic = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new topic for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=setTopic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=setTopic');
 	}
 };
 
@@ -11847,7 +11847,7 @@ Blockly.Blocks.GuildChannel_createInvite = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Create an invite to this guild channel.\n<warn>This is only available when using a bot account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=createInvite');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=createInvite');
 	}
 };
 
@@ -11879,7 +11879,7 @@ Blockly.Blocks.GuildChannel_clone = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clone this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=clone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=clone');
 	}
 };
 
@@ -11907,7 +11907,7 @@ Blockly.Blocks.GuildChannel_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=delete');
 	}
 };
 
@@ -11931,7 +11931,7 @@ Blockly.Blocks.GuildChannel_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if this channel has the same type, topic, position, name, overwrites and ID as another channel.\nIn most cases, a simple `channel.id === channel2.id` will do, and is much faster too.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=equals');
 	}
 };
 
@@ -11953,7 +11953,7 @@ Blockly.Blocks.GuildChannel_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically returns the channel\'s mention instead of the Channel object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildChannel?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildChannel?scrollTo=toString');
 	}
 };
 
@@ -11972,7 +11972,7 @@ Blockly.Blocks.GuildMember_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this GuildMember');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=client');
 	}
 };
 
@@ -11991,7 +11991,7 @@ Blockly.Blocks.GuildMember_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild that this member is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=guild');
 	}
 };
 
@@ -12010,7 +12010,7 @@ Blockly.Blocks.GuildMember_user = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user that this guild member instance Represents');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=user');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=user');
 	}
 };
 
@@ -12029,7 +12029,7 @@ Blockly.Blocks.GuildMember_lastMessageID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the last message sent by the member in their guild, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=lastMessageID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=lastMessageID');
 	}
 };
 
@@ -12048,7 +12048,7 @@ Blockly.Blocks.GuildMember_lastMessage = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Message object of the last message sent by the member in their guild, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=lastMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=lastMessage');
 	}
 };
 
@@ -12067,7 +12067,7 @@ Blockly.Blocks.GuildMember_serverDeaf = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is deafened server-wide');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=serverDeaf');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=serverDeaf');
 	}
 };
 
@@ -12086,7 +12086,7 @@ Blockly.Blocks.GuildMember_serverMute = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is muted server-wide');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=serverMute');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=serverMute');
 	}
 };
 
@@ -12105,7 +12105,7 @@ Blockly.Blocks.GuildMember_selfMute = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is self-muted');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=selfMute');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=selfMute');
 	}
 };
 
@@ -12124,7 +12124,7 @@ Blockly.Blocks.GuildMember_selfDeaf = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is self-deafened');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=selfDeaf');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=selfDeaf');
 	}
 };
 
@@ -12143,7 +12143,7 @@ Blockly.Blocks.GuildMember_voiceSessionID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The voice session ID of this member, if any');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=voiceSessionID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=voiceSessionID');
 	}
 };
 
@@ -12162,7 +12162,7 @@ Blockly.Blocks.GuildMember_voiceChannelID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The voice channel ID of this member, if any');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=voiceChannelID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=voiceChannelID');
 	}
 };
 
@@ -12181,7 +12181,7 @@ Blockly.Blocks.GuildMember_speaking = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is speaking');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=speaking');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=speaking');
 	}
 };
 
@@ -12200,7 +12200,7 @@ Blockly.Blocks.GuildMember_nickname = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The nickname of this guild member, if they have one');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=nickname');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=nickname');
 	}
 };
 
@@ -12219,7 +12219,7 @@ Blockly.Blocks.GuildMember_joinedTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the member joined the guild at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=joinedTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=joinedTimestamp');
 	}
 };
 
@@ -12238,7 +12238,7 @@ Blockly.Blocks.GuildMember_joinedAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the member joined the guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=joinedAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=joinedAt');
 	}
 };
 
@@ -12257,7 +12257,7 @@ Blockly.Blocks.GuildMember_presence = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The presence of this guild member');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=presence');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=presence');
 	}
 };
 
@@ -12276,7 +12276,7 @@ Blockly.Blocks.GuildMember_roles = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A list of roles that are applied to this GuildMember, mapped by the role ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=roles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=roles');
 	}
 };
 
@@ -12295,7 +12295,7 @@ Blockly.Blocks.GuildMember_highestRole = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The role of the member with the highest position');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=highestRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=highestRole');
 	}
 };
 
@@ -12314,7 +12314,7 @@ Blockly.Blocks.GuildMember_colorRole = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The role of the member used to set their color');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=colorRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=colorRole');
 	}
 };
 
@@ -12333,7 +12333,7 @@ Blockly.Blocks.GuildMember_displayColor = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The displayed color of the member in base 10');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=displayColor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=displayColor');
 	}
 };
 
@@ -12352,7 +12352,7 @@ Blockly.Blocks.GuildMember_displayHexColor = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The displayed color of the member in hexadecimal');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=displayHexColor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=displayHexColor');
 	}
 };
 
@@ -12371,7 +12371,7 @@ Blockly.Blocks.GuildMember_hoistRole = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The role of the member used to hoist them in a separate category in the users list');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=hoistRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=hoistRole');
 	}
 };
 
@@ -12390,7 +12390,7 @@ Blockly.Blocks.GuildMember_mute = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is muted in any way');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=mute');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=mute');
 	}
 };
 
@@ -12409,7 +12409,7 @@ Blockly.Blocks.GuildMember_deaf = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this member is deafened in any way');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=deaf');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=deaf');
 	}
 };
 
@@ -12428,7 +12428,7 @@ Blockly.Blocks.GuildMember_voiceChannel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The voice channel this member is in, if any');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=voiceChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=voiceChannel');
 	}
 };
 
@@ -12447,7 +12447,7 @@ Blockly.Blocks.GuildMember_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=id');
 	}
 };
 
@@ -12466,7 +12466,7 @@ Blockly.Blocks.GuildMember_displayName = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The nickname of the member, or their username if they don\'t have one');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=displayName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=displayName');
 	}
 };
 
@@ -12485,7 +12485,7 @@ Blockly.Blocks.GuildMember_permissions = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The overall set of permissions for the guild member, taking only roles into account');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=permissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=permissions');
 	}
 };
 
@@ -12504,7 +12504,7 @@ Blockly.Blocks.GuildMember_kickable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the member is kickable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=kickable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=kickable');
 	}
 };
 
@@ -12523,7 +12523,7 @@ Blockly.Blocks.GuildMember_bannable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the member is bannable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=bannable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=bannable');
 	}
 };
 
@@ -12546,7 +12546,7 @@ Blockly.Blocks.GuildMember_permissionsIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Returns `channel.permissionsFor(guildMember)`. Returns permissions for a member in a guild channel,\ntaking into account roles and permission overwrites.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=permissionsIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=permissionsIn');
 	}
 };
 
@@ -12576,7 +12576,7 @@ Blockly.Blocks.GuildMember_hasPermission = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if any of the member\'s roles have a permission.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=hasPermission');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=hasPermission');
 	}
 };
 
@@ -12605,7 +12605,7 @@ Blockly.Blocks.GuildMember_hasPermissions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks whether the roles of the member allows them to perform specific actions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=hasPermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=hasPermissions');
 	}
 };
 
@@ -12632,7 +12632,7 @@ Blockly.Blocks.GuildMember_missingPermissions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks whether the roles of the member allows them to perform specific actions, and lists any missing permissions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=missingPermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=missingPermissions');
 	}
 };
 
@@ -12660,7 +12660,7 @@ Blockly.Blocks.GuildMember_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit a guild member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=edit');
 	}
 };
 
@@ -12688,7 +12688,7 @@ Blockly.Blocks.GuildMember_setMute = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Mute/unmute a user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=setMute');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=setMute');
 	}
 };
 
@@ -12716,7 +12716,7 @@ Blockly.Blocks.GuildMember_setDeaf = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deafen/undeafen a user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=setDeaf');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=setDeaf');
 	}
 };
 
@@ -12742,7 +12742,7 @@ Blockly.Blocks.GuildMember_setVoiceChannel = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Moves the guild member to the given channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=setVoiceChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=setVoiceChannel');
 	}
 };
 
@@ -12769,7 +12769,7 @@ Blockly.Blocks.GuildMember_setRoles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the roles applied to the member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=setRoles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=setRoles');
 	}
 };
 
@@ -12797,7 +12797,7 @@ Blockly.Blocks.GuildMember_addRole = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Adds a single role to the member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=addRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=addRole');
 	}
 };
 
@@ -12825,7 +12825,7 @@ Blockly.Blocks.GuildMember_addRoles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Adds multiple roles to the member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=addRoles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=addRoles');
 	}
 };
 
@@ -12853,7 +12853,7 @@ Blockly.Blocks.GuildMember_removeRole = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Removes a single role from the member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=removeRole');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=removeRole');
 	}
 };
 
@@ -12881,7 +12881,7 @@ Blockly.Blocks.GuildMember_removeRoles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Removes multiple roles from the member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=removeRoles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=removeRoles');
 	}
 };
 
@@ -12909,7 +12909,7 @@ Blockly.Blocks.GuildMember_setNickname = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the nickname for the guild member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=setNickname');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=setNickname');
 	}
 };
 
@@ -12933,7 +12933,7 @@ Blockly.Blocks.GuildMember_createDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a DM channel between the client and the member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=createDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=createDM');
 	}
 };
 
@@ -12955,7 +12955,7 @@ Blockly.Blocks.GuildMember_deleteDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes any DMs with this guild member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=deleteDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=deleteDM');
 	}
 };
 
@@ -12979,7 +12979,7 @@ Blockly.Blocks.GuildMember_kick = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Kick this member from the guild.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=kick');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=kick');
 	}
 };
 
@@ -13004,7 +13004,7 @@ Blockly.Blocks.GuildMember_ban = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Ban this guild member.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=ban');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=ban');
 	}
 };
 
@@ -13026,7 +13026,7 @@ Blockly.Blocks.GuildMember_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the user\'s mention instead of the Member object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=toString');
 	}
 };
 
@@ -13052,7 +13052,7 @@ Blockly.Blocks.GuildMember_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=send');
 	}
 };
 
@@ -13080,7 +13080,7 @@ Blockly.Blocks.GuildMember_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=sendMessage');
 	}
 };
 
@@ -13110,7 +13110,7 @@ Blockly.Blocks.GuildMember_sendEmbed = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send an embed to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=sendEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=sendEmbed');
 	}
 };
 
@@ -13143,7 +13143,7 @@ Blockly.Blocks.GuildMember_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=sendFile');
 	}
 };
 
@@ -13175,7 +13175,7 @@ Blockly.Blocks.GuildMember_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/GuildMember?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/GuildMember?scrollTo=sendCode');
 	}
 };
 
@@ -13197,7 +13197,7 @@ Blockly.Blocks.Collector_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=client');
 	}
 };
 
@@ -13216,7 +13216,7 @@ Blockly.Blocks.Collector_filter = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The filter applied to this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=filter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=filter');
 	}
 };
 
@@ -13235,7 +13235,7 @@ Blockly.Blocks.Collector_options = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The options of this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=options');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=options');
 	}
 };
 
@@ -13254,7 +13254,7 @@ Blockly.Blocks.Collector_collected = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The items collected by this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=collected');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=collected');
 	}
 };
 
@@ -13273,7 +13273,7 @@ Blockly.Blocks.Collector_ended = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this collector has finished collecting');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=ended');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=ended');
 	}
 };
 
@@ -13292,7 +13292,7 @@ Blockly.Blocks.Collector_next = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Return a promise that resolves with the next collected element;\nrejects with collected elements if the collector finishes without receving a next element');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=next');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=next');
 	}
 };
 
@@ -13316,7 +13316,7 @@ Blockly.Blocks.Collector_stop = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stop this collector and emit the `end` event.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=stop');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=stop');
 	}
 };
 
@@ -13340,7 +13340,7 @@ Blockly.Blocks.Collector_handle = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Handles incoming events from the `listener` function. Returns null if the event should not be collected,\nor returns an object describing the data that should be stored.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=handle');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=handle');
 	}
 };
 
@@ -13364,7 +13364,7 @@ Blockly.Blocks.Collector_postCheck = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('This method runs after collection to see if the collector should finish.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=postCheck');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=postCheck');
 	}
 };
 
@@ -13387,7 +13387,7 @@ Blockly.Blocks.Collector_cleanup = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Called when the collector is ending.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=cleanup');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=cleanup');
 	}
 };
 
@@ -13413,7 +13413,7 @@ Blockly.Blocks.Collector_collect = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever an element is collected.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=collect');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=collect');
 	}
 };
 
@@ -13442,7 +13442,7 @@ Blockly.Blocks.Collector_end = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the collector is finished collecting.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collector?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collector?scrollTo=end');
 	}
 };
 
@@ -13464,7 +13464,7 @@ Blockly.Blocks.Invite_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the invite');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=client');
 	}
 };
 
@@ -13483,7 +13483,7 @@ Blockly.Blocks.Invite_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the invite is for. If this guild is already known, this will be a guild object. If the guild is\nunknown, this will be a PartialGuild object');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=guild');
 	}
 };
 
@@ -13502,7 +13502,7 @@ Blockly.Blocks.Invite_code = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The code for this invite');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=code');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=code');
 	}
 };
 
@@ -13521,7 +13521,7 @@ Blockly.Blocks.Invite_presenceCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The approximate number of online members of the guild this invite is for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=presenceCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=presenceCount');
 	}
 };
 
@@ -13540,7 +13540,7 @@ Blockly.Blocks.Invite_memberCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The approximate total number of members of the guild this invite is for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=memberCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=memberCount');
 	}
 };
 
@@ -13559,7 +13559,7 @@ Blockly.Blocks.Invite_textChannelCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The number of text channels the guild this invite goes to has');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=textChannelCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=textChannelCount');
 	}
 };
 
@@ -13578,7 +13578,7 @@ Blockly.Blocks.Invite_voiceChannelCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The number of voice channels the guild this invite goes to has');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=voiceChannelCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=voiceChannelCount');
 	}
 };
 
@@ -13597,7 +13597,7 @@ Blockly.Blocks.Invite_temporary = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not this invite is temporary');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=temporary');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=temporary');
 	}
 };
 
@@ -13616,7 +13616,7 @@ Blockly.Blocks.Invite_maxAge = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The maximum age of the invite, in seconds');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=maxAge');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=maxAge');
 	}
 };
 
@@ -13635,7 +13635,7 @@ Blockly.Blocks.Invite_uses = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('How many times this invite has been used');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=uses');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=uses');
 	}
 };
 
@@ -13654,7 +13654,7 @@ Blockly.Blocks.Invite_maxUses = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The maximum uses of this invite');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=maxUses');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=maxUses');
 	}
 };
 
@@ -13673,7 +13673,7 @@ Blockly.Blocks.Invite_inviter = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user who created this invite');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=inviter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=inviter');
 	}
 };
 
@@ -13692,7 +13692,7 @@ Blockly.Blocks.Invite_channel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The channel the invite is for. If this channel is already known, this will be a GuildChannel object.\nIf the channel is unknown, this will be a PartialGuildChannel object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=channel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=channel');
 	}
 };
 
@@ -13711,7 +13711,7 @@ Blockly.Blocks.Invite_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the invite was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=createdTimestamp');
 	}
 };
 
@@ -13730,7 +13730,7 @@ Blockly.Blocks.Invite_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the invite was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=createdAt');
 	}
 };
 
@@ -13749,7 +13749,7 @@ Blockly.Blocks.Invite_expiresTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the invite will expire at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=expiresTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=expiresTimestamp');
 	}
 };
 
@@ -13768,7 +13768,7 @@ Blockly.Blocks.Invite_expiresAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the invite will expire');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=expiresAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=expiresAt');
 	}
 };
 
@@ -13787,7 +13787,7 @@ Blockly.Blocks.Invite_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL to the invite');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=url');
 	}
 };
 
@@ -13811,7 +13811,7 @@ Blockly.Blocks.Invite_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes this invite.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=delete');
 	}
 };
 
@@ -13833,7 +13833,7 @@ Blockly.Blocks.Invite_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the invite\'s URL instead of the object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Invite?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Invite?scrollTo=toString');
 	}
 };
 
@@ -13852,7 +13852,7 @@ Blockly.Blocks.Message_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the Message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=client');
 	}
 };
 
@@ -13871,7 +13871,7 @@ Blockly.Blocks.Message_channel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The channel that the message was sent in');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=channel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=channel');
 	}
 };
 
@@ -13890,7 +13890,7 @@ Blockly.Blocks.Message_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=id');
 	}
 };
 
@@ -13909,7 +13909,7 @@ Blockly.Blocks.Message_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=type');
 	}
 };
 
@@ -13928,7 +13928,7 @@ Blockly.Blocks.Message_content = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The content of the message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=content');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=content');
 	}
 };
 
@@ -13947,7 +13947,7 @@ Blockly.Blocks.Message_author = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The author of the message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=author');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=author');
 	}
 };
 
@@ -13966,7 +13966,7 @@ Blockly.Blocks.Message_member = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Represents the author of the message as a guild member\nOnly available if the message comes from a guild where the author is still a member');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=member');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=member');
 	}
 };
 
@@ -13985,7 +13985,7 @@ Blockly.Blocks.Message_pinned = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not this message is pinned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=pinned');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=pinned');
 	}
 };
 
@@ -14004,7 +14004,7 @@ Blockly.Blocks.Message_tts = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the message was Text-To-Speech');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=tts');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=tts');
 	}
 };
 
@@ -14023,7 +14023,7 @@ Blockly.Blocks.Message_nonce = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A random number or string used for checking message delivery');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=nonce');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=nonce');
 	}
 };
 
@@ -14042,7 +14042,7 @@ Blockly.Blocks.Message_system = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not this message was sent by Discord, not actually a user (e.g. pin notifications)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=system');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=system');
 	}
 };
 
@@ -14061,7 +14061,7 @@ Blockly.Blocks.Message_embeds = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A list of embeds in the message - e.g. YouTube Player');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=embeds');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=embeds');
 	}
 };
 
@@ -14080,7 +14080,7 @@ Blockly.Blocks.Message_attachments = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of attachments in the message - e.g. Pictures - mapped by their ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=attachments');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=attachments');
 	}
 };
 
@@ -14099,7 +14099,7 @@ Blockly.Blocks.Message_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the message was sent at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=createdTimestamp');
 	}
 };
 
@@ -14118,7 +14118,7 @@ Blockly.Blocks.Message_editedTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the message was last edited at (if applicable)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=editedTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=editedTimestamp');
 	}
 };
 
@@ -14137,7 +14137,7 @@ Blockly.Blocks.Message_reactions = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of reactions to this message, mapped by the reaction ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=reactions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=reactions');
 	}
 };
 
@@ -14156,7 +14156,7 @@ Blockly.Blocks.Message_mentions = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('All valid mentions that the message contains');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=mentions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=mentions');
 	}
 };
 
@@ -14175,7 +14175,7 @@ Blockly.Blocks.Message_webhookID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('ID of the webhook that sent the message, if applicable');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=webhookID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=webhookID');
 	}
 };
 
@@ -14194,7 +14194,7 @@ Blockly.Blocks.Message_hit = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this message is a hit in a search');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=hit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=hit');
 	}
 };
 
@@ -14213,7 +14213,7 @@ Blockly.Blocks.Message_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the message was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=createdAt');
 	}
 };
 
@@ -14232,7 +14232,7 @@ Blockly.Blocks.Message_editedAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the message was last edited at (if applicable)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=editedAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=editedAt');
 	}
 };
 
@@ -14251,7 +14251,7 @@ Blockly.Blocks.Message_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the message was sent in (if in a guild channel)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=guild');
 	}
 };
 
@@ -14270,7 +14270,7 @@ Blockly.Blocks.Message_cleanContent = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The message contents with all mentions replaced by the equivalent text.\nIf mentions cannot be resolved to a name, the relevant mention in the message content will not be converted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=cleanContent');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=cleanContent');
 	}
 };
 
@@ -14289,7 +14289,7 @@ Blockly.Blocks.Message_edits = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('An array of cached versions of the message, including the current version\nSorted from latest (first) to oldest (last)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=edits');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=edits');
 	}
 };
 
@@ -14308,7 +14308,7 @@ Blockly.Blocks.Message_editable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the message is editable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=editable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=editable');
 	}
 };
 
@@ -14327,7 +14327,7 @@ Blockly.Blocks.Message_deletable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the message is deletable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=deletable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=deletable');
 	}
 };
 
@@ -14346,7 +14346,7 @@ Blockly.Blocks.Message_pinnable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the message is pinnable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=pinnable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=pinnable');
 	}
 };
 
@@ -14371,7 +14371,7 @@ Blockly.Blocks.Message_createReactionCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a reaction collector.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=createReactionCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=createReactionCollector');
 	}
 };
 
@@ -14399,7 +14399,7 @@ Blockly.Blocks.Message_awaitReactions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Similar to createMessageCollector but in promise form.\nResolves with a collection of reactions that pass the specified filter.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=awaitReactions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=awaitReactions');
 	}
 };
 
@@ -14424,7 +14424,7 @@ Blockly.Blocks.Message_isMentioned = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether or not a user, channel or role is mentioned in this message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=isMentioned');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=isMentioned');
 	}
 };
 
@@ -14448,7 +14448,7 @@ Blockly.Blocks.Message_isMemberMentioned = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether or not a guild member is mentioned in this message. Takes into account\nuser mentions, role mentions, and @everyone/@here mentions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=isMemberMentioned');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=isMemberMentioned');
 	}
 };
 
@@ -14475,7 +14475,7 @@ Blockly.Blocks.Message_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the content of the message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=edit');
 	}
 };
 
@@ -14503,7 +14503,7 @@ Blockly.Blocks.Message_editCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the content of the message, with a code block.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=editCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=editCode');
 	}
 };
 
@@ -14527,7 +14527,7 @@ Blockly.Blocks.Message_pin = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Pins this message to the channel\'s pinned messages.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=pin');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=pin');
 	}
 };
 
@@ -14549,7 +14549,7 @@ Blockly.Blocks.Message_unpin = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Unpins this message from the channel\'s pinned messages.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=unpin');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=unpin');
 	}
 };
 
@@ -14573,7 +14573,7 @@ Blockly.Blocks.Message_react = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Add a reaction to the message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=react');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=react');
 	}
 };
 
@@ -14596,7 +14596,7 @@ Blockly.Blocks.Message_clearReactions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Remove all reactions from a message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=clearReactions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=clearReactions');
 	}
 };
 
@@ -14620,7 +14620,7 @@ Blockly.Blocks.Message_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes the message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=delete');
 	}
 };
 
@@ -14647,7 +14647,7 @@ Blockly.Blocks.Message_reply = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Reply to the message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=reply');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=reply');
 	}
 };
 
@@ -14671,7 +14671,7 @@ Blockly.Blocks.Message_acknowledge = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Marks the message as read.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=acknowledge');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=acknowledge');
 	}
 };
 
@@ -14693,7 +14693,7 @@ Blockly.Blocks.Message_fetchWebhook = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches the webhook used to create this message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=fetchWebhook');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=fetchWebhook');
 	}
 };
 
@@ -14718,7 +14718,7 @@ Blockly.Blocks.Message_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Used mainly internally. Whether two messages are identical in properties. If you want to compare messages\nwithout checking all the properties, use `message.id === message2.id`, which is much more efficient. This\nmethod allows you to see if there are differences in content, embeds, attachments, nonce and tts properties.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=equals');
 	}
 };
 
@@ -14741,7 +14741,7 @@ Blockly.Blocks.Message_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the message\'s content instead of the object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Message?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Message?scrollTo=toString');
 	}
 };
 
@@ -14760,7 +14760,7 @@ Blockly.Blocks.MessageAttachment_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this MessageAttachment');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=client');
 	}
 };
 
@@ -14779,7 +14779,7 @@ Blockly.Blocks.MessageAttachment_message = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The message this attachment is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=message');
 	}
 };
 
@@ -14798,7 +14798,7 @@ Blockly.Blocks.MessageAttachment_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this attachment');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=id');
 	}
 };
 
@@ -14817,7 +14817,7 @@ Blockly.Blocks.MessageAttachment_filename = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The file name of this attachment');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=filename');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=filename');
 	}
 };
 
@@ -14836,7 +14836,7 @@ Blockly.Blocks.MessageAttachment_filesize = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The size of this attachment in bytes');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=filesize');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=filesize');
 	}
 };
 
@@ -14855,7 +14855,7 @@ Blockly.Blocks.MessageAttachment_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL to this attachment');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=url');
 	}
 };
 
@@ -14874,7 +14874,7 @@ Blockly.Blocks.MessageAttachment_proxyURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Proxy URL to this attachment');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=proxyURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=proxyURL');
 	}
 };
 
@@ -14893,7 +14893,7 @@ Blockly.Blocks.MessageAttachment_height = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The height of this attachment (if an image)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=height');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=height');
 	}
 };
 
@@ -14912,7 +14912,7 @@ Blockly.Blocks.MessageAttachment_width = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The width of this attachment (if an image)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageAttachment?scrollTo=width');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageAttachment?scrollTo=width');
 	}
 };
 
@@ -14936,7 +14936,7 @@ Blockly.Blocks.MessageCollector_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('Collects messages on a channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector');
 	}
 };
 
@@ -14957,7 +14957,7 @@ Blockly.Blocks.MessageCollector_channel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=channel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=channel');
 	}
 };
 
@@ -14976,7 +14976,7 @@ Blockly.Blocks.MessageCollector_received = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Total number of messages that were received in the channel during message collection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=received');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=received');
 	}
 };
 
@@ -14995,7 +14995,7 @@ Blockly.Blocks.MessageCollector_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=client');
 	}
 };
 
@@ -15014,7 +15014,7 @@ Blockly.Blocks.MessageCollector_filter = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The filter applied to this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=filter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=filter');
 	}
 };
 
@@ -15033,7 +15033,7 @@ Blockly.Blocks.MessageCollector_options = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The options of this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=options');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=options');
 	}
 };
 
@@ -15052,7 +15052,7 @@ Blockly.Blocks.MessageCollector_collected = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The items collected by this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=collected');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=collected');
 	}
 };
 
@@ -15071,7 +15071,7 @@ Blockly.Blocks.MessageCollector_ended = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this collector has finished collecting');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=ended');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=ended');
 	}
 };
 
@@ -15090,7 +15090,7 @@ Blockly.Blocks.MessageCollector_next = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Return a promise that resolves with the next collected element;\nrejects with collected elements if the collector finishes without receving a next element');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=next');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=next');
 	}
 };
 
@@ -15114,7 +15114,7 @@ Blockly.Blocks.MessageCollector_stop = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stop this collector and emit the `end` event.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=stop');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=stop');
 	}
 };
 
@@ -15140,7 +15140,7 @@ Blockly.Blocks.MessageCollector_message = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the collector receives a message.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=message');
 	}
 };
 
@@ -15168,7 +15168,7 @@ Blockly.Blocks.MessageCollector_collect = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever an element is collected.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=collect');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=collect');
 	}
 };
 
@@ -15197,7 +15197,7 @@ Blockly.Blocks.MessageCollector_end = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the collector is finished collecting.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageCollector?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageCollector?scrollTo=end');
 	}
 };
 
@@ -15219,7 +15219,7 @@ Blockly.Blocks.MessageEmbed_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=client');
 	}
 };
 
@@ -15238,7 +15238,7 @@ Blockly.Blocks.MessageEmbed_message = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The message this embed is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=message');
 	}
 };
 
@@ -15257,7 +15257,7 @@ Blockly.Blocks.MessageEmbed_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=type');
 	}
 };
 
@@ -15276,7 +15276,7 @@ Blockly.Blocks.MessageEmbed_title = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The title of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=title');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=title');
 	}
 };
 
@@ -15295,7 +15295,7 @@ Blockly.Blocks.MessageEmbed_description = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The description of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=description');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=description');
 	}
 };
 
@@ -15314,7 +15314,7 @@ Blockly.Blocks.MessageEmbed_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=url');
 	}
 };
 
@@ -15333,7 +15333,7 @@ Blockly.Blocks.MessageEmbed_color = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The color of the embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=color');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=color');
 	}
 };
 
@@ -15352,7 +15352,7 @@ Blockly.Blocks.MessageEmbed_fields = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The fields of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=fields');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=fields');
 	}
 };
 
@@ -15371,7 +15371,7 @@ Blockly.Blocks.MessageEmbed_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=createdTimestamp');
 	}
 };
 
@@ -15390,7 +15390,7 @@ Blockly.Blocks.MessageEmbed_thumbnail = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The thumbnail of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=thumbnail');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=thumbnail');
 	}
 };
 
@@ -15409,7 +15409,7 @@ Blockly.Blocks.MessageEmbed_image = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The image of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=image');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=image');
 	}
 };
 
@@ -15428,7 +15428,7 @@ Blockly.Blocks.MessageEmbed_video = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The video of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=video');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=video');
 	}
 };
 
@@ -15447,7 +15447,7 @@ Blockly.Blocks.MessageEmbed_author = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The author of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=author');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=author');
 	}
 };
 
@@ -15466,7 +15466,7 @@ Blockly.Blocks.MessageEmbed_provider = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The provider of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=provider');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=provider');
 	}
 };
 
@@ -15485,7 +15485,7 @@ Blockly.Blocks.MessageEmbed_footer = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The footer of this embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=footer');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=footer');
 	}
 };
 
@@ -15504,7 +15504,7 @@ Blockly.Blocks.MessageEmbed_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The date this embed was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=createdAt');
 	}
 };
 
@@ -15523,7 +15523,7 @@ Blockly.Blocks.MessageEmbed_hexColor = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The hexadecimal version of the embed color, with a leading hash');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbed?scrollTo=hexColor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbed?scrollTo=hexColor');
 	}
 };
 
@@ -15542,7 +15542,7 @@ Blockly.Blocks.MessageEmbedThumbnail_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this thumbnail is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedThumbnail?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedThumbnail?scrollTo=embed');
 	}
 };
 
@@ -15561,7 +15561,7 @@ Blockly.Blocks.MessageEmbedThumbnail_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL for this thumbnail');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedThumbnail?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedThumbnail?scrollTo=url');
 	}
 };
 
@@ -15580,7 +15580,7 @@ Blockly.Blocks.MessageEmbedThumbnail_proxyURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Proxy URL for this thumbnail');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedThumbnail?scrollTo=proxyURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedThumbnail?scrollTo=proxyURL');
 	}
 };
 
@@ -15599,7 +15599,7 @@ Blockly.Blocks.MessageEmbedThumbnail_height = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The height of the thumbnail');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedThumbnail?scrollTo=height');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedThumbnail?scrollTo=height');
 	}
 };
 
@@ -15618,7 +15618,7 @@ Blockly.Blocks.MessageEmbedThumbnail_width = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The width of the thumbnail');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedThumbnail?scrollTo=width');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedThumbnail?scrollTo=width');
 	}
 };
 
@@ -15637,7 +15637,7 @@ Blockly.Blocks.MessageEmbedImage_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this image is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedImage?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedImage?scrollTo=embed');
 	}
 };
 
@@ -15656,7 +15656,7 @@ Blockly.Blocks.MessageEmbedImage_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL for this image');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedImage?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedImage?scrollTo=url');
 	}
 };
 
@@ -15675,7 +15675,7 @@ Blockly.Blocks.MessageEmbedImage_proxyURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Proxy URL for this image');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedImage?scrollTo=proxyURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedImage?scrollTo=proxyURL');
 	}
 };
 
@@ -15694,7 +15694,7 @@ Blockly.Blocks.MessageEmbedImage_height = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The height of the image');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedImage?scrollTo=height');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedImage?scrollTo=height');
 	}
 };
 
@@ -15713,7 +15713,7 @@ Blockly.Blocks.MessageEmbedImage_width = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The width of the image');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedImage?scrollTo=width');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedImage?scrollTo=width');
 	}
 };
 
@@ -15732,7 +15732,7 @@ Blockly.Blocks.MessageEmbedVideo_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this video is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedVideo?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedVideo?scrollTo=embed');
 	}
 };
 
@@ -15751,7 +15751,7 @@ Blockly.Blocks.MessageEmbedVideo_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The source URL for this video');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedVideo?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedVideo?scrollTo=url');
 	}
 };
 
@@ -15770,7 +15770,7 @@ Blockly.Blocks.MessageEmbedVideo_height = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The height of the video');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedVideo?scrollTo=height');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedVideo?scrollTo=height');
 	}
 };
 
@@ -15789,7 +15789,7 @@ Blockly.Blocks.MessageEmbedVideo_width = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The width of the video');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedVideo?scrollTo=width');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedVideo?scrollTo=width');
 	}
 };
 
@@ -15808,7 +15808,7 @@ Blockly.Blocks.MessageEmbedProvider_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this provider is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedProvider?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedProvider?scrollTo=embed');
 	}
 };
 
@@ -15827,7 +15827,7 @@ Blockly.Blocks.MessageEmbedProvider_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this provider');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedProvider?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedProvider?scrollTo=name');
 	}
 };
 
@@ -15846,7 +15846,7 @@ Blockly.Blocks.MessageEmbedProvider_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL of this provider');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedProvider?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedProvider?scrollTo=url');
 	}
 };
 
@@ -15865,7 +15865,7 @@ Blockly.Blocks.MessageEmbedAuthor_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this author is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedAuthor?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedAuthor?scrollTo=embed');
 	}
 };
 
@@ -15884,7 +15884,7 @@ Blockly.Blocks.MessageEmbedAuthor_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this author');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedAuthor?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedAuthor?scrollTo=name');
 	}
 };
 
@@ -15903,7 +15903,7 @@ Blockly.Blocks.MessageEmbedAuthor_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The URL of this author');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedAuthor?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedAuthor?scrollTo=url');
 	}
 };
 
@@ -15922,7 +15922,7 @@ Blockly.Blocks.MessageEmbedAuthor_iconURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The icon URL of this author');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedAuthor?scrollTo=iconURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedAuthor?scrollTo=iconURL');
 	}
 };
 
@@ -15941,7 +15941,7 @@ Blockly.Blocks.MessageEmbedField_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this footer is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedField?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedField?scrollTo=embed');
 	}
 };
 
@@ -15960,7 +15960,7 @@ Blockly.Blocks.MessageEmbedField_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this field');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedField?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedField?scrollTo=name');
 	}
 };
 
@@ -15979,7 +15979,7 @@ Blockly.Blocks.MessageEmbedField_value = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The value of this field');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedField?scrollTo=value');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedField?scrollTo=value');
 	}
 };
 
@@ -15998,7 +15998,7 @@ Blockly.Blocks.MessageEmbedField_inline = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If this field is displayed inline');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedField?scrollTo=inline');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedField?scrollTo=inline');
 	}
 };
 
@@ -16017,7 +16017,7 @@ Blockly.Blocks.MessageEmbedFooter_embed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The embed this footer is part of');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedFooter?scrollTo=embed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedFooter?scrollTo=embed');
 	}
 };
 
@@ -16036,7 +16036,7 @@ Blockly.Blocks.MessageEmbedFooter_text = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The text in this footer');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedFooter?scrollTo=text');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedFooter?scrollTo=text');
 	}
 };
 
@@ -16055,7 +16055,7 @@ Blockly.Blocks.MessageEmbedFooter_iconURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The icon URL of this footer');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedFooter?scrollTo=iconURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedFooter?scrollTo=iconURL');
 	}
 };
 
@@ -16074,7 +16074,7 @@ Blockly.Blocks.MessageEmbedFooter_proxyIconUrl = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The proxy icon URL of this footer');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageEmbedFooter?scrollTo=proxyIconUrl');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageEmbedFooter?scrollTo=proxyIconUrl');
 	}
 };
 
@@ -16093,7 +16093,7 @@ Blockly.Blocks.MessageMentions_everyone = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether `@everyone` or `@here` were mentioned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=everyone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=everyone');
 	}
 };
 
@@ -16112,7 +16112,7 @@ Blockly.Blocks.MessageMentions_users = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Any users that were mentioned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=users');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=users');
 	}
 };
 
@@ -16131,7 +16131,7 @@ Blockly.Blocks.MessageMentions_roles = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Any roles that were mentioned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=roles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=roles');
 	}
 };
 
@@ -16150,7 +16150,7 @@ Blockly.Blocks.MessageMentions_members = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Any members that were mentioned (only in {@link TextChannel}s)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=members');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=members');
 	}
 };
 
@@ -16169,7 +16169,7 @@ Blockly.Blocks.MessageMentions_channels = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Any channels that were mentioned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=channels');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=channels');
 	}
 };
 
@@ -16188,7 +16188,7 @@ Blockly.Blocks.MessageMentions_EVERYONE_PATTERN = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Regular expression that globally matches `@everyone` and `@here`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=EVERYONE_PATTERN');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=EVERYONE_PATTERN');
 	}
 };
 
@@ -16207,7 +16207,7 @@ Blockly.Blocks.MessageMentions_USERS_PATTERN = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Regular expression that globally matches user mentions like `<@81440962496172032>`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=USERS_PATTERN');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=USERS_PATTERN');
 	}
 };
 
@@ -16226,7 +16226,7 @@ Blockly.Blocks.MessageMentions_ROLES_PATTERN = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Regular expression that globally matches role mentions like `<@&297577916114403338>`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=ROLES_PATTERN');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=ROLES_PATTERN');
 	}
 };
 
@@ -16245,7 +16245,7 @@ Blockly.Blocks.MessageMentions_CHANNELS_PATTERN = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Regular expression that globally matches channel mentions like `<#222079895583457280>`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageMentions?scrollTo=CHANNELS_PATTERN');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageMentions?scrollTo=CHANNELS_PATTERN');
 	}
 };
 
@@ -16264,7 +16264,7 @@ Blockly.Blocks.MessageReaction_message = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The message that this reaction refers to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=message');
 	}
 };
 
@@ -16283,7 +16283,7 @@ Blockly.Blocks.MessageReaction_me = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the client has given this reaction');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=me');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=me');
 	}
 };
 
@@ -16302,7 +16302,7 @@ Blockly.Blocks.MessageReaction_count = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The number of people that have given the same reaction');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=count');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=count');
 	}
 };
 
@@ -16321,7 +16321,7 @@ Blockly.Blocks.MessageReaction_users = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The users that have given this reaction, mapped by their ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=users');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=users');
 	}
 };
 
@@ -16340,7 +16340,7 @@ Blockly.Blocks.MessageReaction_emoji = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The emoji of this reaction, either an Emoji object for known custom emojis, or a ReactionEmoji\nobject which has fewer properties. Whatever the prototype of the emoji, it will still have\n`name`, `id`, `identifier` and `toString()`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=emoji');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=emoji');
 	}
 };
 
@@ -16364,7 +16364,7 @@ Blockly.Blocks.MessageReaction_remove = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Removes a user from this reaction.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=remove');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=remove');
 	}
 };
 
@@ -16389,7 +16389,7 @@ Blockly.Blocks.MessageReaction_fetchUsers = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch all the users that gave this reaction. Resolves with a collection of users, mapped by their IDs.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/MessageReaction?scrollTo=fetchUsers');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/MessageReaction?scrollTo=fetchUsers');
 	}
 };
 
@@ -16409,7 +16409,7 @@ Blockly.Blocks.OAuth2Application_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the application');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=client');
 	}
 };
 
@@ -16428,7 +16428,7 @@ Blockly.Blocks.OAuth2Application_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the app');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=id');
 	}
 };
 
@@ -16447,7 +16447,7 @@ Blockly.Blocks.OAuth2Application_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the app');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=name');
 	}
 };
 
@@ -16466,7 +16466,7 @@ Blockly.Blocks.OAuth2Application_description = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The app\'s description');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=description');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=description');
 	}
 };
 
@@ -16485,7 +16485,7 @@ Blockly.Blocks.OAuth2Application_icon = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The app\'s icon hash');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=icon');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=icon');
 	}
 };
 
@@ -16504,7 +16504,7 @@ Blockly.Blocks.OAuth2Application_iconURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The app\'s icon URL');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=iconURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=iconURL');
 	}
 };
 
@@ -16523,7 +16523,7 @@ Blockly.Blocks.OAuth2Application_rpcOrigins = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The app\'s RPC origins');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=rpcOrigins');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=rpcOrigins');
 	}
 };
 
@@ -16542,7 +16542,7 @@ Blockly.Blocks.OAuth2Application_redirectURIs = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The app\'s redirect URIs');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=redirectURIs');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=redirectURIs');
 	}
 };
 
@@ -16561,7 +16561,7 @@ Blockly.Blocks.OAuth2Application_botRequireCodeGrant = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If this app\'s bot requires a code grant when using the OAuth2 flow');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=botRequireCodeGrant');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=botRequireCodeGrant');
 	}
 };
 
@@ -16580,7 +16580,7 @@ Blockly.Blocks.OAuth2Application_botPublic = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If this app\'s bot is public');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=botPublic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=botPublic');
 	}
 };
 
@@ -16599,7 +16599,7 @@ Blockly.Blocks.OAuth2Application_rpcApplicationState = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If this app can use rpc');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=rpcApplicationState');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=rpcApplicationState');
 	}
 };
 
@@ -16618,7 +16618,7 @@ Blockly.Blocks.OAuth2Application_bot = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Object containing basic info about this app\'s bot');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=bot');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=bot');
 	}
 };
 
@@ -16637,7 +16637,7 @@ Blockly.Blocks.OAuth2Application_flags = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The flags for the app');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=flags');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=flags');
 	}
 };
 
@@ -16656,7 +16656,7 @@ Blockly.Blocks.OAuth2Application_secret = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('OAuth2 secret for the application');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=secret');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=secret');
 	}
 };
 
@@ -16675,7 +16675,7 @@ Blockly.Blocks.OAuth2Application_owner = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The owner of this OAuth application');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=owner');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=owner');
 	}
 };
 
@@ -16694,7 +16694,7 @@ Blockly.Blocks.OAuth2Application_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the app was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=createdTimestamp');
 	}
 };
 
@@ -16713,7 +16713,7 @@ Blockly.Blocks.OAuth2Application_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the app was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=createdAt');
 	}
 };
 
@@ -16734,7 +16734,7 @@ Blockly.Blocks.OAuth2Application_reset = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Reset the app\'s secret and bot token.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=reset');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=reset');
 	}
 };
 
@@ -16755,7 +16755,7 @@ Blockly.Blocks.OAuth2Application_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the app name rather than the app object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/OAuth2Application?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/OAuth2Application?scrollTo=toString');
 	}
 };
 
@@ -16774,7 +16774,7 @@ Blockly.Blocks.PartialGuild_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this PartialGuild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuild?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuild?scrollTo=client');
 	}
 };
 
@@ -16793,7 +16793,7 @@ Blockly.Blocks.PartialGuild_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuild?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuild?scrollTo=id');
 	}
 };
 
@@ -16812,7 +16812,7 @@ Blockly.Blocks.PartialGuild_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this guild');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuild?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuild?scrollTo=name');
 	}
 };
 
@@ -16831,7 +16831,7 @@ Blockly.Blocks.PartialGuild_icon = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The hash of this guild\'s icon');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuild?scrollTo=icon');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuild?scrollTo=icon');
 	}
 };
 
@@ -16850,7 +16850,7 @@ Blockly.Blocks.PartialGuild_splash = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The hash of the guild splash image (VIP only)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuild?scrollTo=splash');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuild?scrollTo=splash');
 	}
 };
 
@@ -16869,7 +16869,7 @@ Blockly.Blocks.PartialGuildChannel_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated this PartialGuildChannel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuildChannel?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuildChannel?scrollTo=client');
 	}
 };
 
@@ -16888,7 +16888,7 @@ Blockly.Blocks.PartialGuildChannel_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this guild channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuildChannel?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuildChannel?scrollTo=id');
 	}
 };
 
@@ -16907,7 +16907,7 @@ Blockly.Blocks.PartialGuildChannel_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this guild channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuildChannel?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuildChannel?scrollTo=name');
 	}
 };
 
@@ -16926,7 +16926,7 @@ Blockly.Blocks.PartialGuildChannel_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of this guild channel - `text` or `voice`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PartialGuildChannel?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PartialGuildChannel?scrollTo=type');
 	}
 };
 
@@ -16945,7 +16945,7 @@ Blockly.Blocks.PermissionOverwrites_channel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The GuildChannel this overwrite is for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PermissionOverwrites?scrollTo=channel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PermissionOverwrites?scrollTo=channel');
 	}
 };
 
@@ -16964,7 +16964,7 @@ Blockly.Blocks.PermissionOverwrites_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this overwrite, either a user ID or a role ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PermissionOverwrites?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PermissionOverwrites?scrollTo=id');
 	}
 };
 
@@ -16983,7 +16983,7 @@ Blockly.Blocks.PermissionOverwrites_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of this overwrite');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PermissionOverwrites?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PermissionOverwrites?scrollTo=type');
 	}
 };
 
@@ -17007,7 +17007,7 @@ Blockly.Blocks.PermissionOverwrites_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Delete this Permission Overwrite.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/PermissionOverwrites?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/PermissionOverwrites?scrollTo=delete');
 	}
 };
 
@@ -17027,7 +17027,7 @@ Blockly.Blocks.Presence_status = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The status of the presence:\n\n* **`online`** - user is online\n* **`offline`** - user is offline or invisible\n* **`idle`** - user is AFK\n* **`dnd`** - user is in Do not Disturb');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Presence?scrollTo=status');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Presence?scrollTo=status');
 	}
 };
 
@@ -17046,7 +17046,7 @@ Blockly.Blocks.Presence_game = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The game that the user is playing');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Presence?scrollTo=game');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Presence?scrollTo=game');
 	}
 };
 
@@ -17069,7 +17069,7 @@ Blockly.Blocks.Presence_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether this presence is equal to another');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Presence?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Presence?scrollTo=equals');
 	}
 };
 
@@ -17089,7 +17089,7 @@ Blockly.Blocks.Game_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the game being played');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Game?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Game?scrollTo=name');
 	}
 };
 
@@ -17108,7 +17108,7 @@ Blockly.Blocks.Game_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the game status');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Game?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Game?scrollTo=type');
 	}
 };
 
@@ -17127,7 +17127,7 @@ Blockly.Blocks.Game_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the game is being streamed, a link to the stream');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Game?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Game?scrollTo=url');
 	}
 };
 
@@ -17146,7 +17146,7 @@ Blockly.Blocks.Game_streaming = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the game is being streamed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Game?scrollTo=streaming');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Game?scrollTo=streaming');
 	}
 };
 
@@ -17169,7 +17169,7 @@ Blockly.Blocks.Game_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether this game is equal to another game');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Game?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Game?scrollTo=equals');
 	}
 };
 
@@ -17194,7 +17194,7 @@ Blockly.Blocks.ReactionCollector_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('Collects reactions on messages.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector');
 	}
 };
 
@@ -17215,7 +17215,7 @@ Blockly.Blocks.ReactionCollector_message = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The message');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=message');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=message');
 	}
 };
 
@@ -17234,7 +17234,7 @@ Blockly.Blocks.ReactionCollector_users = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The users which have reacted');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=users');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=users');
 	}
 };
 
@@ -17253,7 +17253,7 @@ Blockly.Blocks.ReactionCollector_total = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The total number of reactions collected');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=total');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=total');
 	}
 };
 
@@ -17272,7 +17272,7 @@ Blockly.Blocks.ReactionCollector_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=client');
 	}
 };
 
@@ -17291,7 +17291,7 @@ Blockly.Blocks.ReactionCollector_filter = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The filter applied to this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=filter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=filter');
 	}
 };
 
@@ -17310,7 +17310,7 @@ Blockly.Blocks.ReactionCollector_options = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The options of this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=options');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=options');
 	}
 };
 
@@ -17329,7 +17329,7 @@ Blockly.Blocks.ReactionCollector_collected = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The items collected by this collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=collected');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=collected');
 	}
 };
 
@@ -17348,7 +17348,7 @@ Blockly.Blocks.ReactionCollector_ended = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether this collector has finished collecting');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=ended');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=ended');
 	}
 };
 
@@ -17367,7 +17367,7 @@ Blockly.Blocks.ReactionCollector_next = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Return a promise that resolves with the next collected element;\nrejects with collected elements if the collector finishes without receving a next element');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=next');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=next');
 	}
 };
 
@@ -17391,7 +17391,7 @@ Blockly.Blocks.ReactionCollector_stop = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stop this collector and emit the `end` event.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=stop');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=stop');
 	}
 };
 
@@ -17418,7 +17418,7 @@ Blockly.Blocks.ReactionCollector_collect = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted whenever an element is collected.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=collect');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=collect');
 	}
 };
 
@@ -17447,7 +17447,7 @@ Blockly.Blocks.ReactionCollector_end = {
 		this.setNextStatement(true, null);
 		this.setColour(100);
 		this.setTooltip('Emitted when the collector is finished collecting.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionCollector?scrollTo=end');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionCollector?scrollTo=end');
 	}
 };
 
@@ -17469,7 +17469,7 @@ Blockly.Blocks.ReactionEmoji_reaction = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The message reaction this emoji refers to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionEmoji?scrollTo=reaction');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionEmoji?scrollTo=reaction');
 	}
 };
 
@@ -17488,7 +17488,7 @@ Blockly.Blocks.ReactionEmoji_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of this reaction emoji');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionEmoji?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionEmoji?scrollTo=name');
 	}
 };
 
@@ -17507,7 +17507,7 @@ Blockly.Blocks.ReactionEmoji_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of this reaction emoji');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionEmoji?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionEmoji?scrollTo=id');
 	}
 };
 
@@ -17526,7 +17526,7 @@ Blockly.Blocks.ReactionEmoji_identifier = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The identifier of this emoji, used for message reactions');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionEmoji?scrollTo=identifier');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionEmoji?scrollTo=identifier');
 	}
 };
 
@@ -17547,7 +17547,7 @@ Blockly.Blocks.ReactionEmoji_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates the text required to form a graphical emoji on Discord.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/ReactionEmoji?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/ReactionEmoji?scrollTo=toString');
 	}
 };
 
@@ -17567,7 +17567,7 @@ Blockly.Blocks.RichEmbed_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('A rich embed to be sent with a message with a fluent interface for creation.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed');
 	}
 };
 
@@ -17586,7 +17586,7 @@ Blockly.Blocks.RichEmbed_title = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Title for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=title');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=title');
 	}
 };
 
@@ -17605,7 +17605,7 @@ Blockly.Blocks.RichEmbed_description = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Description for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=description');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=description');
 	}
 };
 
@@ -17624,7 +17624,7 @@ Blockly.Blocks.RichEmbed_url = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('URL for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=url');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=url');
 	}
 };
 
@@ -17643,7 +17643,7 @@ Blockly.Blocks.RichEmbed_color = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Color for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=color');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=color');
 	}
 };
 
@@ -17662,7 +17662,7 @@ Blockly.Blocks.RichEmbed_author = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Author for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=author');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=author');
 	}
 };
 
@@ -17681,7 +17681,7 @@ Blockly.Blocks.RichEmbed_timestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Timestamp for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=timestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=timestamp');
 	}
 };
 
@@ -17700,7 +17700,7 @@ Blockly.Blocks.RichEmbed_fields = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Fields for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=fields');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=fields');
 	}
 };
 
@@ -17719,7 +17719,7 @@ Blockly.Blocks.RichEmbed_thumbnail = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Thumbnail for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=thumbnail');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=thumbnail');
 	}
 };
 
@@ -17738,7 +17738,7 @@ Blockly.Blocks.RichEmbed_image = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Image for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=image');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=image');
 	}
 };
 
@@ -17757,7 +17757,7 @@ Blockly.Blocks.RichEmbed_footer = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Footer for this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=footer');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=footer');
 	}
 };
 
@@ -17776,7 +17776,7 @@ Blockly.Blocks.RichEmbed_file = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('File to upload alongside this Embed');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=file');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=file');
 	}
 };
 
@@ -17799,7 +17799,7 @@ Blockly.Blocks.RichEmbed_setTitle = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the title of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setTitle');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setTitle');
 	}
 };
 
@@ -17823,7 +17823,7 @@ Blockly.Blocks.RichEmbed_setDescription = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the description of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setDescription');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setDescription');
 	}
 };
 
@@ -17847,7 +17847,7 @@ Blockly.Blocks.RichEmbed_setURL = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the URL of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setURL');
 	}
 };
 
@@ -17871,7 +17871,7 @@ Blockly.Blocks.RichEmbed_setColor = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the color of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setColor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setColor');
 	}
 };
 
@@ -17899,7 +17899,7 @@ Blockly.Blocks.RichEmbed_setAuthor = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the author of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setAuthor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setAuthor');
 	}
 };
 
@@ -17925,7 +17925,7 @@ Blockly.Blocks.RichEmbed_setTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the timestamp of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setTimestamp');
 	}
 };
 
@@ -17953,7 +17953,7 @@ Blockly.Blocks.RichEmbed_addField = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Adds a field to the embed (max 25).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=addField');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=addField');
 	}
 };
 
@@ -17979,7 +17979,7 @@ Blockly.Blocks.RichEmbed_addBlankField = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Convenience function for `<RichEmbed>.addField(\'\u200B\', \'\u200B\', inline)`.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=addBlankField');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=addBlankField');
 	}
 };
 
@@ -18003,7 +18003,7 @@ Blockly.Blocks.RichEmbed_setThumbnail = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the thumbnail of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setThumbnail');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setThumbnail');
 	}
 };
 
@@ -18027,7 +18027,7 @@ Blockly.Blocks.RichEmbed_setImage = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the image of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setImage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setImage');
 	}
 };
 
@@ -18053,7 +18053,7 @@ Blockly.Blocks.RichEmbed_setFooter = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the footer of this embed.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=setFooter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=setFooter');
 	}
 };
 
@@ -18078,7 +18078,7 @@ Blockly.Blocks.RichEmbed_attachFile = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the file to upload alongside the embed. This file can be accessed via `attachment://fileName.extension` when\nsetting an embed image or author/footer icons. Only one file may be attached.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/RichEmbed?scrollTo=attachFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/RichEmbed?scrollTo=attachFile');
 	}
 };
 
@@ -18098,7 +18098,7 @@ Blockly.Blocks.Role_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the role');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=client');
 	}
 };
 
@@ -18117,7 +18117,7 @@ Blockly.Blocks.Role_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild that the role belongs to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=guild');
 	}
 };
 
@@ -18136,7 +18136,7 @@ Blockly.Blocks.Role_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the role (unique to the guild it is part of)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=id');
 	}
 };
 
@@ -18155,7 +18155,7 @@ Blockly.Blocks.Role_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the role');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=name');
 	}
 };
 
@@ -18174,7 +18174,7 @@ Blockly.Blocks.Role_color = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The base 10 color of the role');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=color');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=color');
 	}
 };
 
@@ -18193,7 +18193,7 @@ Blockly.Blocks.Role_hoist = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If true, users that are part of this role will appear in a separate category in the users list');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=hoist');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=hoist');
 	}
 };
 
@@ -18212,7 +18212,7 @@ Blockly.Blocks.Role_position = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the role from the API');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=position');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=position');
 	}
 };
 
@@ -18231,7 +18231,7 @@ Blockly.Blocks.Role_permissions = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The permissions bitfield of the role');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=permissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=permissions');
 	}
 };
 
@@ -18250,7 +18250,7 @@ Blockly.Blocks.Role_managed = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the role is managed by an external service');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=managed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=managed');
 	}
 };
 
@@ -18269,7 +18269,7 @@ Blockly.Blocks.Role_mentionable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the role can be mentioned by anyone');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=mentionable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=mentionable');
 	}
 };
 
@@ -18288,7 +18288,7 @@ Blockly.Blocks.Role_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the role was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=createdTimestamp');
 	}
 };
 
@@ -18307,7 +18307,7 @@ Blockly.Blocks.Role_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the role was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=createdAt');
 	}
 };
 
@@ -18326,7 +18326,7 @@ Blockly.Blocks.Role_hexColor = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The hexadecimal version of the role color, with a leading hashtag');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=hexColor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=hexColor');
 	}
 };
 
@@ -18345,7 +18345,7 @@ Blockly.Blocks.Role_members = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The cached guild members that have this role');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=members');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=members');
 	}
 };
 
@@ -18364,7 +18364,7 @@ Blockly.Blocks.Role_editable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the role is editable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=editable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=editable');
 	}
 };
 
@@ -18383,7 +18383,7 @@ Blockly.Blocks.Role_calculatedPosition = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the role in the role manager');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=calculatedPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=calculatedPosition');
 	}
 };
 
@@ -18404,7 +18404,7 @@ Blockly.Blocks.Role_serialize = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Get an object mapping permission names to whether or not the role enables that permission.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=serialize');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=serialize');
 	}
 };
 
@@ -18431,7 +18431,7 @@ Blockly.Blocks.Role_hasPermission = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if the role has a permission.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=hasPermission');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=hasPermission');
 	}
 };
 
@@ -18459,7 +18459,7 @@ Blockly.Blocks.Role_hasPermissions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if the role has all specified permissions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=hasPermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=hasPermissions');
 	}
 };
 
@@ -18484,7 +18484,7 @@ Blockly.Blocks.Role_comparePositionTo = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Compares this role\'s position to another role\'s.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=comparePositionTo');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=comparePositionTo');
 	}
 };
 
@@ -18511,7 +18511,7 @@ Blockly.Blocks.Role_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edits the role.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=edit');
 	}
 };
 
@@ -18539,7 +18539,7 @@ Blockly.Blocks.Role_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new name for the role.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=setName');
 	}
 };
 
@@ -18567,7 +18567,7 @@ Blockly.Blocks.Role_setColor = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new color for the role.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=setColor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=setColor');
 	}
 };
 
@@ -18595,7 +18595,7 @@ Blockly.Blocks.Role_setHoist = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set whether or not the role should be hoisted.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=setHoist');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=setHoist');
 	}
 };
 
@@ -18623,7 +18623,7 @@ Blockly.Blocks.Role_setPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the position of the role.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=setPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=setPosition');
 	}
 };
 
@@ -18651,7 +18651,7 @@ Blockly.Blocks.Role_setPermissions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set the permissions of the role.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=setPermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=setPermissions');
 	}
 };
 
@@ -18679,7 +18679,7 @@ Blockly.Blocks.Role_setMentionable = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set whether this role is mentionable.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=setMentionable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=setMentionable');
 	}
 };
 
@@ -18705,7 +18705,7 @@ Blockly.Blocks.Role_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes the role.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=delete');
 	}
 };
 
@@ -18729,7 +18729,7 @@ Blockly.Blocks.Role_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Whether this role equals another role. It compares all properties, so for most operations\nit is advisable to just compare `role.id === role2.id` as it is much faster and is often\nwhat most users need.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=equals');
 	}
 };
 
@@ -18751,7 +18751,7 @@ Blockly.Blocks.Role_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the role mention rather than the Role object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=toString');
 	}
 };
 
@@ -18776,7 +18776,7 @@ Blockly.Blocks.Role_comparePositions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Compares the positions of two roles.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Role?scrollTo=comparePositions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Role?scrollTo=comparePositions');
 	}
 };
 
@@ -18797,7 +18797,7 @@ Blockly.Blocks.TextChannel_topic = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The topic of the text channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=topic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=topic');
 	}
 };
 
@@ -18816,7 +18816,7 @@ Blockly.Blocks.TextChannel_nsfw = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the Discord considers this channel NSFW');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=nsfw');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=nsfw');
 	}
 };
 
@@ -18835,7 +18835,7 @@ Blockly.Blocks.TextChannel_members = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection of members that can see this channel, mapped by their ID');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=members');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=members');
 	}
 };
 
@@ -18854,7 +18854,7 @@ Blockly.Blocks.TextChannel_messages = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A collection containing the messages sent to this channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=messages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=messages');
 	}
 };
 
@@ -18873,7 +18873,7 @@ Blockly.Blocks.TextChannel_lastMessageID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the last message in the channel, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=lastMessageID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=lastMessageID');
 	}
 };
 
@@ -18892,7 +18892,7 @@ Blockly.Blocks.TextChannel_typing = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the typing indicator is being shown in the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=typing');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=typing');
 	}
 };
 
@@ -18911,7 +18911,7 @@ Blockly.Blocks.TextChannel_typingCount = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Number of times `startTyping` has been called');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=typingCount');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=typingCount');
 	}
 };
 
@@ -18930,7 +18930,7 @@ Blockly.Blocks.TextChannel_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the channel is in');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=guild');
 	}
 };
 
@@ -18949,7 +18949,7 @@ Blockly.Blocks.TextChannel_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the guild channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=name');
 	}
 };
 
@@ -18968,7 +18968,7 @@ Blockly.Blocks.TextChannel_position = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the channel in the list');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=position');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=position');
 	}
 };
 
@@ -18987,7 +18987,7 @@ Blockly.Blocks.TextChannel_permissionOverwrites = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A map of permission overwrites in this channel for roles and users');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=permissionOverwrites');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=permissionOverwrites');
 	}
 };
 
@@ -19006,7 +19006,7 @@ Blockly.Blocks.TextChannel_calculatedPosition = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=calculatedPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=calculatedPosition');
 	}
 };
 
@@ -19025,7 +19025,7 @@ Blockly.Blocks.TextChannel_deletable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is deletable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=deletable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=deletable');
 	}
 };
 
@@ -19044,7 +19044,7 @@ Blockly.Blocks.TextChannel_muted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is muted\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=muted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=muted');
 	}
 };
 
@@ -19063,7 +19063,7 @@ Blockly.Blocks.TextChannel_messageNotifications = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of message that should notify you\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=messageNotifications');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=messageNotifications');
 	}
 };
 
@@ -19085,7 +19085,7 @@ Blockly.Blocks.TextChannel_fetchWebhooks = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetch all webhooks for the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=fetchWebhooks');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=fetchWebhooks');
 	}
 };
 
@@ -19113,7 +19113,7 @@ Blockly.Blocks.TextChannel_createWebhook = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Create a webhook for the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=createWebhook');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=createWebhook');
 	}
 };
 
@@ -19142,7 +19142,7 @@ Blockly.Blocks.TextChannel_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=send');
 	}
 };
 
@@ -19168,7 +19168,7 @@ Blockly.Blocks.TextChannel_fetchMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets a single message from this channel, regardless of it being cached or not. Since the single message fetching\nendpoint is reserved for bot accounts, this abstracts the `fetchMessages` method to obtain the single message when\nusing a user account.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=fetchMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=fetchMessage');
 	}
 };
 
@@ -19193,7 +19193,7 @@ Blockly.Blocks.TextChannel_fetchMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the past messages sent in this channel. Resolves with a collection mapping message ID\'s to Message objects.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=fetchMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=fetchMessages');
 	}
 };
 
@@ -19216,7 +19216,7 @@ Blockly.Blocks.TextChannel_fetchPinnedMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Fetches the pinned messages of this channel and returns a collection of them.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=fetchPinnedMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=fetchPinnedMessages');
 	}
 };
 
@@ -19240,7 +19240,7 @@ Blockly.Blocks.TextChannel_search = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Performs a search within the channel.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=search');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=search');
 	}
 };
 
@@ -19265,7 +19265,7 @@ Blockly.Blocks.TextChannel_startTyping = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Starts a typing indicator in the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=startTyping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=startTyping');
 	}
 };
 
@@ -19290,7 +19290,7 @@ Blockly.Blocks.TextChannel_stopTyping = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Stops the typing indicator in the channel.\nThe indicator will only stop if this is called as many times as startTyping().\n<info>It can take a few seconds for the client user to stop typing.</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=stopTyping');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=stopTyping');
 	}
 };
 
@@ -19316,7 +19316,7 @@ Blockly.Blocks.TextChannel_createCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Message Collector');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=createCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=createCollector');
 	}
 };
 
@@ -19343,7 +19343,7 @@ Blockly.Blocks.TextChannel_createMessageCollector = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a Message Collector.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=createMessageCollector');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=createMessageCollector');
 	}
 };
 
@@ -19371,7 +19371,7 @@ Blockly.Blocks.TextChannel_awaitMessages = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Similar to createCollector but in promise form. Resolves with a collection of messages that pass the specified\nfilter.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=awaitMessages');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=awaitMessages');
 	}
 };
 
@@ -19399,7 +19399,7 @@ Blockly.Blocks.TextChannel_bulkDelete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Bulk delete given messages that are newer than two weeks.\n<warn>This is only available when using a bot account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=bulkDelete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=bulkDelete');
 	}
 };
 
@@ -19423,7 +19423,7 @@ Blockly.Blocks.TextChannel_acknowledge = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Marks all messages in this channel as read.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=acknowledge');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=acknowledge');
 	}
 };
 
@@ -19449,7 +19449,7 @@ Blockly.Blocks.TextChannel_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=sendMessage');
 	}
 };
 
@@ -19479,7 +19479,7 @@ Blockly.Blocks.TextChannel_sendEmbed = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send an embed to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=sendEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=sendEmbed');
 	}
 };
 
@@ -19510,7 +19510,7 @@ Blockly.Blocks.TextChannel_sendFiles = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send files to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=sendFiles');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=sendFiles');
 	}
 };
 
@@ -19543,7 +19543,7 @@ Blockly.Blocks.TextChannel_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=sendFile');
 	}
 };
 
@@ -19575,7 +19575,7 @@ Blockly.Blocks.TextChannel_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=sendCode');
 	}
 };
 
@@ -19601,7 +19601,7 @@ Blockly.Blocks.TextChannel_permissionsFor = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the overall set of permissions for a user in this channel, taking into account roles and permission\noverwrites.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=permissionsFor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=permissionsFor');
 	}
 };
 
@@ -19630,7 +19630,7 @@ Blockly.Blocks.TextChannel_overwritePermissions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Overwrites the permissions for a user or role in this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=overwritePermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=overwritePermissions');
 	}
 };
 
@@ -19659,7 +19659,7 @@ Blockly.Blocks.TextChannel_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edits the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=edit');
 	}
 };
 
@@ -19687,7 +19687,7 @@ Blockly.Blocks.TextChannel_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new name for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=setName');
 	}
 };
 
@@ -19715,7 +19715,7 @@ Blockly.Blocks.TextChannel_setPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new position for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=setPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=setPosition');
 	}
 };
 
@@ -19743,7 +19743,7 @@ Blockly.Blocks.TextChannel_setTopic = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new topic for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=setTopic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=setTopic');
 	}
 };
 
@@ -19771,7 +19771,7 @@ Blockly.Blocks.TextChannel_createInvite = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Create an invite to this guild channel.\n<warn>This is only available when using a bot account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=createInvite');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=createInvite');
 	}
 };
 
@@ -19803,7 +19803,7 @@ Blockly.Blocks.TextChannel_clone = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clone this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=clone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=clone');
 	}
 };
 
@@ -19831,7 +19831,7 @@ Blockly.Blocks.TextChannel_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=delete');
 	}
 };
 
@@ -19855,7 +19855,7 @@ Blockly.Blocks.TextChannel_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if this channel has the same type, topic, position, name, overwrites and ID as another channel.\nIn most cases, a simple `channel.id === channel2.id` will do, and is much faster too.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=equals');
 	}
 };
 
@@ -19877,7 +19877,7 @@ Blockly.Blocks.TextChannel_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically returns the channel\'s mention instead of the Channel object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/TextChannel?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/TextChannel?scrollTo=toString');
 	}
 };
 
@@ -19896,7 +19896,7 @@ Blockly.Blocks.User_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that created the instance of the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=client');
 	}
 };
 
@@ -19915,7 +19915,7 @@ Blockly.Blocks.User_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=id');
 	}
 };
 
@@ -19934,7 +19934,7 @@ Blockly.Blocks.User_username = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The username of the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=username');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=username');
 	}
 };
 
@@ -19953,7 +19953,7 @@ Blockly.Blocks.User_discriminator = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A discriminator based on username for the user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=discriminator');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=discriminator');
 	}
 };
 
@@ -19972,7 +19972,7 @@ Blockly.Blocks.User_avatar = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the user\'s avatar');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=avatar');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=avatar');
 	}
 };
 
@@ -19991,7 +19991,7 @@ Blockly.Blocks.User_bot = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether or not the user is a bot');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=bot');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=bot');
 	}
 };
 
@@ -20010,7 +20010,7 @@ Blockly.Blocks.User_lastMessageID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the last message sent by the user, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=lastMessageID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=lastMessageID');
 	}
 };
 
@@ -20029,7 +20029,7 @@ Blockly.Blocks.User_lastMessage = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Message object of the last message sent by the user, if one was sent');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=lastMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=lastMessage');
 	}
 };
 
@@ -20048,7 +20048,7 @@ Blockly.Blocks.User_createdTimestamp = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The timestamp the user was created at');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=createdTimestamp');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=createdTimestamp');
 	}
 };
 
@@ -20067,7 +20067,7 @@ Blockly.Blocks.User_createdAt = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The time the user was created');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=createdAt');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=createdAt');
 	}
 };
 
@@ -20086,7 +20086,7 @@ Blockly.Blocks.User_presence = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The presence of this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=presence');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=presence');
 	}
 };
 
@@ -20105,7 +20105,7 @@ Blockly.Blocks.User_avatarURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A link to the user\'s avatar');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=avatarURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=avatarURL');
 	}
 };
 
@@ -20124,7 +20124,7 @@ Blockly.Blocks.User_defaultAvatarURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A link to the user\'s default avatar');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=defaultAvatarURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=defaultAvatarURL');
 	}
 };
 
@@ -20143,7 +20143,7 @@ Blockly.Blocks.User_displayAvatarURL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A link to the user\'s avatar if they have one. Otherwise a link to their default avatar will be returned');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=displayAvatarURL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=displayAvatarURL');
 	}
 };
 
@@ -20162,7 +20162,7 @@ Blockly.Blocks.User_tag = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The Discord "tag" for this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=tag');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=tag');
 	}
 };
 
@@ -20181,7 +20181,7 @@ Blockly.Blocks.User_note = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The note that is set for the user\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=note');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=note');
 	}
 };
 
@@ -20200,7 +20200,7 @@ Blockly.Blocks.User_dmChannel = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The DM between the client\'s user and this user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=dmChannel');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=dmChannel');
 	}
 };
 
@@ -20223,7 +20223,7 @@ Blockly.Blocks.User_typingIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Check whether the user is typing in a channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=typingIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=typingIn');
 	}
 };
 
@@ -20247,7 +20247,7 @@ Blockly.Blocks.User_typingSinceIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Get the time that the user started typing.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=typingSinceIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=typingSinceIn');
 	}
 };
 
@@ -20271,7 +20271,7 @@ Blockly.Blocks.User_typingDurationIn = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Get the amount of time the user has been typing in a channel for (in milliseconds), or -1 if they\'re not typing.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=typingDurationIn');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=typingDurationIn');
 	}
 };
 
@@ -20294,7 +20294,7 @@ Blockly.Blocks.User_createDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates a DM channel between the client and the user.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=createDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=createDM');
 	}
 };
 
@@ -20316,7 +20316,7 @@ Blockly.Blocks.User_deleteDM = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes a DM channel (if one exists) between the client and the user. Resolves with the channel if successful.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=deleteDM');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=deleteDM');
 	}
 };
 
@@ -20338,7 +20338,7 @@ Blockly.Blocks.User_addFriend = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sends a friend request to the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=addFriend');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=addFriend');
 	}
 };
 
@@ -20360,7 +20360,7 @@ Blockly.Blocks.User_removeFriend = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Removes the user from your friends.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=removeFriend');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=removeFriend');
 	}
 };
 
@@ -20382,7 +20382,7 @@ Blockly.Blocks.User_block = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Blocks the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=block');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=block');
 	}
 };
 
@@ -20404,7 +20404,7 @@ Blockly.Blocks.User_unblock = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Unblocks the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=unblock');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=unblock');
 	}
 };
 
@@ -20426,7 +20426,7 @@ Blockly.Blocks.User_fetchProfile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Get the profile of the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=fetchProfile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=fetchProfile');
 	}
 };
 
@@ -20450,7 +20450,7 @@ Blockly.Blocks.User_setNote = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets a note for the user.\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=setNote');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=setNote');
 	}
 };
 
@@ -20474,7 +20474,7 @@ Blockly.Blocks.User_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if the user is equal to another. It compares ID, username, discriminator, avatar, and bot flags.\nIt is recommended to compare equality by using `user.id === user2.id` unless you want to compare all properties.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=equals');
 	}
 };
 
@@ -20496,7 +20496,7 @@ Blockly.Blocks.User_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically concatenates the user\'s mention instead of the User object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=toString');
 	}
 };
 
@@ -20522,7 +20522,7 @@ Blockly.Blocks.User_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=send');
 	}
 };
 
@@ -20550,7 +20550,7 @@ Blockly.Blocks.User_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=sendMessage');
 	}
 };
 
@@ -20580,7 +20580,7 @@ Blockly.Blocks.User_sendEmbed = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send an embed to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=sendEmbed');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=sendEmbed');
 	}
 };
 
@@ -20613,7 +20613,7 @@ Blockly.Blocks.User_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=sendFile');
 	}
 };
 
@@ -20645,7 +20645,7 @@ Blockly.Blocks.User_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block to this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/User?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/User?scrollTo=sendCode');
 	}
 };
 
@@ -20667,7 +20667,7 @@ Blockly.Blocks.UserConnection_user = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user that owns the connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserConnection?scrollTo=user');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserConnection?scrollTo=user');
 	}
 };
 
@@ -20686,7 +20686,7 @@ Blockly.Blocks.UserConnection_type = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of the connection');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserConnection?scrollTo=type');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserConnection?scrollTo=type');
 	}
 };
 
@@ -20705,7 +20705,7 @@ Blockly.Blocks.UserConnection_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The username of the connection account');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserConnection?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserConnection?scrollTo=name');
 	}
 };
 
@@ -20724,7 +20724,7 @@ Blockly.Blocks.UserConnection_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The id of the connection account');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserConnection?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserConnection?scrollTo=id');
 	}
 };
 
@@ -20743,7 +20743,7 @@ Blockly.Blocks.UserConnection_revoked = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the connection is revoked');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserConnection?scrollTo=revoked');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserConnection?scrollTo=revoked');
 	}
 };
 
@@ -20762,7 +20762,7 @@ Blockly.Blocks.UserConnection_integrations = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Partial server integrations (not yet implemented)');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserConnection?scrollTo=integrations');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserConnection?scrollTo=integrations');
 	}
 };
 
@@ -20781,7 +20781,7 @@ Blockly.Blocks.UserProfile_user = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The owner of the profile');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserProfile?scrollTo=user');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserProfile?scrollTo=user');
 	}
 };
 
@@ -20800,7 +20800,7 @@ Blockly.Blocks.UserProfile_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that created the instance of the UserProfile');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserProfile?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserProfile?scrollTo=client');
 	}
 };
 
@@ -20819,7 +20819,7 @@ Blockly.Blocks.UserProfile_mutualGuilds = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guilds that the client user and the user share');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserProfile?scrollTo=mutualGuilds');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserProfile?scrollTo=mutualGuilds');
 	}
 };
 
@@ -20838,7 +20838,7 @@ Blockly.Blocks.UserProfile_connections = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The user\'s connections');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserProfile?scrollTo=connections');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserProfile?scrollTo=connections');
 	}
 };
 
@@ -20857,7 +20857,7 @@ Blockly.Blocks.UserProfile_premium = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('If the user has Discord Premium');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserProfile?scrollTo=premium');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserProfile?scrollTo=premium');
 	}
 };
 
@@ -20876,7 +20876,7 @@ Blockly.Blocks.UserProfile_premiumSince = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The date since which the user has had Discord Premium');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/UserProfile?scrollTo=premiumSince');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/UserProfile?scrollTo=premiumSince');
 	}
 };
 
@@ -20895,7 +20895,7 @@ Blockly.Blocks.VoiceChannel_members = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The members in this voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=members');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=members');
 	}
 };
 
@@ -20914,7 +20914,7 @@ Blockly.Blocks.VoiceChannel_bitrate = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The bitrate of this voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=bitrate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=bitrate');
 	}
 };
 
@@ -20933,7 +20933,7 @@ Blockly.Blocks.VoiceChannel_userLimit = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The maximum amount of users allowed in this channel - 0 means unlimited.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=userLimit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=userLimit');
 	}
 };
 
@@ -20952,7 +20952,7 @@ Blockly.Blocks.VoiceChannel_connection = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The voice connection for this voice channel, if the client is connected');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=connection');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=connection');
 	}
 };
 
@@ -20971,7 +20971,7 @@ Blockly.Blocks.VoiceChannel_full = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Checks if the voice channel is full');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=full');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=full');
 	}
 };
 
@@ -20990,7 +20990,7 @@ Blockly.Blocks.VoiceChannel_joinable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Checks if the client has permission join the voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=joinable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=joinable');
 	}
 };
 
@@ -21009,7 +21009,7 @@ Blockly.Blocks.VoiceChannel_speakable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Checks if the client has permission to send audio to the voice channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=speakable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=speakable');
 	}
 };
 
@@ -21028,7 +21028,7 @@ Blockly.Blocks.VoiceChannel_guild = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the channel is in');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=guild');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=guild');
 	}
 };
 
@@ -21047,7 +21047,7 @@ Blockly.Blocks.VoiceChannel_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the guild channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=name');
 	}
 };
 
@@ -21066,7 +21066,7 @@ Blockly.Blocks.VoiceChannel_position = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the channel in the list');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=position');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=position');
 	}
 };
 
@@ -21085,7 +21085,7 @@ Blockly.Blocks.VoiceChannel_permissionOverwrites = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A map of permission overwrites in this channel for roles and users');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=permissionOverwrites');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=permissionOverwrites');
 	}
 };
 
@@ -21104,7 +21104,7 @@ Blockly.Blocks.VoiceChannel_calculatedPosition = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The position of the channel');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=calculatedPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=calculatedPosition');
 	}
 };
 
@@ -21123,7 +21123,7 @@ Blockly.Blocks.VoiceChannel_deletable = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is deletable by the client user');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=deletable');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=deletable');
 	}
 };
 
@@ -21142,7 +21142,7 @@ Blockly.Blocks.VoiceChannel_muted = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the channel is muted\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=muted');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=muted');
 	}
 };
 
@@ -21161,7 +21161,7 @@ Blockly.Blocks.VoiceChannel_messageNotifications = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The type of message that should notify you\n<warn>This is only available when using a user account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=messageNotifications');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=messageNotifications');
 	}
 };
 
@@ -21187,7 +21187,7 @@ Blockly.Blocks.VoiceChannel_setBitrate = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the bitrate of the channel (in kbps).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=setBitrate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=setBitrate');
 	}
 };
 
@@ -21215,7 +21215,7 @@ Blockly.Blocks.VoiceChannel_setUserLimit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Sets the user limit of the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=setUserLimit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=setUserLimit');
 	}
 };
 
@@ -21239,7 +21239,7 @@ Blockly.Blocks.VoiceChannel_join = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Attempts to join this voice channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=join');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=join');
 	}
 };
 
@@ -21261,7 +21261,7 @@ Blockly.Blocks.VoiceChannel_leave = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Leaves this voice channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=leave');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=leave');
 	}
 };
 
@@ -21284,7 +21284,7 @@ Blockly.Blocks.VoiceChannel_permissionsFor = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the overall set of permissions for a user in this channel, taking into account roles and permission\noverwrites.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=permissionsFor');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=permissionsFor');
 	}
 };
 
@@ -21313,7 +21313,7 @@ Blockly.Blocks.VoiceChannel_overwritePermissions = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Overwrites the permissions for a user or role in this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=overwritePermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=overwritePermissions');
 	}
 };
 
@@ -21342,7 +21342,7 @@ Blockly.Blocks.VoiceChannel_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edits the channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=edit');
 	}
 };
 
@@ -21370,7 +21370,7 @@ Blockly.Blocks.VoiceChannel_setName = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new name for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=setName');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=setName');
 	}
 };
 
@@ -21398,7 +21398,7 @@ Blockly.Blocks.VoiceChannel_setPosition = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new position for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=setPosition');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=setPosition');
 	}
 };
 
@@ -21426,7 +21426,7 @@ Blockly.Blocks.VoiceChannel_setTopic = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Set a new topic for the guild channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=setTopic');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=setTopic');
 	}
 };
 
@@ -21454,7 +21454,7 @@ Blockly.Blocks.VoiceChannel_createInvite = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Create an invite to this guild channel.\n<warn>This is only available when using a bot account.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=createInvite');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=createInvite');
 	}
 };
 
@@ -21486,7 +21486,7 @@ Blockly.Blocks.VoiceChannel_clone = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Clone this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=clone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=clone');
 	}
 };
 
@@ -21514,7 +21514,7 @@ Blockly.Blocks.VoiceChannel_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Deletes this channel.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=delete');
 	}
 };
 
@@ -21538,7 +21538,7 @@ Blockly.Blocks.VoiceChannel_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if this channel has the same type, topic, position, name, overwrites and ID as another channel.\nIn most cases, a simple `channel.id === channel2.id` will do, and is much faster too.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=equals');
 	}
 };
 
@@ -21560,7 +21560,7 @@ Blockly.Blocks.VoiceChannel_toString = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('When concatenated with a string, this automatically returns the channel\'s mention instead of the Channel object.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceChannel?scrollTo=toString');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceChannel?scrollTo=toString');
 	}
 };
 
@@ -21579,7 +21579,7 @@ Blockly.Blocks.VoiceRegion_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the region');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=id');
 	}
 };
 
@@ -21598,7 +21598,7 @@ Blockly.Blocks.VoiceRegion_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Name of the region');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=name');
 	}
 };
 
@@ -21617,7 +21617,7 @@ Blockly.Blocks.VoiceRegion_vip = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the region is VIP-only');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=vip');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=vip');
 	}
 };
 
@@ -21636,7 +21636,7 @@ Blockly.Blocks.VoiceRegion_deprecated = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the region is deprecated');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=deprecated');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=deprecated');
 	}
 };
 
@@ -21655,7 +21655,7 @@ Blockly.Blocks.VoiceRegion_optimal = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the region is optimal');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=optimal');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=optimal');
 	}
 };
 
@@ -21674,7 +21674,7 @@ Blockly.Blocks.VoiceRegion_custom = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Whether the region is custom');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=custom');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=custom');
 	}
 };
 
@@ -21693,7 +21693,7 @@ Blockly.Blocks.VoiceRegion_sampleHostname = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('A sample hostname for what a connection might look like');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/VoiceRegion?scrollTo=sampleHostname');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/VoiceRegion?scrollTo=sampleHostname');
 	}
 };
 
@@ -21712,7 +21712,7 @@ Blockly.Blocks.Webhook_client = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The client that instantiated the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=client');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=client');
 	}
 };
 
@@ -21731,7 +21731,7 @@ Blockly.Blocks.Webhook_name = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The name of the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=name');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=name');
 	}
 };
 
@@ -21750,7 +21750,7 @@ Blockly.Blocks.Webhook_token = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The token for the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=token');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=token');
 	}
 };
 
@@ -21769,7 +21769,7 @@ Blockly.Blocks.Webhook_avatar = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The avatar for the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=avatar');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=avatar');
 	}
 };
 
@@ -21788,7 +21788,7 @@ Blockly.Blocks.Webhook_id = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The ID of the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=id');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=id');
 	}
 };
 
@@ -21807,7 +21807,7 @@ Blockly.Blocks.Webhook_guildID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The guild the webhook belongs to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=guildID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=guildID');
 	}
 };
 
@@ -21826,7 +21826,7 @@ Blockly.Blocks.Webhook_channelID = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The channel the webhook belongs to');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=channelID');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=channelID');
 	}
 };
 
@@ -21845,7 +21845,7 @@ Blockly.Blocks.Webhook_owner = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('The owner of the webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=owner');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=owner');
 	}
 };
 
@@ -21871,7 +21871,7 @@ Blockly.Blocks.Webhook_send = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=send');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=send');
 	}
 };
 
@@ -21899,7 +21899,7 @@ Blockly.Blocks.Webhook_sendMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a message with this webhook');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=sendMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=sendMessage');
 	}
 };
 
@@ -21931,7 +21931,7 @@ Blockly.Blocks.Webhook_sendFile = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a file with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=sendFile');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=sendFile');
 	}
 };
 
@@ -21963,7 +21963,7 @@ Blockly.Blocks.Webhook_sendCode = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a code block with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=sendCode');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=sendCode');
 	}
 };
 
@@ -21990,7 +21990,7 @@ Blockly.Blocks.Webhook_sendSlackMessage = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Send a raw slack message with this webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=sendSlackMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=sendSlackMessage');
 	}
 };
 
@@ -22017,7 +22017,7 @@ Blockly.Blocks.Webhook_edit = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Edit the webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=edit');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=edit');
 	}
 };
 
@@ -22043,7 +22043,7 @@ Blockly.Blocks.Webhook_delete = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Delete the webhook.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Webhook?scrollTo=delete');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Webhook?scrollTo=delete');
 	}
 };
 
@@ -22065,7 +22065,7 @@ Blockly.Blocks.Collection_array = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates an ordered array of the values of this collection, and caches it internally. The array will only be\nreconstructed if an item is added to or removed from the collection, or if you change the length of the array\nitself. If you don\'t want this caching behaviour, use `Array.from(collection.values())` instead.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=array');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=array');
 	}
 };
 
@@ -22086,7 +22086,7 @@ Blockly.Blocks.Collection_keyArray = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates an ordered array of the keys of this collection, and caches it internally. The array will only be\nreconstructed if an item is added to or removed from the collection, or if you change the length of the array\nitself. If you don\'t want this caching behaviour, use `Array.from(collection.keys())` instead.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=keyArray');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=keyArray');
 	}
 };
 
@@ -22109,7 +22109,7 @@ Blockly.Blocks.Collection_first = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains the first value(s) in this collection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=first');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=first');
 	}
 };
 
@@ -22133,7 +22133,7 @@ Blockly.Blocks.Collection_firstKey = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains the first key(s) in this collection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=firstKey');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=firstKey');
 	}
 };
 
@@ -22157,7 +22157,7 @@ Blockly.Blocks.Collection_last = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains the last value(s) in this collection. This relies on {@link Collection#array}, and thus the caching\nmechanism applies here as well.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=last');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=last');
 	}
 };
 
@@ -22181,7 +22181,7 @@ Blockly.Blocks.Collection_lastKey = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains the last key(s) in this collection. This relies on {@link Collection#keyArray}, and thus the caching\nmechanism applies here as well.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=lastKey');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=lastKey');
 	}
 };
 
@@ -22205,7 +22205,7 @@ Blockly.Blocks.Collection_random = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains random value(s) from this collection. This relies on {@link Collection#array}, and thus the caching\nmechanism applies here as well.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=random');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=random');
 	}
 };
 
@@ -22229,7 +22229,7 @@ Blockly.Blocks.Collection_randomKey = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Obtains random key(s) from this collection. This relies on {@link Collection#keyArray}, and thus the caching\nmechanism applies here as well.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=randomKey');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=randomKey');
 	}
 };
 
@@ -22255,7 +22255,7 @@ Blockly.Blocks.Collection_findAll = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Searches for all items where their specified property\'s value is identical to the given value\n(`item[prop] === value`).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=findAll');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=findAll');
 	}
 };
 
@@ -22282,7 +22282,7 @@ Blockly.Blocks.Collection_find = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Searches for a single item where its specified property\'s value is identical to the given value\n(`item[prop] === value`), or the given function returns a truthy value. In the latter case, this is identical to\n[Array.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find).\n<warn>All collections used in Discord.js are mapped using their `id` property, and if you want to find by id you\nshould use the `get` method. See\n[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get) for details.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=find');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=find');
 	}
 };
 
@@ -22309,7 +22309,7 @@ Blockly.Blocks.Collection_findKey = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Searches for the key of a single item where its specified property\'s value is identical to the given value\n(`item[prop] === value`), or the given function returns a truthy value. In the latter case, this is identical to\n[Array.findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=findKey');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=findKey');
 	}
 };
 
@@ -22336,7 +22336,7 @@ Blockly.Blocks.Collection_exists = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Searches for the existence of a single item where its specified property\'s value is identical to the given value\n(`item[prop] === value`).\n<warn>Do not use this to check for an item by its ID. Instead, use `collection.has(id)`. See\n[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has) for details.</warn>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=exists');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=exists');
 	}
 };
 
@@ -22363,7 +22363,7 @@ Blockly.Blocks.Collection_filter = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Identical to\n[Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter),\nbut returns a Collection instead of an Array.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=filter');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=filter');
 	}
 };
 
@@ -22390,7 +22390,7 @@ Blockly.Blocks.Collection_filterArray = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Identical to\n[Array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=filterArray');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=filterArray');
 	}
 };
 
@@ -22417,7 +22417,7 @@ Blockly.Blocks.Collection_map = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Identical to\n[Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=map');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=map');
 	}
 };
 
@@ -22444,7 +22444,7 @@ Blockly.Blocks.Collection_some = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Identical to\n[Array.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=some');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=some');
 	}
 };
 
@@ -22471,7 +22471,7 @@ Blockly.Blocks.Collection_every = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Identical to\n[Array.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=every');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=every');
 	}
 };
 
@@ -22498,7 +22498,7 @@ Blockly.Blocks.Collection_reduce = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Identical to\n[Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce).');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=reduce');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=reduce');
 	}
 };
 
@@ -22521,7 +22521,7 @@ Blockly.Blocks.Collection_clone = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Creates an identical shallow copy of this collection.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=clone');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=clone');
 	}
 };
 
@@ -22544,7 +22544,7 @@ Blockly.Blocks.Collection_concat = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Combines this collection with others into a new collection. None of the source collections are modified.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=concat');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=concat');
 	}
 };
 
@@ -22566,7 +22566,7 @@ Blockly.Blocks.Collection_deleteAll = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Calls the `delete()` method on all items that have it.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=deleteAll');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=deleteAll');
 	}
 };
 
@@ -22589,7 +22589,7 @@ Blockly.Blocks.Collection_equals = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks if this collection shares identical key-value pairings with another.\nThis is different to checking for equality using equal-signs, because\nthe collections may be different objects, but contain the same data.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=equals');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=equals');
 	}
 };
 
@@ -22613,7 +22613,7 @@ Blockly.Blocks.Collection_sort = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('The sort() method sorts the elements of a collection in place and returns the collection.\nThe sort is not necessarily stable. The default sort order is according to string Unicode code points.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Collection?scrollTo=sort');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Collection?scrollTo=sort');
 	}
 };
 
@@ -22636,7 +22636,7 @@ Blockly.Blocks.Permissions_constructor = {
 		this.setOutput(true, null);
 		this.setColour(160);
 		this.setTooltip('Data structure that makes it easy to interact with a permission bitfield. All {@link GuildMember}s have a set of\npermissions in their guild, and each channel in the guild may also have {@link PermissionOverwrites} for the member\nthat override their default permissions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions');
 	}
 };
 
@@ -22656,7 +22656,7 @@ Blockly.Blocks.Permissions__member = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Member the permissions are for');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=_member');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=_member');
 	}
 };
 
@@ -22675,7 +22675,7 @@ Blockly.Blocks.Permissions_bitfield = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Bitfield of the packed permissions');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=bitfield');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=bitfield');
 	}
 };
 
@@ -22694,7 +22694,7 @@ Blockly.Blocks.Permissions_raw = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Bitfield of the packed permissions');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=raw');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=raw');
 	}
 };
 
@@ -22713,7 +22713,7 @@ Blockly.Blocks.Permissions_FLAGS = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Numeric permission flags. All available properties:\n- `ADMINISTRATOR` (implicitly has *all* permissions, and bypasses all channel overwrites)\n- `CREATE_INSTANT_INVITE` (create invitations to the guild)\n- `KICK_MEMBERS`\n- `BAN_MEMBERS`\n- `MANAGE_CHANNELS` (edit and reorder channels)\n- `MANAGE_GUILD` (edit the guild information, region, etc.)\n- `ADD_REACTIONS` (add new reactions to messages)\n- `VIEW_AUDIT_LOG`\n- `VIEW_CHANNEL`\n- `READ_MESSAGES` **(deprecated)**\n- `SEND_MESSAGES`\n- `SEND_TTS_MESSAGES`\n- `MANAGE_MESSAGES` (delete messages and reactions)\n- `EMBED_LINKS` (links posted will have a preview embedded)\n- `ATTACH_FILES`\n- `READ_MESSAGE_HISTORY` (view messages that were posted prior to opening Discord)\n- `MENTION_EVERYONE`\n- `USE_EXTERNAL_EMOJIS` (use emojis from different guilds)\n- `EXTERNAL_EMOJIS` **(deprecated)**\n- `CONNECT` (connect to a voice channel)\n- `SPEAK` (speak in a voice channel)\n- `MUTE_MEMBERS` (mute members across all voice channels)\n- `DEAFEN_MEMBERS` (deafen members across all voice channels)\n- `MOVE_MEMBERS` (move members between voice channels)\n- `USE_VAD` (use voice activity detection)\n- `CHANGE_NICKNAME`\n- `MANAGE_NICKNAMES` (change other members\' nicknames)\n- `MANAGE_ROLES`\n- `MANAGE_ROLES_OR_PERMISSIONS` **(deprecated)**\n- `MANAGE_WEBHOOKS`\n- `MANAGE_EMOJIS`');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=FLAGS');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=FLAGS');
 	}
 };
 
@@ -22732,7 +22732,7 @@ Blockly.Blocks.Permissions_ALL = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Bitfield representing every permission combined');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=ALL');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=ALL');
 	}
 };
 
@@ -22751,7 +22751,7 @@ Blockly.Blocks.Permissions_DEFAULT = {
 		this.setOutput(true, null);
 		this.setColour(230);
 		this.setTooltip('Bitfield representing the default permissions for users');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=DEFAULT');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=DEFAULT');
 	}
 };
 
@@ -22776,7 +22776,7 @@ Blockly.Blocks.Permissions_has = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks whether the bitfield has a permission, or multiple permissions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=has');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=has');
 	}
 };
 
@@ -22803,7 +22803,7 @@ Blockly.Blocks.Permissions_missing = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets all given permissions that are missing from the bitfield.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=missing');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=missing');
 	}
 };
 
@@ -22828,7 +22828,7 @@ Blockly.Blocks.Permissions_add = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Adds permissions to this one, creating a new instance to represent the new bitfield.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=add');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=add');
 	}
 };
 
@@ -22852,7 +22852,7 @@ Blockly.Blocks.Permissions_remove = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Removes permissions to this one, creating a new instance to represent the new bitfield.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=remove');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=remove');
 	}
 };
 
@@ -22876,7 +22876,7 @@ Blockly.Blocks.Permissions_serialize = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets an object mapping permission name (like `VIEW_CHANNEL`) to a {@link boolean} indicating whether the\npermission is available.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=serialize');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=serialize');
 	}
 };
 
@@ -22902,7 +22902,7 @@ Blockly.Blocks.Permissions_hasPermission = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks whether the user has a certain permission, e.g. `READ_MESSAGES`.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=hasPermission');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=hasPermission');
 	}
 };
 
@@ -22929,7 +22929,7 @@ Blockly.Blocks.Permissions_hasPermissions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks whether the user has all specified permissions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=hasPermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=hasPermissions');
 	}
 };
 
@@ -22956,7 +22956,7 @@ Blockly.Blocks.Permissions_missingPermissions = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Checks whether the user has all specified permissions, and lists any missing permissions.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=missingPermissions');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=missingPermissions');
 	}
 };
 
@@ -22981,7 +22981,7 @@ Blockly.Blocks.Permissions_resolve = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Resolves permissions to their numeric form.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=resolve');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Permissions?scrollTo=resolve');
 	}
 };
 
@@ -23003,7 +23003,7 @@ Blockly.Blocks.SnowflakeUtil_generate = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Generates a Discord snowflake.\n<info>This hardcodes the worker ID as 1 and the process ID as 0.</info>');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/SnowflakeUtil?scrollTo=generate');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/SnowflakeUtil?scrollTo=generate');
 	}
 };
 
@@ -23026,7 +23026,7 @@ Blockly.Blocks.SnowflakeUtil_deconstruct = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Deconstructs a Discord snowflake.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/SnowflakeUtil?scrollTo=deconstruct');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/SnowflakeUtil?scrollTo=deconstruct');
 	}
 };
 
@@ -23052,7 +23052,7 @@ Blockly.Blocks.Util_splitMessage = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Splits a string into multiple chunks at a designated character that do not exceed a specific length.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Util?scrollTo=splitMessage');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Util?scrollTo=splitMessage');
 	}
 };
 
@@ -23081,7 +23081,7 @@ Blockly.Blocks.Util_escapeMarkdown = {
 		this.setOutput(true, null);
 		this.setColour(40);
 		this.setTooltip('Escapes any Discord-flavour markdown in a string.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Util?scrollTo=escapeMarkdown');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Util?scrollTo=escapeMarkdown');
 	}
 };
 
@@ -23110,7 +23110,7 @@ Blockly.Blocks.Util_fetchRecommendedShards = {
 		this.setNextStatement(true, null);
 		this.setColour(40);
 		this.setTooltip('Gets the recommended shard count from Discord.');
-		this.setHelpUrl('https://discord.js.org/#/docs/main/stable/class/Util?scrollTo=fetchRecommendedShards');
+		this.setHelpUrl('https://discord.js.org/#/docs/main/11.2.0/class/Util?scrollTo=fetchRecommendedShards');
 	}
 };
 

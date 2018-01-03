@@ -37,9 +37,9 @@ Blockly.Blocks.console_log = {
 };
 
 Blockly.JavaScript.console_log = (block) => {
-	const value_text = Blockly.JavaScript.valueToCode(block, 'text', Blockly.JavaScript.ORDER_ATOMIC);
+	const valueText = Blockly.JavaScript.valueToCode(block, 'text', Blockly.JavaScript.ORDER_ATOMIC);
 	// TODO: Assemble JavaScript into code variable.
-	const code = `console.log(${value_text});\n`;
+	const code = `console.log(${valueText});\n`;
 	return code;
 };
 
@@ -57,9 +57,9 @@ Blockly.Blocks.eval = {
 };
 
 Blockly.JavaScript.eval = (block) => {
-	const value_text = Blockly.JavaScript.valueToCode(block, 'text', Blockly.JavaScript.ORDER_ATOMIC);
+	const valueText = Blockly.JavaScript.valueToCode(block, 'text', Blockly.JavaScript.ORDER_ATOMIC);
 	// TODO: Assemble JavaScript into code variable.
-	const code = `eval(${value_text});\n`;
+	const code = `eval(${valueText});\n`;
 	return code;
 };
 
@@ -99,10 +99,10 @@ Blockly.Blocks.mss_object_set = {
 };
 
 Blockly.JavaScript.mss_object_set = (block) => {
-	const value_object = Blockly.JavaScript.valueToCode(block, 'object', Blockly.JavaScript.ORDER_ATOMIC);
-	const text_key = block.getFieldValue('key');
-	const value_token = Blockly.JavaScript.valueToCode(block, 'token', Blockly.JavaScript.ORDER_ATOMIC);
-	const code = `${value_object}['${text_key.replace(/'/g, '\\\'')}'] = ${value_token};\n`;
+	const valueObject = Blockly.JavaScript.valueToCode(block, 'object', Blockly.JavaScript.ORDER_ATOMIC);
+	const textKey = block.getFieldValue('key');
+	const valueToken = Blockly.JavaScript.valueToCode(block, 'token', Blockly.JavaScript.ORDER_ATOMIC);
+	const code = `${valueObject}['${textKey.replace(/'/g, '\\\'')}'] = ${valueToken};\n`;
 	return code;
 };
 
@@ -123,9 +123,9 @@ Blockly.Blocks.mss_property_get = {
 };
 
 Blockly.JavaScript.mss_property_get = (block) => {
-	const value_key = Blockly.JavaScript.valueToCode(block, 'key', Blockly.JavaScript.ORDER_ATOMIC);
-	const value_object = Blockly.JavaScript.valueToCode(block, 'object', Blockly.JavaScript.ORDER_ATOMIC);
-	const code = `${value_object}['${value_key.replace(/'/g, '\\\'')}']`;
+	const valueKey = Blockly.JavaScript.valueToCode(block, 'key', Blockly.JavaScript.ORDER_ATOMIC);
+	const valueObject = Blockly.JavaScript.valueToCode(block, 'object', Blockly.JavaScript.ORDER_ATOMIC);
+	const code = `${valueObject}['${valueKey.replace(/'/g, '\\\'')}']`;
 	return [code, Blockly.JavaScript.ORDER_NONE];
 };
 
@@ -148,20 +148,20 @@ Blockly.Blocks.mss_client_post = {
 };
 
 Blockly.JavaScript.mss_client_post = (block) => {
-	const value_client = Blockly.JavaScript.valueToCode(block, 'client', Blockly.JavaScript.ORDER_ATOMIC);
-	const dropdown_website = block.getFieldValue('website');
-	const text_token = block.getFieldValue('token');
+	const valueClient = Blockly.JavaScript.valueToCode(block, 'client', Blockly.JavaScript.ORDER_ATOMIC);
+	const dropdownWebsite = block.getFieldValue('website');
+	const textToken = block.getFieldValue('token');
 
-	const code = `if (${value_client}.browser) {
+	const code = `if (${valueClient}.browser) {
 	//	console.error('Posting bot statistics is not yet allowed, because of cross site and XMLHttpRequest preflight problems.');
 	$.ajax({
 		method: 'POST',
-		url: \`https://${dropdown_website}/api/bots/\${${value_client}.user.id}/stats\`,
+		url: \`https://${dropdownWebsite}/api/bots/\${${valueClient}.user.id}/stats\`,
 		data: {
-			server_count: ${value_client}.guilds.size
+			server_count: ${valueClient}.guilds.size
 		},
 		headers: {
-			authorization: '${text_token}'
+			authorization: '${textToken}'
 		},
 		success: (data) => {
 			console.log(data);
@@ -169,18 +169,18 @@ Blockly.JavaScript.mss_client_post = (block) => {
 	});
 } else {
 	const postData = JSON.stringify({
-		server_count: ${value_client}.guilds.size
+		server_count: ${valueClient}.guilds.size
 	});
 
 	const options = {
-		hostname: '${dropdown_website}',
-		path: \`/api/bots/\${${value_client}.user.id}/stats\`,
+		hostname: '${dropdownWebsite}',
+		path: \`/api/bots/\${${valueClient}.user.id}/stats\`,
 		method: 'POST',
 		headers: {
 			'User-Agent': 'DiscordBot (https://moustacheminer.com/discord-blocks, 2017-09-14) DiscordBlocks',
 			'Content-Type': 'application/json',
 			'Content-Length': postData.length,
-			Authorization: '${text_token}'
+			Authorization: '${textToken}'
 		}
 	};
 
@@ -205,7 +205,7 @@ Blockly.Blocks.mss_json_stringify = {
 	init() {
 		this.appendValueInput('json')
 			.setCheck('String')
-			.appendField('stringify');
+			.appendField('JSON.stringify');
 		this.setOutput(true, null);
 		this.setColour(300);
 		this.setTooltip('The JSON.stringify() method converts a JavaScript value to a JSON string, optionally replacing values if a replacer function is specified, or optionally including only the specified properties if a replacer array is specified.');
@@ -217,7 +217,7 @@ Blockly.Blocks.mss_json_parse = {
 	init() {
 		this.appendValueInput('json')
 			.setCheck('String')
-			.appendField('parse');
+			.appendField('JSON.parse');
 		this.setOutput(true, null);
 		this.setColour(300);
 		this.setTooltip('The JSON.parse() method parses a JSON string, constructing the JavaScript value or object described by the string. An optional reviver function can be provided to perform a transformation on the resulting object before it is returned.');
@@ -226,13 +226,13 @@ Blockly.Blocks.mss_json_parse = {
 };
 
 Blockly.JavaScript.mss_json_stringify = (block) => {
-	const value_json = Blockly.JavaScript.valueToCode(block, 'json', Blockly.JavaScript.ORDER_ATOMIC);
-	const code = `JSON.stringify(${value_json})`;
+	const valueJson = Blockly.JavaScript.valueToCode(block, 'json', Blockly.JavaScript.ORDER_ATOMIC);
+	const code = `JSON.stringify(${valueJson})`;
 	return [code, Blockly.JavaScript.ORDER_NONE];
 };
 
 Blockly.JavaScript.mss_json_parse = (block) => {
-	const value_json = Blockly.JavaScript.valueToCode(block, 'json', Blockly.JavaScript.ORDER_ATOMIC);
-	const code = `JSON.parse(${value_json})`;
+	const valueJson = Blockly.JavaScript.valueToCode(block, 'json', Blockly.JavaScript.ORDER_ATOMIC);
+	const code = `JSON.parse(${valueJson})`;
 	return [code, Blockly.JavaScript.ORDER_NONE];
 };
