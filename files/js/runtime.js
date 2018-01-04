@@ -1,5 +1,4 @@
 /* eslint-env browser */
-const Discord = require('discord.js'); // eslint-disable-line no-unused-vars
 const { remote, ipcRenderer } = require('electron');
 
 const runtime = remote.getCurrentWebContents();
@@ -10,6 +9,7 @@ runtime.on('devtools-closed', () => {
 });
 
 ipcRenderer.on('eval', (event, js) => {
+	console.log(js);
 	eval(js); // eslint-disable-line no-eval
 });
 

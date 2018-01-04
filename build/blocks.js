@@ -153,6 +153,7 @@ Blockly.JavaScript.${c.name}_${property.name} = (block) => {
 					temp.blockReturn = `
 		this.setPreviousStatement(true, null);
 		this.setNextStatement(true, null);`;
+					temp.promise = false;
 					temp.codeReturn = 'code';
 					temp.codeNewLine = ';\\n';
 					temp.with = '';
@@ -168,6 +169,8 @@ Blockly.JavaScript.${c.name}_${property.name} = (block) => {
 		this.setOutput(true, null);`;
 							temp.codeReturn = '[code, Blockly.JavaScript.ORDER_NONE]';
 							temp.codeNewLine = '';
+						} else {
+							temp.promise = true;
 						}
 					}
 
@@ -214,6 +217,69 @@ Blockly.JavaScript.${c.name}_${method.name} = (block) => {
 						},
 						'#': ''
 					});
+
+					if (temp.promise) {
+						if (method.returns) {
+							temp.returnoutput = method.returns.types || method.returns;
+							temp.returns = temp.returnoutput[0]
+								.map(type => type[0])
+								.filter(type => type !== 'Promise');
+							temp.promisereturns = '';
+							temp.returns.forEach((type, index) => {
+								temp.promisereturns += `
+			.appendField(new Blockly.FieldVariable('${type}'), 'input${index}')`;
+								temp.codeInputs += `
+	const input${index} = block.getFieldValue('input${index}');`;
+							});
+							temp.inputattributes = temp.returns.map((type, index) => `\${input${index}}`).join();
+						}
+						code += `
+Blockly.Blocks.${c.name}_${method.name}_promise = {
+	init() {
+		this.appendValueInput('${c.name}')
+			.setCheck(null)
+			.appendField('with');
+		this.appendDummyInput()
+			.appendField('${method.name}${temp.with}');${temp.blockInputs}
+		this.appendDummyInput()
+			.appendField('then')${temp.promisereturns};
+		this.appendStatementInput('then')
+			.setCheck(null);
+		this.appendDummyInput()
+			.appendField('catch');
+		this.appendStatementInput('catch')
+			.setCheck(null);
+		this.setInputsInline(true);
+		this.setPreviousStatement(true, null);
+		this.setNextStatement(true, null);
+		this.setColour(${colour.method});
+		this.setTooltip('${escapeTooltip(method.description)}');
+		this.setHelpUrl('${url}class/${c.name}?scrollTo=${method.name}');
+	}
+};
+
+Blockly.JavaScript.${c.name}_${method.name}_promise = (block) => {
+	const ${c.name} = Blockly.JavaScript.valueToCode(block, '${c.name}', Blockly.JavaScript.ORDER_ATOMIC);${temp.codeInputs}
+	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
+	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
+	const code = \`\${${c.name}}.${method.name}(${temp.codeAttributes})
+		.then((${temp.inputattributes}) => {
+			\${thenStatements}
+		})
+		.catch((error) => {
+			console.error(error);
+			\${catchStatements}
+		});\\n\`;
+	return ${temp.codeReturn};
+};
+`;
+						currclass.block.push({
+							'@': {
+								type: `${c.name}_${method.name}_promise`
+							},
+							'#': ''
+						});
+					}
 				});
 		}
 

@@ -236,3 +236,21 @@ Blockly.JavaScript.mss_json_parse = (block) => {
 	const code = `JSON.parse(${valueJson})`;
 	return [code, Blockly.JavaScript.ORDER_NONE];
 };
+
+Blockly.Blocks.mss_require = {
+	init() {
+		this.appendDummyInput()
+			.appendField('require')
+			.appendField(new Blockly.FieldTextInput('package'), 'package');
+		this.setOutput(true, null);
+		this.setColour(300);
+		this.setTooltip('To require modules');
+		this.setHelpUrl('https://nodejs.org/api/modules.html#modules_require');
+	}
+};
+
+Blockly.JavaScript.mss_require = (block) => {
+	const textPackage = block.getFieldValue('package');
+	const code = `require('${textPackage}')`;
+	return [code, Blockly.JavaScript.ORDER_NONE];
+};
