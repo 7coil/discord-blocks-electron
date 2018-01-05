@@ -2,6 +2,7 @@
 const { remote, ipcRenderer } = require('electron');
 
 const runtime = remote.getCurrentWebContents();
+runtime.removeAllListeners('devtools-closed');
 
 // Close the window when the devtools is closed
 runtime.on('devtools-closed', () => {

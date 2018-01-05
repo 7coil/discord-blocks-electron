@@ -263,13 +263,13 @@ Blockly.JavaScript.${c.name}_${method.name}_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = \`\${${c.name}}.${method.name}(${temp.codeAttributes})
-		.then((${temp.inputattributes}) => {
-			\${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			\${catchStatements}
-		});\\n\`;
+  .then((${temp.inputattributes}) => {
+    \${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    \${catchStatements}
+  });\\n\`;
 	return ${temp.codeReturn};
 };
 `;

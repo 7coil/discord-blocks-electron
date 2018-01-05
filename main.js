@@ -1,22 +1,18 @@
 const electron = require('electron'); // eslint-disable-line import/no-extraneous-dependencies
-const DiscordRPC = require('discord-rpc');
 const path = require('path');
 const url = require('url');
-const fs = require('fs');
-
-const clientID = '233702481375395843';
-let file = 'Untitled Project';
+const rpc = require('./src/rpc.js');
 
 const {
 	app,
 	BrowserWindow,
 	shell,
 	Menu,
-	dialog,
 	ipcMain
 } = electron;
 
 let mainWindow;
+let runtime;
 
 const createWindow = () => {
 	mainWindow = new BrowserWindow({ width: 1280, height: 720 });
@@ -43,60 +39,21 @@ const createWindow = () => {
 			label: 'File',
 			submenu: [
 				{
-					label: 'Open Project',
+					label: 'Open',
 					click() {
-						dialog.showOpenDialog({
-							title: 'Import DiscordBlocks Project',
-							defaultPath: app.getPath('documents'),
-							filters: [
-								{
-									name: 'DiscordBlocks Project (.🅱3, .🅱)',
-									extensions: [
-										'🅱3',
-										'🅱'
-									],
-									openFile: true,
-									openDirectory: false,
-									multiSelections: false
-								},
-								{
-									name: 'XML (.xml)',
-									extensions: [
-										'xml'
-									],
-									openFile: true,
-									openDirectory: false,
-									multiSelections: false
-								},
-								{
-									name: 'All Files',
-									extensions: [
-										'*'
-									],
-									openFile: true,
-									openDirectory: false,
-									multiSelections: false
-								}
-							]
-						}, (files) => {
-							if (!files) {
-								console.log('Cancelled file opening');
-							} else {
-								const { name: filename } = path.parse(files[0]);
-								file = filename;
-								fs.readFile(files[0], {
-									encoding: 'UTF8'
-								}, (error, contents) => {
-									mainWindow.webContents.send('file-data', contents);
-								});
-							}
-						});
+						mainWindow.webContents.send('open-project');
 					}
 				},
 				{
-					label: 'Save Project',
+					label: 'Save',
 					click() {
 						mainWindow.webContents.send('save-project');
+					}
+				},
+				{
+					label: 'Save As',
+					click() {
+						mainWindow.webContents.send('saveas-project');
 					}
 				}
 			]
@@ -119,37 +76,44 @@ const createWindow = () => {
 };
 
 const createRuntime = (js) => {
-	console.log(js);
-	let runtime = new BrowserWindow({
-		width: 800,
-		height: 600,
-		show: false,
-		frame: false
-	});
-
-	runtime.on('closed', () => {
-		runtime = null;
-	});
-
-	runtime.on('ready-to-show', () => {
-		console.log('loaded!');
+	// If a runtime window already exists, just reload and push the new js
+	// Otherwise create the window then push
+	if (runtime) {
+		runtime.reload();
 		runtime.webContents.send('eval', js);
-	});
+	} else {
+		runtime = new BrowserWindow({
+			width: 800,
+			height: 600,
+			show: false,
+			frame: false
+		});
 
-	runtime.loadURL(url.format({
-		pathname: path.join(__dirname, 'files', 'runtime.html'),
-		protocol: 'file:',
-		slashes: true,
-	}));
-	runtime.setMenu(null);
-	runtime.webContents.openDevTools({
-		mode: 'detach'
-	});
+		runtime.on('closed', () => {
+			runtime = null;
+		});
 
-	runtime.webContents.on('new-window', (event, link) => {
-		event.preventDefault();
-		shell.openExternal(link);
-	});
+		runtime.on('ready-to-show', () => {
+			console.log('loaded!');
+			runtime.webContents.send('load');
+			runtime.webContents.send('eval', js);
+		});
+
+		runtime.loadURL(url.format({
+			pathname: path.join(__dirname, 'files', 'runtime.html'),
+			protocol: 'file:',
+			slashes: true,
+		}));
+		runtime.setMenu(null);
+		runtime.webContents.openDevTools({
+			mode: 'detach'
+		});
+
+		runtime.webContents.on('new-window', (event, link) => {
+			event.preventDefault();
+			shell.openExternal(link);
+		});
+	}
 };
 
 app.on('ready', createWindow);
@@ -159,63 +123,9 @@ ipcMain.on('execute-project-reply', (event, js) => {
 	createRuntime(js);
 });
 
-// On project save...
-ipcMain.on('save-project-reply', (event, xml) => {
-	dialog.showOpenDialog(mainWindow, {
-		title: 'Import DiscordBlocks Project',
-		defaultPath: app.getPath('documents'),
-		filters: [
-			{
-				name: 'Compatible Files',
-				extensions: [
-					'🅱3',
-					'🅱',
-					'xml'
-				],
-				openFile: true,
-				openDirectory: false,
-				multiSelections: false
-			},
-			{
-				name: 'DiscordBlocks Project (.🅱3, .🅱)',
-				extensions: [
-					'🅱3',
-					'🅱'
-				],
-				openFile: true,
-				openDirectory: false,
-				multiSelections: false
-			},
-			{
-				name: 'XML (.xml)',
-				extensions: [
-					'xml'
-				],
-				openFile: true,
-				openDirectory: false,
-				multiSelections: false
-			},
-			{
-				name: 'All Files',
-				extensions: [
-					'*'
-				],
-				openFile: true,
-				openDirectory: false,
-				multiSelections: false
-			}
-		]
-	}, (files) => {
-		if (!files) {
-			console.log('Cancelled file saving');
-		} else {
-			const { name: filename } = path.parse(files[0]);
-			console.log(xml);
-			console.log(filename);
-			file = filename;
-			fs.writeFile(files[0], xml);
-		}
-	});
+// On project name change
+ipcMain.on('rpc-set-file', (event, file) => {
+	rpc.setFile(file);
 });
 
 // Quit when all windows are closed.
@@ -228,31 +138,3 @@ app.on('activate', () => {
 		createWindow();
 	}
 });
-
-DiscordRPC.register(clientID);
-const rpc = new DiscordRPC.Client({
-	transport: 'ipc'
-});
-const startTimestamp = new Date();
-
-const setActivity = async () => {
-	if (rpc && mainWindow) {
-		console.log('Setting!');
-		rpc.setActivity({
-			details: file,
-			state: 'Editing Blocks',
-			startTimestamp,
-			instance: false
-		});
-	}
-};
-
-rpc.on('ready', () => {
-	setActivity();
-
-	setInterval(() => {
-		setActivity();
-	}, 15 * 1000);
-});
-
-rpc.login(clientID).catch(console.error);

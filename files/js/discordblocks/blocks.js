@@ -471,13 +471,13 @@ Blockly.JavaScript.Client_login_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.login(${token})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -532,13 +532,13 @@ Blockly.JavaScript.Client_destroy_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.destroy()
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -632,13 +632,13 @@ Blockly.JavaScript.Client_fetchUser_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.fetchUser(${id},${cache})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -701,13 +701,13 @@ Blockly.JavaScript.Client_fetchInvite_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.fetchInvite(${invite})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -776,13 +776,13 @@ Blockly.JavaScript.Client_fetchWebhook_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.fetchWebhook(${id},${token})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -890,13 +890,13 @@ Blockly.JavaScript.Client_fetchApplication_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.fetchApplication(${id})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -959,13 +959,13 @@ Blockly.JavaScript.Client_generateInvite_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Client}.generateInvite(${permissions})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -4624,13 +4624,13 @@ Blockly.JavaScript.WebhookClient_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -4703,13 +4703,13 @@ Blockly.JavaScript.WebhookClient_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -4790,13 +4790,13 @@ Blockly.JavaScript.WebhookClient_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -4875,13 +4875,13 @@ Blockly.JavaScript.WebhookClient_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -4942,13 +4942,13 @@ Blockly.JavaScript.WebhookClient_sendSlackMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.sendSlackMessage(${body})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5017,13 +5017,13 @@ Blockly.JavaScript.WebhookClient_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.edit(${name},${avatar})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5084,13 +5084,13 @@ Blockly.JavaScript.WebhookClient_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${WebhookClient}.delete(${reason})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5255,13 +5255,13 @@ Blockly.JavaScript.Shard_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Shard}.send(${message})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5324,13 +5324,13 @@ Blockly.JavaScript.Shard_fetchClientValue_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Shard}.fetchClientValue(${prop})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5393,13 +5393,13 @@ Blockly.JavaScript.Shard_eval_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Shard}.eval(${script})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5520,13 +5520,13 @@ Blockly.JavaScript.ShardClientUtil_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardClientUtil}.send(${message})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5589,13 +5589,13 @@ Blockly.JavaScript.ShardClientUtil_fetchClientValues_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardClientUtil}.fetchClientValues(${prop})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5658,13 +5658,13 @@ Blockly.JavaScript.ShardClientUtil_broadcastEval_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardClientUtil}.broadcastEval(${script})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5888,13 +5888,13 @@ Blockly.JavaScript.ShardingManager_createShard_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardingManager}.createShard(${id})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -5967,13 +5967,13 @@ Blockly.JavaScript.ShardingManager_spawn_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardingManager}.spawn(${amount},${delay})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -6038,13 +6038,13 @@ Blockly.JavaScript.ShardingManager_broadcast_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardingManager}.broadcast(${message})
-		.then((${input0},${input1}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -6107,13 +6107,13 @@ Blockly.JavaScript.ShardingManager_broadcastEval_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardingManager}.broadcastEval(${script})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -6176,13 +6176,13 @@ Blockly.JavaScript.ShardingManager_fetchClientValues_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ShardingManager}.fetchClientValues(${prop})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -6526,13 +6526,13 @@ Blockly.JavaScript.Channel_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Channel}.delete()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7114,13 +7114,13 @@ Blockly.JavaScript.ClientUser_setUsername_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setUsername(${username},${password})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7189,13 +7189,13 @@ Blockly.JavaScript.ClientUser_setEmail_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setEmail(${email},${password})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7264,13 +7264,13 @@ Blockly.JavaScript.ClientUser_setPassword_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setPassword(${newPassword},${oldPassword})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7333,13 +7333,13 @@ Blockly.JavaScript.ClientUser_setAvatar_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setAvatar(${avatar})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7402,13 +7402,13 @@ Blockly.JavaScript.ClientUser_setPresence_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setPresence(${data})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7471,13 +7471,13 @@ Blockly.JavaScript.ClientUser_setStatus_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setStatus(${status})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7546,13 +7546,13 @@ Blockly.JavaScript.ClientUser_setGame_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setGame(${game},${streamingURL})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7615,13 +7615,13 @@ Blockly.JavaScript.ClientUser_setAFK_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setAFK(${afk})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7686,13 +7686,13 @@ Blockly.JavaScript.ClientUser_fetchMentions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.fetchMentions(${options})
-		.then((${input0},${input1}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7755,13 +7755,13 @@ Blockly.JavaScript.ClientUser_addFriend_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.addFriend(${user})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7824,13 +7824,13 @@ Blockly.JavaScript.ClientUser_removeFriend_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.removeFriend(${user})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7905,13 +7905,13 @@ Blockly.JavaScript.ClientUser_createGuild_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.createGuild(${name},${region},${icon})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -7974,13 +7974,13 @@ Blockly.JavaScript.ClientUser_createGroupDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.createGroupDM(${recipients})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8043,13 +8043,13 @@ Blockly.JavaScript.ClientUser_acceptInvite_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.acceptInvite(${invite})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8178,13 +8178,13 @@ Blockly.JavaScript.ClientUser_createDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.createDM()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8241,13 +8241,13 @@ Blockly.JavaScript.ClientUser_deleteDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.deleteDM()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8304,13 +8304,13 @@ Blockly.JavaScript.ClientUser_block_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.block()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8367,13 +8367,13 @@ Blockly.JavaScript.ClientUser_unblock_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.unblock()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8430,13 +8430,13 @@ Blockly.JavaScript.ClientUser_fetchProfile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.fetchProfile()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8499,13 +8499,13 @@ Blockly.JavaScript.ClientUser_setNote_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.setNote(${note})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8623,13 +8623,13 @@ Blockly.JavaScript.ClientUser_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8702,13 +8702,13 @@ Blockly.JavaScript.ClientUser_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8783,13 +8783,13 @@ Blockly.JavaScript.ClientUser_sendEmbed_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.sendEmbed(${embed},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8870,13 +8870,13 @@ Blockly.JavaScript.ClientUser_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -8955,13 +8955,13 @@ Blockly.JavaScript.ClientUser_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUser}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -9201,13 +9201,13 @@ Blockly.JavaScript.ClientUserGuildSettings_update_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUserGuildSettings}.update(${name},${value})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -9599,13 +9599,13 @@ Blockly.JavaScript.ClientUserSettings_update_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUserSettings}.update(${name},${value})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -9680,13 +9680,13 @@ Blockly.JavaScript.ClientUserSettings_setGuildPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUserSettings}.setGuildPosition(${guild},${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -9749,13 +9749,13 @@ Blockly.JavaScript.ClientUserSettings_addRestrictedGuild_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUserSettings}.addRestrictedGuild(${guild})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -9818,13 +9818,13 @@ Blockly.JavaScript.ClientUserSettings_removeRestrictedGuild_promise = (block) =>
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${ClientUserSettings}.removeRestrictedGuild(${guild})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10108,13 +10108,13 @@ Blockly.JavaScript.DMChannel_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10177,13 +10177,13 @@ Blockly.JavaScript.DMChannel_fetchMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.fetchMessage(${messageID})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10250,13 +10250,13 @@ Blockly.JavaScript.DMChannel_fetchMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.fetchMessages(${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10317,13 +10317,13 @@ Blockly.JavaScript.DMChannel_fetchPinnedMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.fetchPinnedMessages()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10386,13 +10386,13 @@ Blockly.JavaScript.DMChannel_search_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.search(${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10569,13 +10569,13 @@ Blockly.JavaScript.DMChannel_awaitMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.awaitMessages(${filter},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10636,13 +10636,13 @@ Blockly.JavaScript.DMChannel_acknowledge_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.acknowledge()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10715,13 +10715,13 @@ Blockly.JavaScript.DMChannel_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10796,13 +10796,13 @@ Blockly.JavaScript.DMChannel_sendEmbed_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.sendEmbed(${embed},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10877,13 +10877,13 @@ Blockly.JavaScript.DMChannel_sendFiles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.sendFiles(${files},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -10964,13 +10964,13 @@ Blockly.JavaScript.DMChannel_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11049,13 +11049,13 @@ Blockly.JavaScript.DMChannel_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11112,13 +11112,13 @@ Blockly.JavaScript.DMChannel_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${DMChannel}.delete()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11396,13 +11396,13 @@ Blockly.JavaScript.Emoji_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Emoji}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11471,13 +11471,13 @@ Blockly.JavaScript.Emoji_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Emoji}.setName(${name},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11540,13 +11540,13 @@ Blockly.JavaScript.Emoji_addRestrictedRole_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Emoji}.addRestrictedRole(${role})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11609,13 +11609,13 @@ Blockly.JavaScript.Emoji_addRestrictedRoles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Emoji}.addRestrictedRoles(${roles})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11678,13 +11678,13 @@ Blockly.JavaScript.Emoji_removeRestrictedRole_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Emoji}.removeRestrictedRole(${role})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -11747,13 +11747,13 @@ Blockly.JavaScript.Emoji_removeRestrictedRoles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Emoji}.removeRestrictedRoles(${roles})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12233,13 +12233,13 @@ Blockly.JavaScript.GroupDMChannel_addUser_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.addUser(${accessTokenOrID},${nick})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12302,13 +12302,13 @@ Blockly.JavaScript.GroupDMChannel_setIcon_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.setIcon(${icon})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12371,13 +12371,13 @@ Blockly.JavaScript.GroupDMChannel_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.setName(${name})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12440,13 +12440,13 @@ Blockly.JavaScript.GroupDMChannel_removeUser_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.removeUser(${user})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12540,13 +12540,13 @@ Blockly.JavaScript.GroupDMChannel_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12609,13 +12609,13 @@ Blockly.JavaScript.GroupDMChannel_fetchMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.fetchMessage(${messageID})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12682,13 +12682,13 @@ Blockly.JavaScript.GroupDMChannel_fetchMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.fetchMessages(${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12749,13 +12749,13 @@ Blockly.JavaScript.GroupDMChannel_fetchPinnedMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.fetchPinnedMessages()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -12818,13 +12818,13 @@ Blockly.JavaScript.GroupDMChannel_search_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.search(${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13001,13 +13001,13 @@ Blockly.JavaScript.GroupDMChannel_awaitMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.awaitMessages(${filter},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13068,13 +13068,13 @@ Blockly.JavaScript.GroupDMChannel_acknowledge_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.acknowledge()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13147,13 +13147,13 @@ Blockly.JavaScript.GroupDMChannel_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13228,13 +13228,13 @@ Blockly.JavaScript.GroupDMChannel_sendEmbed_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.sendEmbed(${embed},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13309,13 +13309,13 @@ Blockly.JavaScript.GroupDMChannel_sendFiles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.sendFiles(${files},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13396,13 +13396,13 @@ Blockly.JavaScript.GroupDMChannel_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13481,13 +13481,13 @@ Blockly.JavaScript.GroupDMChannel_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -13544,13 +13544,13 @@ Blockly.JavaScript.GroupDMChannel_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GroupDMChannel}.delete()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14433,13 +14433,13 @@ Blockly.JavaScript.Guild_fetchBans_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.fetchBans()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14500,13 +14500,13 @@ Blockly.JavaScript.Guild_fetchInvites_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.fetchInvites()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14611,13 +14611,13 @@ Blockly.JavaScript.Guild_fetchAuditLogs_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.fetchAuditLogs(${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14686,13 +14686,13 @@ Blockly.JavaScript.Guild_addMember_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.addMember(${user},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14761,13 +14761,13 @@ Blockly.JavaScript.Guild_fetchMember_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.fetchMember(${user},${cache})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14836,13 +14836,13 @@ Blockly.JavaScript.Guild_fetchMembers_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.fetchMembers(${query},${limit})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14905,13 +14905,13 @@ Blockly.JavaScript.Guild_search_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.search(${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -14980,13 +14980,13 @@ Blockly.JavaScript.Guild_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15055,13 +15055,13 @@ Blockly.JavaScript.Guild_setExplicitContentFilter_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setExplicitContentFilter(${explicitContentFilter},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15130,13 +15130,13 @@ Blockly.JavaScript.Guild_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setName(${name},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15205,13 +15205,13 @@ Blockly.JavaScript.Guild_setRegion_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setRegion(${region},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15280,13 +15280,13 @@ Blockly.JavaScript.Guild_setVerificationLevel_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setVerificationLevel(${verificationLevel},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15355,13 +15355,13 @@ Blockly.JavaScript.Guild_setAFKChannel_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setAFKChannel(${afkChannel},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15430,13 +15430,13 @@ Blockly.JavaScript.Guild_setSystemChannel_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setSystemChannel(${systemChannel},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15505,13 +15505,13 @@ Blockly.JavaScript.Guild_setAFKTimeout_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setAFKTimeout(${afkTimeout},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15580,13 +15580,13 @@ Blockly.JavaScript.Guild_setIcon_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setIcon(${icon},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15655,13 +15655,13 @@ Blockly.JavaScript.Guild_setOwner_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setOwner(${owner},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15730,13 +15730,13 @@ Blockly.JavaScript.Guild_setSplash_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setSplash(${splash},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15805,13 +15805,13 @@ Blockly.JavaScript.Guild_setPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setPosition(${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15868,13 +15868,13 @@ Blockly.JavaScript.Guild_acknowledge_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.acknowledge()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -15937,13 +15937,13 @@ Blockly.JavaScript.Guild_allowDMs_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.allowDMs(${allow})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16016,13 +16016,13 @@ Blockly.JavaScript.Guild_ban_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.ban(${user},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16091,13 +16091,13 @@ Blockly.JavaScript.Guild_unban_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.unban(${user},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16172,13 +16172,13 @@ Blockly.JavaScript.Guild_pruneMembers_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.pruneMembers(${days},${dry},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16283,13 +16283,13 @@ Blockly.JavaScript.Guild_createChannel_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.createChannel(${name},${type},${overwrites},${reason})
-		.then((${input0},${input1}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16352,13 +16352,13 @@ Blockly.JavaScript.Guild_setChannelPositions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setChannelPositions(${channelPositions})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16427,13 +16427,13 @@ Blockly.JavaScript.Guild_createRole_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.createRole(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16514,13 +16514,13 @@ Blockly.JavaScript.Guild_createEmoji_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.createEmoji(${attachment},${name},${roles},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16587,13 +16587,13 @@ Blockly.JavaScript.Guild_deleteEmoji_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.deleteEmoji(${emoji},${reason})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16650,13 +16650,13 @@ Blockly.JavaScript.Guild_leave_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.leave()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16713,13 +16713,13 @@ Blockly.JavaScript.Guild_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.delete()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16839,13 +16839,13 @@ Blockly.JavaScript.Guild_setRolePosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setRolePosition(${role},${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -16920,13 +16920,13 @@ Blockly.JavaScript.Guild_setChannelPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Guild}.setChannelPosition(${channel},${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17002,13 +17002,13 @@ Blockly.JavaScript.GuildAuditLogs_build_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildAuditLogs}.build()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17609,13 +17609,13 @@ Blockly.JavaScript.GuildChannel_overwritePermissions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.overwritePermissions(${userOrRole},${options},${reason})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17684,13 +17684,13 @@ Blockly.JavaScript.GuildChannel_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17759,13 +17759,13 @@ Blockly.JavaScript.GuildChannel_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.setName(${name},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17834,13 +17834,13 @@ Blockly.JavaScript.GuildChannel_setPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.setPosition(${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17909,13 +17909,13 @@ Blockly.JavaScript.GuildChannel_setTopic_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.setTopic(${topic},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -17984,13 +17984,13 @@ Blockly.JavaScript.GuildChannel_createInvite_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.createInvite(${options},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -18071,13 +18071,13 @@ Blockly.JavaScript.GuildChannel_clone_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.clone(${name},${withPermissions},${withTopic},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -18140,13 +18140,13 @@ Blockly.JavaScript.GuildChannel_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildChannel}.delete(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -18941,13 +18941,13 @@ Blockly.JavaScript.GuildMember_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19016,13 +19016,13 @@ Blockly.JavaScript.GuildMember_setMute_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.setMute(${mute},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19091,13 +19091,13 @@ Blockly.JavaScript.GuildMember_setDeaf_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.setDeaf(${deaf},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19160,13 +19160,13 @@ Blockly.JavaScript.GuildMember_setVoiceChannel_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.setVoiceChannel(${channel})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19235,13 +19235,13 @@ Blockly.JavaScript.GuildMember_setRoles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.setRoles(${roles},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19310,13 +19310,13 @@ Blockly.JavaScript.GuildMember_addRole_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.addRole(${role},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19385,13 +19385,13 @@ Blockly.JavaScript.GuildMember_addRoles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.addRoles(${roles},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19460,13 +19460,13 @@ Blockly.JavaScript.GuildMember_removeRole_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.removeRole(${role},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19535,13 +19535,13 @@ Blockly.JavaScript.GuildMember_removeRoles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.removeRoles(${roles},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19610,13 +19610,13 @@ Blockly.JavaScript.GuildMember_setNickname_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.setNickname(${nick},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19673,13 +19673,13 @@ Blockly.JavaScript.GuildMember_createDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.createDM()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19736,13 +19736,13 @@ Blockly.JavaScript.GuildMember_deleteDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.deleteDM()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19805,13 +19805,13 @@ Blockly.JavaScript.GuildMember_kick_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.kick(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19874,13 +19874,13 @@ Blockly.JavaScript.GuildMember_ban_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.ban(${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -19974,13 +19974,13 @@ Blockly.JavaScript.GuildMember_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -20053,13 +20053,13 @@ Blockly.JavaScript.GuildMember_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -20134,13 +20134,13 @@ Blockly.JavaScript.GuildMember_sendEmbed_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.sendEmbed(${embed},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -20221,13 +20221,13 @@ Blockly.JavaScript.GuildMember_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -20306,13 +20306,13 @@ Blockly.JavaScript.GuildMember_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${GuildMember}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -20984,13 +20984,13 @@ Blockly.JavaScript.Invite_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Invite}.delete(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -21624,13 +21624,13 @@ Blockly.JavaScript.Message_awaitReactions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.awaitReactions(${filter},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -21747,13 +21747,13 @@ Blockly.JavaScript.Message_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.edit(${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -21822,13 +21822,13 @@ Blockly.JavaScript.Message_editCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.editCode(${lang},${content})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -21885,13 +21885,13 @@ Blockly.JavaScript.Message_pin_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.pin()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -21948,13 +21948,13 @@ Blockly.JavaScript.Message_unpin_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.unpin()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -22017,13 +22017,13 @@ Blockly.JavaScript.Message_react_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.react(${emoji})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -22080,13 +22080,13 @@ Blockly.JavaScript.Message_clearReactions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.clearReactions()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -22149,13 +22149,13 @@ Blockly.JavaScript.Message_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.delete(${timeout})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -22228,13 +22228,13 @@ Blockly.JavaScript.Message_reply_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.reply(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -22291,13 +22291,13 @@ Blockly.JavaScript.Message_acknowledge_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.acknowledge()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -22354,13 +22354,13 @@ Blockly.JavaScript.Message_fetchWebhook_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Message}.fetchWebhook()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -24070,13 +24070,13 @@ Blockly.JavaScript.MessageReaction_remove_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${MessageReaction}.remove(${user})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -24143,13 +24143,13 @@ Blockly.JavaScript.MessageReaction_fetchUsers_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${MessageReaction}.fetchUsers(${limit})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -24805,13 +24805,13 @@ Blockly.JavaScript.PermissionOverwrites_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${PermissionOverwrites}.delete(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26357,13 +26357,13 @@ Blockly.JavaScript.Role_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26432,13 +26432,13 @@ Blockly.JavaScript.Role_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.setName(${name},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26507,13 +26507,13 @@ Blockly.JavaScript.Role_setColor_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.setColor(${color},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26582,13 +26582,13 @@ Blockly.JavaScript.Role_setHoist_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.setHoist(${hoist},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26657,13 +26657,13 @@ Blockly.JavaScript.Role_setPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.setPosition(${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26732,13 +26732,13 @@ Blockly.JavaScript.Role_setPermissions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.setPermissions(${permissions},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26807,13 +26807,13 @@ Blockly.JavaScript.Role_setMentionable_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.setMentionable(${mentionable},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -26876,13 +26876,13 @@ Blockly.JavaScript.Role_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Role}.delete(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27300,13 +27300,13 @@ Blockly.JavaScript.TextChannel_fetchWebhooks_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.fetchWebhooks()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27381,13 +27381,13 @@ Blockly.JavaScript.TextChannel_createWebhook_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.createWebhook(${name},${avatar},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27460,13 +27460,13 @@ Blockly.JavaScript.TextChannel_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27529,13 +27529,13 @@ Blockly.JavaScript.TextChannel_fetchMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.fetchMessage(${messageID})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27602,13 +27602,13 @@ Blockly.JavaScript.TextChannel_fetchMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.fetchMessages(${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27669,13 +27669,13 @@ Blockly.JavaScript.TextChannel_fetchPinnedMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.fetchPinnedMessages()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27738,13 +27738,13 @@ Blockly.JavaScript.TextChannel_search_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.search(${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -27921,13 +27921,13 @@ Blockly.JavaScript.TextChannel_awaitMessages_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.awaitMessages(${filter},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28000,13 +28000,13 @@ Blockly.JavaScript.TextChannel_bulkDelete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.bulkDelete(${messages},${filterOld})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28067,13 +28067,13 @@ Blockly.JavaScript.TextChannel_acknowledge_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.acknowledge()
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28146,13 +28146,13 @@ Blockly.JavaScript.TextChannel_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28227,13 +28227,13 @@ Blockly.JavaScript.TextChannel_sendEmbed_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.sendEmbed(${embed},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28308,13 +28308,13 @@ Blockly.JavaScript.TextChannel_sendFiles_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.sendFiles(${files},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28395,13 +28395,13 @@ Blockly.JavaScript.TextChannel_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28480,13 +28480,13 @@ Blockly.JavaScript.TextChannel_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28583,13 +28583,13 @@ Blockly.JavaScript.TextChannel_overwritePermissions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.overwritePermissions(${userOrRole},${options},${reason})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28658,13 +28658,13 @@ Blockly.JavaScript.TextChannel_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28733,13 +28733,13 @@ Blockly.JavaScript.TextChannel_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.setName(${name},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28808,13 +28808,13 @@ Blockly.JavaScript.TextChannel_setPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.setPosition(${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28883,13 +28883,13 @@ Blockly.JavaScript.TextChannel_setTopic_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.setTopic(${topic},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -28958,13 +28958,13 @@ Blockly.JavaScript.TextChannel_createInvite_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.createInvite(${options},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29045,13 +29045,13 @@ Blockly.JavaScript.TextChannel_clone_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.clone(${name},${withPermissions},${withTopic},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29114,13 +29114,13 @@ Blockly.JavaScript.TextChannel_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${TextChannel}.delete(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29617,13 +29617,13 @@ Blockly.JavaScript.User_createDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.createDM()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29680,13 +29680,13 @@ Blockly.JavaScript.User_deleteDM_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.deleteDM()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29743,13 +29743,13 @@ Blockly.JavaScript.User_addFriend_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.addFriend()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29806,13 +29806,13 @@ Blockly.JavaScript.User_removeFriend_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.removeFriend()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29869,13 +29869,13 @@ Blockly.JavaScript.User_block_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.block()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29932,13 +29932,13 @@ Blockly.JavaScript.User_unblock_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.unblock()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -29995,13 +29995,13 @@ Blockly.JavaScript.User_fetchProfile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.fetchProfile()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -30064,13 +30064,13 @@ Blockly.JavaScript.User_setNote_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.setNote(${note})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -30188,13 +30188,13 @@ Blockly.JavaScript.User_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -30267,13 +30267,13 @@ Blockly.JavaScript.User_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -30348,13 +30348,13 @@ Blockly.JavaScript.User_sendEmbed_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.sendEmbed(${embed},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -30435,13 +30435,13 @@ Blockly.JavaScript.User_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -30520,13 +30520,13 @@ Blockly.JavaScript.User_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${User}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31108,13 +31108,13 @@ Blockly.JavaScript.VoiceChannel_setBitrate_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.setBitrate(${bitrate},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31183,13 +31183,13 @@ Blockly.JavaScript.VoiceChannel_setUserLimit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.setUserLimit(${userLimit},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31246,13 +31246,13 @@ Blockly.JavaScript.VoiceChannel_join_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.join()
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31371,13 +31371,13 @@ Blockly.JavaScript.VoiceChannel_overwritePermissions_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.overwritePermissions(${userOrRole},${options},${reason})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31446,13 +31446,13 @@ Blockly.JavaScript.VoiceChannel_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.edit(${data},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31521,13 +31521,13 @@ Blockly.JavaScript.VoiceChannel_setName_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.setName(${name},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31596,13 +31596,13 @@ Blockly.JavaScript.VoiceChannel_setPosition_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.setPosition(${position},${relative})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31671,13 +31671,13 @@ Blockly.JavaScript.VoiceChannel_setTopic_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.setTopic(${topic},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31746,13 +31746,13 @@ Blockly.JavaScript.VoiceChannel_createInvite_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.createInvite(${options},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31833,13 +31833,13 @@ Blockly.JavaScript.VoiceChannel_clone_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.clone(${name},${withPermissions},${withTopic},${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -31902,13 +31902,13 @@ Blockly.JavaScript.VoiceChannel_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${VoiceChannel}.delete(${reason})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32311,13 +32311,13 @@ Blockly.JavaScript.Webhook_send_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.send(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32390,13 +32390,13 @@ Blockly.JavaScript.Webhook_sendMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.sendMessage(${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32477,13 +32477,13 @@ Blockly.JavaScript.Webhook_sendFile_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.sendFile(${attachment},${name},${content},${options})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32562,13 +32562,13 @@ Blockly.JavaScript.Webhook_sendCode_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.sendCode(${lang},${content},${options})
-		.then((${input0},${input1},${input2}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0},${input1},${input2}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32629,13 +32629,13 @@ Blockly.JavaScript.Webhook_sendSlackMessage_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.sendSlackMessage(${body})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32704,13 +32704,13 @@ Blockly.JavaScript.Webhook_edit_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.edit(${name},${avatar})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -32771,13 +32771,13 @@ Blockly.JavaScript.Webhook_delete_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Webhook}.delete(${reason})
-		.then(() => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then(() => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
 
@@ -33886,12 +33886,12 @@ Blockly.JavaScript.Util_fetchRecommendedShards_promise = (block) => {
 	const thenStatements = Blockly.JavaScript.statementToCode(block, 'then');
 	const catchStatements = Blockly.JavaScript.statementToCode(block, 'catch');
 	const code = `${Util}.fetchRecommendedShards(${token},${guildsPerShard})
-		.then((${input0}) => {
-			${thenStatements}
-		})
-		.catch((error) => {
-			console.error(error);
-			${catchStatements}
-		});\n`;
+  .then((${input0}) => {
+    ${thenStatements}
+  })
+  .catch((error) => {
+    console.error(error);
+    ${catchStatements}
+  });\n`;
 	return code;
 };
