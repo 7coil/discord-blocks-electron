@@ -7,10 +7,14 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"cwd": "${workspaceFolder}",
-			"name": "Launch Program",
-			"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-			"program": "${workspaceFolder}/main.js"
+			"name": "Launch Electron",
+			"runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron-forge-vscode-nix",
+			"windows": {
+				"runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron-forge-vscode-win.cmd"
+			},
+			"runtimeArgs": [
+			],
+			"cwd": "${workspaceRoot}"
 		}
 	]
 }

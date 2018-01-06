@@ -1,3 +1,4 @@
 node_modules
 build/discordjs
 .sass-cache
+out/

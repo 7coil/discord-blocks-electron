@@ -347,7 +347,7 @@ Blockly.JavaScript.${c.name}_${event.name} = (block) => {
 	}
 });
 
-fs.writeFile('./files/xml/toolbox.xml', js2xmlparser.parse('xml', xml, {
+fs.writeFile('./../app/files/xml/toolbox.xml', js2xmlparser.parse('xml', xml, {
 	format: {
 		doubleQuotes: true,
 		indent: '\t',
@@ -362,5 +362,5 @@ fs.writeFile('./files/xml/toolbox.xml', js2xmlparser.parse('xml', xml, {
 	}
 });
 
-fs.writeFileSync('./files/js/discordblocks/blocks.js', code);
+fs.writeFileSync('./../app/files/js/discordblocks/blocks.js', code);
 
