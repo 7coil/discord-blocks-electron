@@ -1,7 +1,8 @@
 {
 	"name": "discord-blocks-electron",
-	"version": "3.0.0",
-	"description": "DiscordBlocks, the Blockly Discord bot maker",
+	"productName": "DiscordBlocks",
+	"version": "3.0.1",
+	"description": "The Block based Discord programming language, based on discord.js",
 	"main": "app/main.js",
 	"scripts": {
 		"start": "electron-forge start",
@@ -55,7 +56,8 @@
 				]
 			},
 			"electronPackagerConfig": {
-				"packageManager": "npm"
+				"packageManager": "npm",
+				"appCopyright": "Copyright 2015 - 2018, Moustacheminer Server Services"
 			},
 			"electronWinstallerConfig": {
 				"name": "discord_blocks_electron"
@@ -63,12 +65,12 @@
 			"electronInstallerDebian": {},
 			"electronInstallerRedhat": {},
 			"github_repository": {
-				"owner": "",
-				"name": ""
+				"owner": "moustacheminer",
+				"name": "discord-blocks-electron"
 			},
 			"windowsStoreConfig": {
 				"packageName": "",
-				"name": "discordblockselectron"
+				"name": "DiscordBlocks"
 			}
 		}
 	}

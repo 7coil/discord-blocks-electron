@@ -27,7 +27,7 @@ const createWindow = () => {
 		mainWindow = null;
 	});
 
-	mainWindow.webContents.openDevTools();
+	// mainWindow.webContents.openDevTools();
 
 	mainWindow.webContents.on('new-window', (event, link) => {
 		event.preventDefault();

@@ -16,3 +16,5 @@ if (existsSync(path.join('build', 'discordjs'))) {
 
 console.log('Building Blocks');
 require('./build/blocks');
+
+console.log('DiscordBlocks Build Process Finished');
