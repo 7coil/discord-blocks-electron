@@ -1,5 +1,5 @@
 /* eslint-disable import/no-dynamic-require */
-const js2xmlparser = require('js2xmlparser');
+const js2xmlparser = require('js2xmlparser'); // eslint-disable-line import/no-extraneous-dependencies
 const fs = require('fs');
 
 const version = '11.2.0';

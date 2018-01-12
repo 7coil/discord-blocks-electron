@@ -1,4 +1,4 @@
-const electron = require('electron'); // eslint-disable-line import/no-extraneous-dependencies
+const electron = require('electron');
 const path = require('path');
 const url = require('url');
 const rpc = require('./src/rpc.js');

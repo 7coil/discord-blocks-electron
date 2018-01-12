@@ -1,4 +1,5 @@
 node_modules
 build/discordjs
+build/eris
 .sass-cache
 out/
